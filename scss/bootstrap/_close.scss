@@ -1,15 +1,15 @@
 .close {
   float: right;
-  @include font-size(€close-font-size);
-  font-weight: €close-font-weight;
+  @include font-size($close-font-size);
+  font-weight: $close-font-weight;
   line-height: 1;
-  color: €close-color;
-  text-shadow: €close-text-shadow;
+  color: $close-color;
+  text-shadow: $close-text-shadow;
   opacity: .5;
 
   // Override <a>'s hover style
   @include hover {
-    color: €close-color;
+    color: $close-color;
     text-decoration: none;
   }
 

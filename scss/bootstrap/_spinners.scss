@@ -8,10 +8,10 @@
 
 .spinner-border {
   display: inline-block;
-  width: €spinner-width;
-  height: €spinner-height;
+  width: $spinner-width;
+  height: $spinner-height;
   vertical-align: text-bottom;
-  border: €spinner-border-width solid currentColor;
+  border: $spinner-border-width solid currentColor;
   border-right-color: transparent;
   // stylelint-disable-next-line property-blacklist
   border-radius: 50%;
@@ -19,9 +19,9 @@
 }
 
 .spinner-border-sm {
-  width: €spinner-width-sm;
-  height: €spinner-height-sm;
-  border-width: €spinner-border-width-sm;
+  width: $spinner-width-sm;
+  height: $spinner-height-sm;
+  border-width: $spinner-border-width-sm;
 }
 
 //
@@ -39,8 +39,8 @@
 
 .spinner-grow {
   display: inline-block;
-  width: €spinner-width;
-  height: €spinner-height;
+  width: $spinner-width;
+  height: $spinner-height;
   vertical-align: text-bottom;
   background-color: currentColor;
   // stylelint-disable-next-line property-blacklist
@@ -50,6 +50,6 @@
 }
 
 .spinner-grow-sm {
-  width: €spinner-width-sm;
-  height: €spinner-height-sm;
+  width: $spinner-width-sm;
+  height: $spinner-height-sm;
 }
