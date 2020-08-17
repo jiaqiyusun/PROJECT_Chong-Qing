@@ -1,41 +1,41 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-€font-primary: 'Poppins',Arial, sans-serif;
-€font-secondary: 'Great Vibes', cursive;
+$font-primary: 'Poppins',Arial, sans-serif;
+$font-secondary: 'Great Vibes', cursive;
 
-€white: #fff;
-€black: #000000;
-// €darken: #3a4348;
+$white: #fff;
+$black: #000000;
+// $darken: #3a4348;
 
-€primary: #cc0000;
+$primary: #c8a97e;
 
 
-@mixin border-radius(€radius) {
-  -webkit-border-radius: €radius;
-     -moz-border-radius: €radius;
-      -ms-border-radius: €radius;
-          border-radius: €radius;
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
 }
 
-@mixin transition(€transition) {
-    -moz-transition:    all €transition ease;
-    -o-transition:      all €transition ease;
-    -webkit-transition: all €transition ease;
-    -ms-transition: 		all €transition ease;
-    transition:         all €transition ease;
+@mixin transition($transition) {
+    -moz-transition:    all $transition ease;
+    -o-transition:      all $transition ease;
+    -webkit-transition: all $transition ease;
+    -ms-transition: 		all $transition ease;
+    transition:         all $transition ease;
 }
 
 html {
 	// overflow-x: hidden;
 }
 body {
-	font-family: €font-primary;
-	background: €white;
+	font-family: $font-primary;
+	background: $white;
 	font-size: 17px;
 	line-height: 2;
 	font-weight: 400;
-	color: lighten(€black,40%);
+	color: lighten($black,40%);
 	&.menu-show {
 		overflow: hidden;
 		position: fixed;
@@ -45,17 +45,17 @@ body {
 }
 a {
 	transition: .3s all ease;
-	color: €primary;
+	color: $primary;
 	&:hover, &:focus {
 		text-decoration: none;
-		color: €primary;
+		color: $primary;
 		outline: none !important;
 	}
 }
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
 	line-height: 1.5;
-	color: lighten(€black,20%);
+	color: lighten($black,20%);
 	font-weight: 400;
 }
 
@@ -89,19 +89,19 @@ h1, h2, h3, h4, h5,
 		padding-bottom: 10px;
 	}
 	@include media-breakpoint-down(md) {
-		background: €black!important;
+		background: $black!important;
 		position: relative;
 		top: 0;
 		padding: 10px 15px;
 	}
 
 	.navbar-brand {
-		color: €white;
+		color: $white;
 		&:hover, &:focus{
-			color: €white;
+			color: $white;
 		}
 		@include media-breakpoint-down(md){
-			color: €white;
+			color: $white;
 		}
 	}
 
@@ -117,9 +117,9 @@ h1, h2, h3, h4, h5,
 				padding-left: 20px;
 				padding-right: 20px;
 				font-weight: 400;
-				color: €white;
+				color: $white;
 				&:hover {
-					color: €white;
+					color: $white;
 				}
 				opacity: 1!important;
 				@include media-breakpoint-down(md){
@@ -129,14 +129,14 @@ h1, h2, h3, h4, h5,
 					padding-bottom: .9rem;
 					color: rgba(255,255,255,.7);
 					&:hover{
-						color: €white;
+						color: $white;
 					}
 				}
 			}
 
 			.dropdown-menu{
 				border: none;
-				background: €white;
+				background: $white;
 				-webkit-box-shadow: 0px 10px 34px -20px rgba(0,0,0,0.41);
 				-moz-box-shadow: 0px 10px 34px -20px rgba(0,0,0,0.41);
 				box-shadow: 0px 10px 34px -20px rgba(0,0,0,0.41);
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5,
 					font-size: 14px;
 					&:hover, &:focus{
 						background: transparent;
-						color: €black;
+						color: $black;
 					}
 				}
 			}
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5,
 					bottom: 10px;
 					left: 0;
 					width: 2px;
-					background: rgba(€white, .05);
+					background: rgba($white, .05);
 					@include media-breakpoint-down(md) {
 						display: none;
 					}
@@ -173,24 +173,24 @@ h1, h2, h3, h4, h5,
 			}
 			&.cta {
 				> a {
-					background: €primary;
-					color: €white;
+					background: $primary;
+					color: $white;
 					@include border-radius(5px);
 					@include media-breakpoint-down(md){
 						padding-left: 15px;
 						padding-right: 15px;
 					}
 					@include media-breakpoint-down(md){
-						color: €white;
-						background: €primary;
+						color: $white;
+						background: $primary;
 					}
 				}
 			}
 			&.active {
 				> a {
-					color: €primary;
+					color: $primary;
 					@include media-breakpoint-down(md){
-						color: €white;
+						color: $white;
 					}
 				}
 			}
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5,
 		left: 0;
 		top: 0;
 		margin-top: -130px;
-		background: €white!important;
+		background: $white!important;
 		box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
 		@include media-breakpoint-up(lg){
 			border-bottom: none;
@@ -225,23 +225,23 @@ h1, h2, h3, h4, h5,
 		.nav-item {
 			&.active {
 				> a {
-					color: €primary!important;
+					color: $primary!important;
 				}
 			}
 			&.cta {
 				> a {
-					color: €white !important;
-					background: €primary;
+					color: $white !important;
+					background: $primary;
 					border: none !important;
 					@include border-radius(0);
 					span {
 						display: inline-block;
-						color: €white !important;
+						color: $white !important;
 					}
 				}
 				&.cta-colored {
 					span {
-						border-color: €primary;
+						border-color: $primary;
 					}
 				}
 			}
@@ -278,9 +278,9 @@ h1, h2, h3, h4, h5,
 		.nav-link {
 			padding-top: .7rem!important;
 			padding-bottom: .7rem!important;
-			color: €black!important;
+			color: $black!important;
 			&.active {
-				color: €primary!important;
+				color: $primary!important;
 			}
 		}
 		&.awake {
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5,
 		}
 
 		.navbar-brand {
-			color: €black;
+			color: $black;
 		}
 	}
 }
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5,
 		bottom: 0;
 		content: '';
 		opacity: .5;
-		background: €black;
+		background: $black;
 	}
 	&.hero-wrap-2{
 		height: 450px;
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5,
 			height: 450px;
 			.bread{
 				font-weight: 900;
-				color: €white;
+				color: $white;
 				font-size: 50px;
 			}
 			.breadcrumbs{
@@ -343,10 +343,10 @@ h1, h2, h3, h4, h5,
 				font-size: 13px;
 				letter-spacing: 1px;
 				span{
-					color: €white;
+					color: $white;
 					border-bottom: 2px solid rgba(255,255,255,.1);
 					a{
-						color: €white;
+						color: $white;
 					}
 				}
 			}
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5,
 			position: absolute;
 			transform: translateY(-50%);
 			margin-top: -10px;
-			color: €primary !important;
+			color: $primary !important;
 			@include transition(.7s);
 			span {
 				&:before {
@@ -423,12 +423,12 @@ h1, h2, h3, h4, h5,
 				bottom: 0;
 				left: 0;
 				right: 0;
-				background: €black;
+				background: $black;
 				opacity: .7;
 				// width: 50%;
 			}
 			.slider-text {
-				color: €white;
+				color: $white;
 				height: 750px;
 				text-align: right;
 				@include media-breakpoint-down(sm){
@@ -436,18 +436,18 @@ h1, h2, h3, h4, h5,
 				}
 				.subheading{
 					font-size: 80px;
-					color: €primary;
+					color: $primary;
 					font-weight: normal;
-					font-family: €font-secondary;
+					font-family: $font-secondary;
 					margin-bottom: 0;
 					line-height: 1;
 				}
 				h1 {
 					font-size: 60px;
-					color: €white;
+					color: $white;
 					line-height: 1.5;
 					font-weight: normal;
-					font-family: €font-primary;
+					font-family: $font-primary;
 					letter-spacing: 4px;
 					text-transform: uppercase;
 					font-weight: 600;
@@ -466,7 +466,7 @@ h1, h2, h3, h4, h5,
 					strong{
 						font-weight: 700;
 						a{
-							color: €white;
+							color: $white;
 						}
 					}
 				}
@@ -487,7 +487,7 @@ h1, h2, h3, h4, h5,
 					span{
 						border-bottom: 2px solid rgba(255,255,255,.1);
 						a{
-							color: €white;
+							color: $white;
 						}
 					}
 				}
@@ -497,7 +497,7 @@ h1, h2, h3, h4, h5,
 			.owl-prev,
 			.owl-next {
 				span {
-					color: €white;
+					color: $white;
 				}
 			}
 		}
@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5,
 				height: 18px !important;
 				margin: 5px;
 				border-radius: 50%;
-				background: lighten(€black, 90%);
+				background: lighten($black, 90%);
 				background: none;
 				border: 2px solid rgba(255,255,255,.5);
 				outline: none!important;
@@ -579,11 +579,11 @@ h1, h2, h3, h4, h5,
 }
 
 .bg-white{
-	background: €white !important;
+	background: $white !important;
 }
 
 .bg-primary{
-	background: €primary;
+	background: $primary;
 }
 
 //BUTTON
@@ -597,62 +597,62 @@ h1, h2, h3, h4, h5,
 		outline: none;
 	}
 	&.btn-primary {
-		background: €primary;
-		border: 1px solid €primary;
-		color: €white;
+		background: $primary;
+		border: 1px solid $primary;
+		color: $white;
 		&:hover {
-			border: 1px solid €primary;
+			border: 1px solid $primary;
 			background: transparent;
-			color :€primary;
+			color :$primary;
 		}
 		&.btn-outline-primary {
-			border: 1px solid €primary;
+			border: 1px solid $primary;
 			background: transparent;
-			color :€primary;
+			color :$primary;
 			&:hover {
 				border: 1px solid transparent;
-				background: €primary;
-				color :€white;
+				background: $primary;
+				color :$white;
 			}
 		}
 	}
 	&.btn-white {
-		background: €white;
-		border: 1px solid €white;
-		color: €black;
+		background: $white;
+		border: 1px solid $white;
+		color: $black;
 		&:hover, &:focus, &:active {
-			border: 1px solid €white;
-			color :€primary;
+			border: 1px solid $white;
+			color :$primary;
 		}
 		&.btn-outline-white {
-			border-color: rgba(€white, .8);
+			border-color: rgba($white, .8);
 			background: none;
 			border-width: 1px;
-			color: €white;
+			color: $white;
 			&:hover, &:focus, &:active {
-				background: €white;
-				border-color: €white;
-				color: €primary;
+				background: $white;
+				border-color: $white;
+				color: $primary;
 			}
 		}
 	}
 	&.btn-black {
-		background: €black;
-		border: 1px solid €white;
-		color: €white;
+		background: $black;
+		border: 1px solid $white;
+		color: $white;
 		&:hover, &:focus, &:active {
-			border: 1px solid €white;
-			color :€white;
+			border: 1px solid $white;
+			color :$white;
 		}
 		&.btn-outline-black {
-			border-color: rgba(€black, .8);
+			border-color: rgba($black, .8);
 			background: none;
 			border-width: 1px;
-			color: €black;
+			color: $black;
 			&:hover, &:focus, &:active {
-				background: €white;
-				border-color: €white;
-				color: €primary;
+				background: $white;
+				border-color: $white;
+				color: $primary;
 			}
 		}
 	}
@@ -661,8 +661,8 @@ h1, h2, h3, h4, h5,
 
 .btn-custom{
 	font-weight: 500;
-	color: darken(€primary,10%);
-	border-bottom: 4px solid lighten(€primary,4%);
+	color: darken($primary,10%);
+	border-bottom: 4px solid lighten($primary,4%);
 }
 
 .featured{
@@ -684,7 +684,7 @@ h1, h2, h3, h4, h5,
 				font-weight: 500;
 				margin-bottom: 0;
 				@include media-breakpoint-up(lg){
-					color: €white;
+					color: $white;
 				}
 			}
 			p{
@@ -739,7 +739,7 @@ h1, h2, h3, h4, h5,
 .icon-video{
 	width: 90px;
 	height: 90px;
-	background: €primary;
+	background: $primary;
 	-webkit-box-shadow: 0px 0px 34px -8px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0px 0px 34px -8px rgba(0,0,0,0.1);
 	box-shadow: 0px 0px 34px -8px rgba(0,0,0,0.1);
@@ -749,7 +749,7 @@ h1, h2, h3, h4, h5,
 	@include border-radius(50%);
 	span{
 		font-size:30px;
-		color: €white;
+		color: $white;
 	}
 }
 .wrap-about{
@@ -782,7 +782,7 @@ h1, h2, h3, h4, h5,
 		@include border-radius(50%);
 		span{
 			font-size:54px;
-			color: €primary;
+			color: $primary;
 		}
 	}
 	.media-body{
@@ -791,7 +791,7 @@ h1, h2, h3, h4, h5,
 			font-size: 24px;
 			line-height: 1.2;
 			margin-bottom: 20px;
-			color: €black;
+			color: $black;
 		}
 	}
 }
@@ -816,13 +816,13 @@ h1, h2, h3, h4, h5,
 			padding: 10px !important;
 			border-radius: 0;
 			margin-bottom: 0;
-			color: €black;
+			color: $black;
 			font-size: 20px;
 			font-weight: 600;
 			position: relative;
 			display: inline-block;
 			border: 1px solid transparent;
-			background: €white;
+			background: $white;
 			width: 16.6%;
 			&:after{
 				position: absolute;
@@ -835,21 +835,21 @@ h1, h2, h3, h4, h5,
 				margin: 0 auto;
 				border-style: solid;
 				border-width: 10px 10px 0 10px;
-				border-color: €primary transparent transparent transparent;
+				border-color: $primary transparent transparent transparent;
 				opacity: 0;
 			}
 			&:nth-child(odd){
 			}
 			@include border-radius(0);			
 			&:hover{
-				background: darken(€primary,5%);
-				color: €white;
+				background: darken($primary,5%);
+				color: $white;
 			}
 			&.active{
-				color: €white;
+				color: $white;
 				@include transition(.3s);
 				border: 1px solid transparent;
-				background: €primary;
+				background: $primary;
 				&:after{
 					opacity: 1;
 				}
@@ -861,7 +861,7 @@ h1, h2, h3, h4, h5,
 			}
 			@include media-breakpoint-down(sm){
 				width: 100%;
-				background: lighten(€primary,30%);
+				background: lighten($primary,30%);
 				margin-bottom: 4px;
 			}
 		}
@@ -887,10 +887,12 @@ h1, h2, h3, h4, h5,
 	width: 100%;
 	@include border-radius(5px);
 	@include transition(.3s);
+	margin-bottom: 5px;
+	margin-right: 5px;
 	.text{
 		width: 50%;
 		padding: 30px 20px;
-		border: 1px solid lighten(€black,90%);
+		border: 1px solid lighten($black,90%);
 		@include media-breakpoint-down(sm){
 			width: 100%;
 		}
@@ -906,11 +908,11 @@ h1, h2, h3, h4, h5,
 			text-align: right;
 			.price{
 				font-size: 20px;
-				color: €primary;
+				color: $primary;
 				font-weight: 600;
 				line-height: 1.3;
 				@include transition(.3s);
-				// border-bottom: 2px solid €primary;
+				// border-bottom: 2px solid $primary;
 			}
 		}
 		p{
@@ -937,7 +939,7 @@ h1, h2, h3, h4, h5,
 		@include border-radius(5px);
 	}
 	.text{
-		background: €white;
+		background: $white;
 		@include transition(.3s);
 		h3{
 			font-size: 18px;
@@ -970,11 +972,11 @@ h1, h2, h3, h4, h5,
 //BOOK TABLE
 .makereservation{
 	width: 100%;
-	background: €white;
+	background: $white;
 	.form-group{
 		label{
 			font-weight: 600;
-			color: €black;
+			color: $black;
 		}
 		.icon {
 			position: absolute;
@@ -982,7 +984,7 @@ h1, h2, h3, h4, h5,
 			right: 20px;
 			font-size: 14px;
 			transform: translateY(-50%);
-			color: rgba(€black,.7);
+			color: rgba($black,.7);
 			@include media-breakpoint-down(sm) {
 				right: 10px;
 			}
@@ -1009,7 +1011,7 @@ h1, h2, h3, h4, h5,
 	display: block;
 	span{
 		font-size: 60px;
-		color: €white;
+		color: $white;
 		opacity: 0;
 		@include transition(.3s);
 	}
@@ -1031,7 +1033,7 @@ h1, h2, h3, h4, h5,
 	display: block;
 }
 .blog-entry{
-	background: €white;
+	background: $white;
 	@include media-breakpoint-up(md){
 		margin-bottom: 30px;
 	}
@@ -1047,9 +1049,9 @@ h1, h2, h3, h4, h5,
 			margin-bottom: 16px;
 			font-weight: 600;
 			a {
-				color: €black;
+				color: $black;
 				&:hover, &:focus, &:active {
-					// color: €primary;
+					// color: $primary;
 				}
 			}
 		}
@@ -1057,7 +1059,7 @@ h1, h2, h3, h4, h5,
 			color: rgba(0,0,0,.3);
 		}
 		.read{
-			color: €black;
+			color: $black;
 			font-size: 14px;
 		}
 	}
@@ -1071,7 +1073,7 @@ h1, h2, h3, h4, h5,
 				color: rgba(0,0,0,.3);
 				font-size: 15px;
 				&:hover {
-					color: lighten(€black, 80%);
+					color: lighten($black, 80%);
 				}
 			}
 		}
@@ -1089,19 +1091,19 @@ h1, h2, h3, h4, h5,
 			margin-bottom: 4px;
 			font-weight: 400;
 			a,span {
-				border: 1px solid €primary;
+				border: 1px solid $primary;
 				text-align: center;
 				display: inline-block;
 				width: 40px;
 				height: 40px;
 				line-height: 40px;
 				border-radius: 5px;
-				background: €white;
+				background: $white;
 			}
 			&.active {
 				a, span {
-					background: €primary;
-					color: €white;
+					background: $primary;
+					color: $white;
 					border: 1px solid transparent;
 				}
 			}
@@ -1113,14 +1115,14 @@ h1, h2, h3, h4, h5,
 
 .form-control {
 	height: 52px!important;
-	background: €white!important;
-	color: €black!important;
+	background: $white!important;
+	color: $black!important;
 	font-size: 16px;
 	border-radius: 0px;
 	box-shadow: none!important;
 	border: 1px solid rgba(0,0,0,.1);
 	&:focus, &:active {
-		border-color: €black;
+		border-color: $black;
 	}
 }
 textarea.form-control {
@@ -1133,7 +1135,7 @@ textarea.form-control {
 }
 
 .bg-primary {
-	background: €primary!important;
+	background: $primary!important;
 }
 
 
@@ -1179,7 +1181,7 @@ textarea.form-control {
 	.ftco-footer-widget {
 		h2 {
 			font-weight: normal;
-			color: €white;
+			color: $white;
 			margin-bottom: 40px;
 			font-size: 18px;
 			font-weight: 700;
@@ -1188,7 +1190,7 @@ textarea.form-control {
 			li{
 				a{
 					span{
-						color: €white;
+						color: $white;
 					}
 				}
 			}
@@ -1209,27 +1211,27 @@ textarea.form-control {
 			}
 		}
 		.btn-primary{
-			background: €white !important;
-			border: 2px solid €white !important;
+			background: $white !important;
+			border: 2px solid $white !important;
 			&:hover{
-				background: €white;
-				border: 2px solid €white !important;
+				background: $white;
+				border: 2px solid $white !important;
 			}
 		}
 	}
 	p {
-		color: rgba(€white, .7);
+		color: rgba($white, .7);
 	}
 	a {
-		color: rgba(€white, .7);
+		color: rgba($white, .7);
 		&:hover {
-			color: €white;
+			color: $white;
 		}
 	}
 	.ftco-heading-2 {
 		font-size: 17px;
 		font-weight: 700;
-		color: €black;
+		color: $black;
 	}
 
 	.categories{
@@ -1268,9 +1270,9 @@ textarea.form-control {
 				}
 			}
 			.submit{
-				color: €white !important;
+				color: $white !important;
 				font-size: 16px;
-				background: €primary !important;
+				background: $primary !important;
 				border: none !important;
 				@include border-radius(2px);
 				&:hover{
@@ -1299,7 +1301,7 @@ textarea.form-control {
 			width: 40px;
 			display: block;
 			float: left;
-			background: rgba(€white, .05);
+			background: rgba($white, .05);
 			border-radius: 50%;
 			position: relative;
 			span {
@@ -1310,7 +1312,7 @@ textarea.form-control {
 				transform: translate(-50%, -50%);
 			}
 			&:hover {
-				color: €white;
+				color: $white;
 			}
 		}
 	}
@@ -1321,7 +1323,7 @@ textarea.form-control {
 		a {
 			margin: 0 10px 10px 0;
 			&:hover, &:focus {
-				color: €primary;
+				color: $primary;
 			}
 		}
 	}
@@ -1330,7 +1332,7 @@ textarea.form-control {
 	.ftco-icon {
 		width: 100px;
 		span {
-			color: €primary;
+			color: $primary;
 		}
 	}
 }
@@ -1349,27 +1351,27 @@ textarea.form-control {
 
 @-webkit-keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(€primary, 0.4);
+    -webkit-box-shadow: 0 0 0 0 rgba($primary, 0.4);
   }
   70% {
-      -webkit-box-shadow: 0 0 0 30px rgba(€primary, 0);
+      -webkit-box-shadow: 0 0 0 30px rgba($primary, 0);
   }
   100% {
-      -webkit-box-shadow: 0 0 0 0 rgba(€primary, 0);
+      -webkit-box-shadow: 0 0 0 0 rgba($primary, 0);
   }
 }
 @keyframes pulse {
   0% {
-    -moz-box-shadow: 0 0 0 0 rgba(€primary, 0.4);
-    box-shadow: 0 0 0 0 rgba(€primary, 0.4);
+    -moz-box-shadow: 0 0 0 0 rgba($primary, 0.4);
+    box-shadow: 0 0 0 0 rgba($primary, 0.4);
   }
   70% {
-      -moz-box-shadow: 0 0 0 30px rgba(€primary, 0);
-      box-shadow: 0 0 0 30px rgba(€primary, 0);
+      -moz-box-shadow: 0 0 0 30px rgba($primary, 0);
+      box-shadow: 0 0 0 30px rgba($primary, 0);
   }
   100% {
-      -moz-box-shadow: 0 0 0 0 rgba(€primary, 0);
-      box-shadow: 0 0 0 0 rgba(€primary, 0);
+      -moz-box-shadow: 0 0 0 0 rgba($primary, 0);
+      box-shadow: 0 0 0 0 rgba($primary, 0);
   }
 }
 
@@ -1385,10 +1387,10 @@ textarea.form-control {
 		display: block;
 		margin-bottom: 0;
 		color: rgba(0,0,0,.2);
-		color: lighten(€primary,0%);
+		color: lighten($primary,0%);
 		// position: relative;
 		line-height: 1;
-		font-family: €font-secondary;
+		font-family: $font-secondary;
 		margin-top: 0;
 		z-index: -1;
 		@include media-breakpoint-down(sm){
@@ -1409,7 +1411,7 @@ textarea.form-control {
 			color: rgba(255,255,255,.7);
 		}
 		h2{
-			color: €white;
+			color: $white;
 		}
 		p{
 			color: rgba(255,255,255,.9);
@@ -1445,7 +1447,7 @@ textarea.form-control {
 		bottom: 0;
 		content: '';
 		opacity: .8;
-		background: €white;
+		background: $white;
 		z-index: -1;
 	}
 	.owl-carousel{
@@ -1475,7 +1477,7 @@ textarea.form-control {
 			&:hover,&:focus{
 				span{
 					&:before{
-						color: €black;
+						color: $black;
 					}
 				}
 			}
@@ -1515,7 +1517,7 @@ textarea.form-control {
 			border-radius: 50%;
 			background: rgba(0,0,0,.2);
 			&.active {
-				background: €primary;
+				background: $primary;
 			}
 		}
 	}
@@ -1538,10 +1540,10 @@ textarea.form-control {
 			right: 0;
 			width: 40px;
 			height: 40px;
-			background: €primary;
+			background: $primary;
 			@include border-radius(50%);
 			i{
-				color: €white;
+				color: $white;
 			}
 		}
 	}
@@ -1549,14 +1551,14 @@ textarea.form-control {
 		font-weight: 400;
 		font-size: 22px;
 		margin-bottom: 0;
-		color: €black;
+		color: $black;
 	}
 	.position{
 		font-size: 12px;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		font-weight: 600;
-		// color: lighten(€black,70%);
+		// color: lighten($black,70%);
 	}
 }
 
@@ -1613,7 +1615,7 @@ textarea.form-control {
 		content: '';
 		z-index: -1;
 		opacity: 0;
-		background: €black;
+		background: $black;
 	}
 }
 .ftco-counter {
@@ -1636,7 +1638,7 @@ textarea.form-control {
 		strong.number{
 			font-weight: 600;
 			font-size: 44px;
-			color: €primary;
+			color: $primary;
 			display: block;
 			line-height: 1;
 		}
@@ -1669,7 +1671,7 @@ textarea.form-control {
 				margin-bottom: 15px;
 			}
 			span{
-				color: rgba(€white, .7);
+				color: rgba($white, .7);
 			}
 			.icon, .text {
 				display: table-cell;
@@ -1679,7 +1681,7 @@ textarea.form-control {
 				width: 40px;
 				font-size: 18px;
 				padding-top: 2px;
-				color: rgba(€white, 1);
+				color: rgba($white, 1);
 			}
 			
 		}
@@ -1690,9 +1692,9 @@ textarea.form-control {
 .contact-section {
 	.contact-info{
 		p{
-			color: €black;
+			color: $black;
 			a{
-				color: €primary;
+				color: $primary;
 			}
 			span{}
 		}
@@ -1725,9 +1727,9 @@ textarea.form-control {
 			font-size: 18px;
 			font-weight: 300;
 			a {
-				color: €black;
+				color: $black;
 				&:hover, &:active, &:focus {
-					color: €primary;
+					color: $primary;
 				}
 			}
 		}
@@ -1737,7 +1739,7 @@ textarea.form-control {
 				font-size: 12px;
 				margin-right: 5px;
 				a {
-					color: lighten(€black, 50%);
+					color: lighten($black, 50%);
 				}
 			}
 		}
@@ -1750,7 +1752,7 @@ textarea.form-control {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: €white;
+	color: $white;
 	letter-spacing: .1em;
 	> div {
 		display: inline-block;
@@ -1771,7 +1773,7 @@ textarea.form-control {
 		margin-bottom: 7px;
 		margin-right: 4px;
 		border-radius: 4px;
-		color: €black;
+		color: $black;
 		border: 1px solid #ccc;
 		font-size :11px;
 		&:hover {
@@ -1823,16 +1825,16 @@ textarea.form-control {
 			}
 			.reply {
 				padding: 5px 10px;
-				background: lighten(€black, 90%);
-				color: €black;
+				background: lighten($black, 90%);
+				color: $black;
 				text-transform: uppercase;
 				font-size: 11px;
 				letter-spacing: .1em;
 				font-weight: 400;
 				border-radius: 4px;
 				&:hover {
-					color: €white;
-					background: lighten(€black, 0%);
+					color: $white;
+					background: lighten($black, 0%);
 				}
 			}
 		}
@@ -1840,7 +1842,7 @@ textarea.form-control {
 }
 
 .search-form {
-	background: lighten(€black, 98%);
+	background: lighten($black, 98%);
 	padding: 10px;
 
 	.form-group {
@@ -1860,12 +1862,12 @@ textarea.form-control {
 }
 
 .subs-wrap{
-	background: €primary !important;
+	background: $primary !important;
 	display: block;
 	width: 100%;
 	color: rgba(255,255,255,.7);
 	h3{
-		color: €white;
+		color: $white;
 		font-size: 30px !important;
 	}
 }
@@ -1897,12 +1899,12 @@ textarea.form-control {
 			border: 1px solid rgba(255,255,255,.4);
 		}
 		.submit{
-			color: €black !important;
+			color: $black !important;
 			display: block;
 			width: 100%;
 			height: 52px;
 			font-size: 16px;
-			background: €white !important;
+			background: $white !important;
 			@include border-radius(0);
 			&:hover{
 				cursor: pointer;
@@ -1955,12 +1957,12 @@ textarea.form-control {
 				position: absolute;
 				right: 0;
 				top: 0;
-				color: €primary;
+				color: $primary;
 			}
 		}
 		&.active {
 			a {
-				color: €black;
+				color: $black;
 				font-style: italic;
 			}
 		}
