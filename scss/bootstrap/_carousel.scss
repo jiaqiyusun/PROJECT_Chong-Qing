@@ -33,7 +33,7 @@
   width: 100%;
   margin-right: -100%;
   backface-visibility: hidden;
-  @include transition($carousel-transition);
+  @include transition(€carousel-transition);
 }
 
 .carousel-item.active,
@@ -75,7 +75,7 @@
   .active.carousel-item-right {
     z-index: 0;
     opacity: 0;
-    @include transition(0s $carousel-transition-duration opacity);
+    @include transition(0s €carousel-transition-duration opacity);
   }
 }
 
@@ -94,30 +94,30 @@
   display: flex; // 1. allow flex styles
   align-items: center; // 2. vertically center contents
   justify-content: center; // 3. horizontally center contents
-  width: $carousel-control-width;
-  color: $carousel-control-color;
+  width: €carousel-control-width;
+  color: €carousel-control-color;
   text-align: center;
-  opacity: $carousel-control-opacity;
-  @include transition($carousel-control-transition);
+  opacity: €carousel-control-opacity;
+  @include transition(€carousel-control-transition);
 
   // Hover/focus state
   @include hover-focus {
-    color: $carousel-control-color;
+    color: €carousel-control-color;
     text-decoration: none;
     outline: 0;
-    opacity: $carousel-control-hover-opacity;
+    opacity: €carousel-control-hover-opacity;
   }
 }
 .carousel-control-prev {
   left: 0;
-  @if $enable-gradients {
-    background: linear-gradient(90deg, rgba($black, .25), rgba($black, .001));
+  @if €enable-gradients {
+    background: linear-gradient(90deg, rgba(€black, .25), rgba(€black, .001));
   }
 }
 .carousel-control-next {
   right: 0;
-  @if $enable-gradients {
-    background: linear-gradient(270deg, rgba($black, .25), rgba($black, .001));
+  @if €enable-gradients {
+    background: linear-gradient(270deg, rgba(€black, .25), rgba(€black, .001));
   }
 }
 
@@ -125,15 +125,15 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: $carousel-control-icon-width;
-  height: $carousel-control-icon-width;
+  width: €carousel-control-icon-width;
+  height: €carousel-control-icon-width;
   background: no-repeat 50% / 100% 100%;
 }
 .carousel-control-prev-icon {
-  background-image: $carousel-control-prev-icon-bg;
+  background-image: €carousel-control-prev-icon-bg;
 }
 .carousel-control-next-icon {
-  background-image: $carousel-control-next-icon-bg;
+  background-image: €carousel-control-next-icon-bg;
 }
 
 
@@ -152,26 +152,26 @@
   justify-content: center;
   padding-left: 0; // override <ol> default
   // Use the .carousel-control's width as margin so we don't overlay those
-  margin-right: $carousel-control-width;
-  margin-left: $carousel-control-width;
+  margin-right: €carousel-control-width;
+  margin-left: €carousel-control-width;
   list-style: none;
 
   li {
     box-sizing: content-box;
     flex: 0 1 auto;
-    width: $carousel-indicator-width;
-    height: $carousel-indicator-height;
-    margin-right: $carousel-indicator-spacer;
-    margin-left: $carousel-indicator-spacer;
+    width: €carousel-indicator-width;
+    height: €carousel-indicator-height;
+    margin-right: €carousel-indicator-spacer;
+    margin-left: €carousel-indicator-spacer;
     text-indent: -999px;
     cursor: pointer;
-    background-color: $carousel-indicator-active-bg;
+    background-color: €carousel-indicator-active-bg;
     background-clip: padding-box;
     // Use transparent borders to increase the hit area by 10px on top and bottom.
-    border-top: $carousel-indicator-hit-area-height solid transparent;
-    border-bottom: $carousel-indicator-hit-area-height solid transparent;
+    border-top: €carousel-indicator-hit-area-height solid transparent;
+    border-bottom: €carousel-indicator-hit-area-height solid transparent;
     opacity: .5;
-    @include transition($carousel-indicator-transition);
+    @include transition(€carousel-indicator-transition);
   }
 
   .active {
@@ -186,12 +186,12 @@
 
 .carousel-caption {
   position: absolute;
-  right: (100% - $carousel-caption-width) / 2;
+  right: (100% - €carousel-caption-width) / 2;
   bottom: 20px;
-  left: (100% - $carousel-caption-width) / 2;
+  left: (100% - €carousel-caption-width) / 2;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: $carousel-caption-color;
+  color: €carousel-caption-color;
   text-align: center;
 }
