@@ -65,7 +65,7 @@
 		  </nav>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/alternatives/restaurante.jpeg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/alternatives/restaurante.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -86,41 +86,41 @@
 					<span class="subheading">Reservar</span>
 				  <h2 class="mb-4">Reservar uma mesa</h2>
 				</div>
-	            <form action="#">
+	            <form action="make_revervation.php" method="POST" id="contact-form" >
 	              <div class="row">
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="">Nome</label>
-	                    <input type="text" class="form-control" placeholder="Your Name">
+	                    <label for="inputName">Nome</label>
+	                    <input type="text" class="form-control contact-input" id="inputName" placeholder="Your Name">
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-						<label for="">Nome</label>
-						<input type="text" class="form-control" placeholder="O Teu Nome">
-					   </div>
-	                </div>
-	                <div class="col-md-6">
-	                  <div class="form-group">
-	                    <label for="">Email</label>
-                    	<input type="text" class="form-control" placeholder="Email">
+	                    <label for="inputEmail">Email</label>
+                    	<input type="text" class="form-control contact-input" id="inputEmail"placeholder="Email">
                    	</div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="">Telefone</label>
-                    <input type="text" class="form-control" placeholder="Telefone">
-                  </div>
-	                </div>
+	                    <label for="inputTelefone">Telefone</label>
+                		<input type="text" class="form-control contact-input" id="inputTelefone" placeholder="Telefone">
+                       </div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+						  <label for="inputData">Data</label>
+						  <input type="text" class="form-control contact-input" id="inputData" placeholder="Data">
+						 </div>
+					  </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="">Hora</label>
+	                    <label for="inputHora">Hora</label>
                     <input type="text" class="form-control" id="book_time" placeholder="Hora">
                   </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-							<label for="">Nº de Pessoa</label>
+							<label for="inputPessoa">Nº de Pessoa</label>
 						<div class="select-wrap one-third">
 						<div class="icon"><span class="ion-ios-arrow-down"></span></div>
 						<select name="" id="" class="form-control">
@@ -226,6 +226,7 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/aos.js"></script>
+  <script src="js/contact.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
