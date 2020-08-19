@@ -1,8 +1,13 @@
+<?php 
+session_start();
+require('./translate.php');
+include $_SESSION['idioma'];
+?>
+
 <!DOCTYPE html>
-<?php include('translate.php');?>
 <html lang="en">
   <head>
-    <title>Chong Qing</title>
+    <title>Chong Qing j</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -54,17 +59,17 @@
     </div>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Chong Qing</a>
+	      <a class="navbar-brand" href="index.html">Chong Qing </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span> <?php echo $trad['menu'];?>
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        
-	        	<li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
-	          <li class="nav-item cta"><a href="reservation.html" class="nav-link">Reservar uma mesa</a></li>
+	        	<li class="nav-item"><a href="menu.html" class="nav-link"><?php echo $trad['cardapio'];?></a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link"><?php echo $trad['contacto'];?></a></li>
+	          <li class="nav-item cta"><a href="reservation.html" class="nav-link"><?php echo $trad['reservar'];?></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -78,8 +83,8 @@
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
-            	<span class="subheading">Chong Qing <?php echo $trad['pt'];?></span>
-              <h1 class="mb-4">Melhor Restaurante Chinês</h1>
+            	<span class="subheading"><?php echo $trad['titulo'];?> </span>
+              <h1 class="mb-4"><?php echo $trad['img1'];?></h1>
             </div>
           </div>
         </div>
@@ -91,8 +96,8 @@
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
-            	<span class="subheading">Chong Qing</span>
-              <h1 class="mb-4">Deliciosas Combinações</h1>
+            	<span class="subheading"><?php echo $trad['titulo'];?></span>
+              <h1 class="mb-4"><?php echo $trad['img2'];?></h1>
             </div>
 
           </div>
@@ -105,8 +110,8 @@
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate" style="margin-top: -150px;">
-            	<span class="subheading">Chong Qing</span>
-              <h1 class="mb-4">Bebidas Quentes e Frias</h1>
+            	<span class="subheading"><?php echo $trad['titulo'];?></span>
+              <h1 class="mb-4"><?php echo $trad['img3'];?></h1>
             </div>
 
           </div>
@@ -119,8 +124,8 @@
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
-            	<span class="subheading">Chong Qing</span>
-              <h1 class="mb-4">Muita Variedade</h1>
+            	<span class="subheading"><?php echo $trad['titulo'];?></span>
+              <h1 class="mb-4"><?php echo $trad['img4'];?></h1>
             </div>
 
           </div>
@@ -138,8 +143,8 @@
     							<div class="featured-menus ftco-animate">
 			              <div class="menu-img img" style="background-image: url(images/alternatives/hotpotgif.gif);"></div>
 			              <div class="text text-center">
-		                  <h3>FONDUE HOT POT</h3>
-				              <p><span>Sopa Picante</span>, <span>Caldo Borrego</span></p>
+		                  <h3><?php echo $trad['fondue_hot_pot'][0];?></h3>
+				              <p><span><?php echo $trad['fondue_hot_pot'][1][0]; ?></span>, <span><?php echo $trad['fondue_hot_pot'][1][1]; ?></span></p>
 			              </div>
 			            </div>
     						</div>
@@ -147,8 +152,8 @@
     							<div class="featured-menus ftco-animate">
 			              <div class="menu-img img" style="background-image: url(images/alternatives/galinhapicantegif.gif);"></div>
 			              <div class="text text-center">
-		                  <h3>GALINHA COM PICANTE</h3>
-				              <p><span>Galinha</span>, <span>Pimentos</span>, <span>Zanthoxylum</span></p>
+		                  <h3><?php echo $trad['galinha_com_picante'][0];?></h3>
+				              <p><span><?php echo $trad['galinha_com_picante'][1][0]; ?></span>, <span><?php echo $trad['galinha_com_picante'][1][1]; ?></span>, <span><?php echo $trad['galinha_com_picante'][1][2]; ?></span></p>
 			              </div>
 			            </div>
     						</div>
@@ -156,8 +161,8 @@
     							<div class="featured-menus ftco-animate">
 			              <div class="menu-img img" style="background-image: url(images/alternatives/mapotofugif.gif);"></div>
 			              <div class="text text-center">
-		                  <h3>MAPO TOFU</h3>
-				              <p><span>Tofu</span>, <span>Carne de Vaca Picada</span>,<span>Cebolinha Fransesa</span></p>
+		                  <h3><?php echo $trad['mapo_tofu'][0];?></h3>
+				              <p><span><?php echo $trad['mapo_tofu'][1][0]; ?></span>, <span><?php echo $trad['mapo_tofu'][1][1]; ?></span>, <span><?php echo $trad['mapo_tofu'][1][2]; ?></span></p>
 			              </div>
 			            </div>
     						</div>
@@ -165,8 +170,8 @@
     							<div class="featured-menus ftco-animate">
 			              <div class="menu-img img" style="background-image: url(images/alternatives/raviolidecamaraogif.gif);"></div>
 			              <div class="text text-center">
-		                  <h3>RAVIOLI DE CAMARÃO</h3>
-				              <p><span>Camarão</span>, <span></span>Farinha de Amido</span>, <span>Cebolinha Fransesa</span></p>
+                    <h3><?php echo $trad['ravioli_de_camarao'][0];?></h3>
+				              <p><span><?php echo $trad['ravioli_de_camarao'][1][0]; ?></span>, <span><?php echo $trad['ravioli_de_camarao'][1][1]; ?></span>, <span><?php echo $trad['ravioli_de_camarao'][1][2]; ?></span></p>
 			              </div>
 			            </div>
     						</div>
@@ -187,15 +192,10 @@
 					</div>
 					<div class="col-md-5 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
 	          <div class="heading-section mb-4 my-5 my-md-0">
-	          	<span class="subheading">Sobre</span>
-	            <h2 class="mb-4">Restaurante</h2>
+	          	<span class="subheading"><?php echo $trad['sobre'];?></span>
+	            <h2 class="mb-4"><?php echo $trad['restaurante'];?></h2>
 	          </div>
-            <p>Nossa especialidade é o <strong>Hot Pot</strong>.</p>
-            <p> Hot Pot é um FONDUE chinês original de Chong Qing, contém dois tipos diferentes de sopas divididos por um pot especial.</p>
-            <p>Um dos lados constituído com sopa picante e do lado oposto constituído por caldo de borrego. </p> 
-            <p>Os próprios apreciadores eescolhem os ingredientes ao seu gosto e põem no pot para cozinhar. </p>
-            <p>Quando estes já estão prontos para comer é só retirar do pot e misturar com os diferentes molhos que temos a sua disposição. </p>
-						
+            <?php echo $trad['sobre_descricao'];?>
 					</div>
 				</div>
 			</div>
@@ -210,8 +210,8 @@
               <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong style=font-size:22.5px><a href="#">Único</a></strong>
-		                <span>Hot Pot tradicional em Portugal</span>
+		                <strong style=font-size:22.5px><a href="#"><?php echo $trad['unico'] ;?> </a></strong>
+		                <span><?php echo $trd['hot_pot_tradicional_em_portugal']?></span>
 		              </div>
 		            </div>
 		          </div>
@@ -219,7 +219,7 @@
 		            <div class="block-18">
 		              <div class="text">
 		                <strong class="number" data-number="10">0</strong>
-		                <span>Anos de Experiência</span>
+		                <span><?php echo $trd['ano_expriencia']?></span>
 		              </div>
 		            </div>
 		          </div>
@@ -227,7 +227,7 @@
 		            <div class="block-18">
 		              <div class="text">
 		                <strong class="number" data-number="73">0</strong>
-		                <span>Menus</span>
+		                <span><?php echo $trd['menus']?></span>
 		              </div>
 		            </div>
 		          </div>
@@ -235,7 +235,7 @@
 		            <div class="block-18">
 		              <div class="text">
 		                <strong class="number" data-number="15000">0</strong>
-		                <span>Clientes Satisfeitos</span>
+		                <span><?php echo $trd['clientes_satisfeitos']?></span>
 		              </div>
 		            </div>
 		          </div>
@@ -251,8 +251,8 @@
     	<div class="container">
     		<div class="row no-gutters justify-content-center mb-5 pb-2">
           <div class="col-md-12 text-center heading-section ftco-animate">
-          	<span class="subheading">Especiais</span>
-            <h2 class="mb-4">Nosso Menu</h2>
+          	<span class="subheading"><?php echo $trd['especiais']?></span>
+            <h2 class="mb-4"><?php echo $trd['nosso_menu']?></h2>
           </div>
         </div>
         <div class="row no-gutters d-flex align-items-stretch">
@@ -263,7 +263,7 @@
 								<div>
 	              	<div class="d-flex">
 		                <div class="one-half">
-		                  <h3>Hot Pot (Buffet)</h3>
+		                  <h3><?php echo $trd['hot_pot_buffet']?></h3>
 		                </div>
 		                <div class="one-forth">
 		                  <span class="price">xxxx$</span>
