@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include('translate.php');?>
 <html lang="en">
   <head>
     <title>Chong Qing</title>
@@ -77,7 +78,7 @@
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
-            	<span class="subheading">Chong Qing</span>
+            	<span class="subheading">Chong Qing <?php echo $trad['pt'];?></span>
               <h1 class="mb-4">Melhor Restaurante Chinês</h1>
             </div>
           </div>
