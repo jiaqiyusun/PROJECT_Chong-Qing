@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include('translate.php');?>
 <html lang="en">
   <head>
     <title>Chong Qing</title>
@@ -60,7 +61,7 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	        
 	        	<li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
 	          <li class="nav-item cta"><a href="reservation.html" class="nav-link">Reservar uma mesa</a></li>
@@ -77,14 +78,14 @@
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
-            	<span class="subheading">Chong Qing</span>
+            	<span class="subheading">Chong Qing <?php echo $trad['pt'];?></span>
               <h1 class="mb-4">Melhor Restaurante Chinês</h1>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/hotpotmenu.jpg);">
+      <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/buffe.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
@@ -265,10 +266,11 @@
 		                  <h3>Hot Pot (Buffet)</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">Adulto: 14.95€<br>Criança: 7.95€</span>
+		                  <span class="price">xxxx$</span>
 		                </div>
 		              </div>
-		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
+		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+		              <p><a href="#" class="btn btn-primary">Order now</a></p>
 	              </div>
               </div>
             </div>
@@ -283,11 +285,11 @@
 		                  <h3>Lagostins Picantes</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">xxxxx€</span>
+		                  <span class="price">xxxxx$</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
+		              <p><a href="#" class="btn btn-primary">Order now</a></p>
 	              </div>
               </div>
             </div>
@@ -303,11 +305,11 @@
 		                  <h3>Vaca Cozida com Picante</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">9.95€</span>
+		                  <span class="price">9.95$</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
+		              <p><a href="#" class="btn btn-primary">Order now</a></p>
 	              </div>
               </div>
             </div>
@@ -322,11 +324,11 @@
 		                  <h3>Carne de Porco com Sabor de Peixe</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">6.95€</span>
+		                  <span class="price">6.95$</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
+		              <p><a href="#" class="btn btn-primary">Order now</a></p>
 	              </div>
               </div>
             </div>
@@ -342,11 +344,11 @@
 		                  <h3>Massa ChongQing</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">4.50€</span>
+		                  <span class="price">$29</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
+		              <p><a href="#" class="btn btn-primary">Order now</a></p>
 	              </div>
               </div>
             </div>
@@ -361,11 +363,11 @@
 		                  <h3>Ravioli Frito</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">5.00€</span>
+		                  <span class="price">5.00$</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
+		              <p><a href="#" class="btn btn-primary">Order now</a></p>
 	              </div>
               </div>
             </div>
@@ -388,7 +390,7 @@
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Nome</label>
-                    <input type="text" class="form-control" placeholder="O Teu Nome">
+                    <input type="text" class="form-control" placeholder="Nome">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -542,7 +544,7 @@
               <p>Venha experimentar esta iguaria, estamos a sua espera.</p>
               <strong style="color: white;">Morada: </strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon"> </span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
