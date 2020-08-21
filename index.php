@@ -277,7 +277,7 @@ include $_SESSION['idioma'];
         	</div>
         	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
         		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-              <div class="menu-img img" style="background-image: url(images/alternatives/lagostinspicante.jpeg);"></div>
+              <div class="menu-img img" style="background-image: url(images/alternatives/sopadefungue.jpg);"></div>
               <div class="text d-flex align-items-center">
 								<div>
 	              	<div class="d-flex">

@@ -17,7 +17,7 @@ $trad['sobre_descricao'] ="<p>Nossa especialidade é o <strong>Hot Pot</strong>.
 $trad['restaurante'] ="Restaurante";
 
 // Frases das Imagens Index
-$trad['img1'] ="Melhor Restaurante Chinês";
+$trad['img1'] ="O Melhor Restaurante Chinês";
 $trad['img2'] ="Deliciosas Combinações";
 $trad['img3'] ="Bebidas Quentes e Frias";
 $trad['img4'] ="Muita Variedade";
