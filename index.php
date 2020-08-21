@@ -69,7 +69,7 @@ include $_SESSION['idioma'];
 	        
 	        	<li class="nav-item"><a href="menu.html" class="nav-link"><?php echo $trad['cardapio'];?></a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link"><?php echo $trad['contacto'];?></a></li>
-	          <li class="nav-item cta"><a href="reservation.html" class="nav-link"><?php echo $trad['reservar'];?></a></li>
+	          <li class="nav-item cta"><a href="reservation.html" class="nav-link"><?php echo constant("reservar");?></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -381,48 +381,48 @@ include $_SESSION['idioma'];
 				<div class="row d-flex">
           <div class="col-md-7 ftco-animate makereservation p-4 px-md-5 pb-md-5">
           	<div class="heading-section ftco-animate mb-5 text-center">
-	          	<span class="subheading"><?php echo $trd['reservar1']?></span>
-	            <h2 class="mb-4"><?php echo $trd['reservar2']?></h2>
+	          	<span class="subheading"><?php echo $trd['reservar1'];?></span>
+	            <h2 class="mb-4"><?php echo constant("reservar");?></h2>
 	          </div>
             <form action="#">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for=""><?php echo $trd['nome']?></label>
-                    <input type="text" class="form-control" placeholder="<?php echo $trd['nome']?>">
+                    <label for=""><?php echo $trd['nome'];?></label>
+                    <input type="text" class="form-control" placeholder="<?php echo $trd['nome'];?>">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for=""><?php echo $trd['email']?></label>
-                    <input type="text" class="form-control" placeholder="<?php echo $trd['email']?>">
+                    <input type="text" class="form-control" placeholder="<?php echo $trd['email'];?>">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for=""><?php echo $trd['telefone']?></label>
+                    <label for=""><?php echo $trd['telefone'];?></label>
                     <input type="text" class="form-control" placeholder="<?php echo $trd['telefone']?>">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for=""><?php echo $trd['data']?></label>
-                    <input type="text" class="form-control" id="book_date" placeholder="<?php echo $trd['data']?>">
+                    <label for=""><?php echo $trd['data'];?></label>
+                    <input type="text" class="form-control" id="book_date" placeholder="<?php echo $trd['data'];?>">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for=""><?php echo $trd['hora']?></label>
-                    <input type="text" class="form-control" id="book_time" placeholder="<?php echo $trd['hora']?>">
+                    <label for=""><?php echo $trd['hora'];?></label>
+                    <input type="text" class="form-control" id="book_time" placeholder="<?php echo $trd['hora'];?>">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for=""><?php echo $trd['n_pessoa']?></label>
+                    <label for=""><?php echo $trd['n_pessoa'];?></label>
                     <div class="select-wrap one-third">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                       <select name="" id="" class="form-control">
-                        <option value=""><?php echo $trd['pessoa']?></option>
+                        <option value=""><?php echo $trd['pessoa'];?></option>
                         <option value="">1</option>
                         <option value="">2</option>
                         <option value="">3</option>
@@ -433,7 +433,7 @@ include $_SESSION['idioma'];
                 </div>
                 <div class="col-md-12 mt-3">
                   <div class="form-group text-center">
-                    <input type="submit" value="<?php echo $trd['reservar1']?>" class="btn btn-primary py-3 px-5">
+                    <input type="submit" value="<?php echo $trd['reservar1'];?>" class="btn btn-primary py-3 px-5">
                   </div>
                 </div>
               </div>
@@ -449,8 +449,8 @@ include $_SESSION['idioma'];
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-12 text-center heading-section ftco-animate">
-          	<span class="subheading"><?php echo $trd['testemunha']?></span>
-            <h2 class="mb-4"><?php echo $trd['cliente_feliz']?></h2>
+          	<span class="subheading"><?php echo $trd['testemunha'];?></span>
+            <h2 class="mb-4"><?php echo $trd['cliente_feliz'];?></h2>
           </div>
         </div>
         <div class="row ftco-animate justify-content-center">
@@ -466,7 +466,7 @@ include $_SESSION['idioma'];
                   <div class="text p-3">
                     <p class="mb-4">Uma forma diferente de degustar a gastronomia chinesa, atendimento e cuidado com os clientes, muito bom recomendo 👍 restaurante a voltar em breve com certeza</p>
                     <p class="name">Saúl Ribeiro</p>
-                    <span class="position"><?php echo $trd['cliente1']?></span>
+                    <span class="position"><?php echo $trd['cliente1'];?></span>
                   </div>
                 </div>
               </div>
@@ -480,7 +480,7 @@ include $_SESSION['idioma'];
                   <div class="text p-3">
                     <p class="mb-4">Restaurante asiático com a típica lista interminável de pratos para escolher, e apetece escolher todos!Óptima relação qualidade preço!</p>
                     <p class="name">Mariana Damião De Lemos</p>
-                    <span class="position"><?php echo $trd['cliente1']?></span>
+                    <span class="position"><?php echo $trd['cliente1'];?></span>
                   </div>
                 </div>
               </div>
@@ -494,7 +494,7 @@ include $_SESSION['idioma'];
                   <div class="text p-3">
                     <p class="mb-4">Um restaurante chinês mais “caseiro” e cheio de orientais. A comida apesar de não ser transcendente, em conjunto com a simpatia do atendimento faz valer as 4 estrelas.</p>
                     <p class="name">João Pereira</p>
-                    <span class="position"><?php echo $trd['cliente1']?></span>
+                    <span class="position"><?php echo $trd['cliente1'];?></span>
                   </div>
                 </div>
               </div>
@@ -508,7 +508,7 @@ include $_SESSION['idioma'];
                   <div class="text p-3">
                     <p class="mb-4">Exceeded my expectations pleasantly judging by its poor publicity on the net. Don't think twice and don't hesitate to go! Tip: watch out for the spicy 😂.</p>
                     <p class="name">Pablo D.</p>
-                    <span class="position"><?php echo $trd['cliente1']?></span>
+                    <span class="position"><?php echo $trd['cliente1'];?></span>
                   </div>
                 </div>
               </div>
@@ -522,7 +522,7 @@ include $_SESSION['idioma'];
                   <div class="text p-3">
                     <p class="mb-4">Excellent service, beautiful interior. In the presence there are many interesting dishes.</p>
                     <p class="name">Oliver Hunt</p>
-                    <span class="position"><?php echo $trd['cliente1']?></span>
+                    <span class="position"><?php echo $trd['cliente1'];?></span>
                   </div>
                 </div>
               </div>
@@ -539,9 +539,9 @@ include $_SESSION['idioma'];
         <div class="row mb-5">
           <div class="col-md-6 col-lg-4">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><?php echo $trd['chongqing']?></h2>
-              <p><?php echo $trd['atrai_cliente']?></p>
-              <strong style="color: white;"><?php echo $trd['morada']?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
+              <h2 class="ftco-heading-2"><?php echo $trd['chongqing'];?></h2>
+              <p><?php echo $trd['atrai_cliente'];?></p>
+              <strong style="color: white;"><?php echo $trd['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -551,15 +551,15 @@ include $_SESSION['idioma'];
           </div>
           <div class="col-md-6 col-lg-5">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><?php echo $trd['aberto1']?></h2>
+              <h2 class="ftco-heading-2"><?php echo $trd['aberto1'];?></h2>
               <ul class="list-unstyled open-hours">
-                <li class="d-flex"><span><?php echo $trd['2f']?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['3f']?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['4f']?></span><span>Encerrado</span></li>
-                <li class="d-flex"><span><?php echo $trd['5f']?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['6f']?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['7f']?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['1f']?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['2f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['3f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['4f'];?></span><span>Encerrado</span></li>
+                <li class="d-flex"><span><?php echo $trd['5f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['6f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['7f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['1f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
               </ul>
             </div>
           </div>

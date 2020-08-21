@@ -5,7 +5,8 @@ $trad['menu'] ="菜谱";
 //Menu
 $trad['cardapio'] ="菜谱";
 $trad['contacto'] ="联系方式";
-$trad['reservar'] ="网上订台";
+define("reservar","网上订台");
+
 $trad['sobre'] ="关于";
 $trad['sobre_descricao'] ="<p>我们的特色是:<strong>重庆传统火锅</strong>.</p>
 <p>火锅的发展亦如同餐饮史的发展是渐进式的，完全是依据当时的器皿，社会的需求与原物料的发现引进，而加以变化的。</p>

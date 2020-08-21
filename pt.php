@@ -5,7 +5,8 @@ $trad['menu'] ="Menu";
 //Menu
 $trad['cardapio'] ="Menu";
 $trad['contacto'] ="Contacto";
-$trad['reservar'] ="Reservar uma mesa";
+define("reservar","Reservar uma mesa");
+
 $trad['reservar_simples'] ="Reservar";
 $trad['sobre'] ="Sobre";
 $trad['sobre_descricao'] ="<p>Nossa especialidade é o <strong>Hot Pot</strong>.</p>
