@@ -2,6 +2,8 @@
 // Traduções em Chinês
 $trad['titulo'] = '重庆饭店';
 $trad['menu'] ="菜谱";
+$trad['open'] ="<span>Aberto:</span> <span>每天（星期三除外）</span> <span>12:00 - 15:00, 18:00-23:00</span>";
+
 //Menu
 $trad['cardapio'] ="菜谱";
 $trad['contacto'] ="联系方式";
