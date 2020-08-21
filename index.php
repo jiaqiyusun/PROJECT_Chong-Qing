@@ -45,7 +45,7 @@ include $_SESSION['idioma'];
 					    </div>
 					    
 					    <div class="col-md-6 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
-						    <p class="mb-0 register-link"><span>Aberto:</span> <span>Todos Dias(excepto Quarta-feira)</span> <span>12:00 - 15:00, 18:00-23:00</span></p>
+						    <p class="mb-0 register-link"> <?php echo $trad['open'] ?></p>
               </div>
               <div class="col-md-2 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
                 <a href="./?idioma=pt" class="icon flag"><img src="images/pt.svg" alt="" width="20px" height="20px"></a>

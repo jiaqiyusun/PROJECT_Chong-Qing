@@ -2,6 +2,7 @@
 // Traduções em Português
 $trad['titulo'] = 'Restaurante Chong Qing';
 $trad['menu'] ="Menu";
+$trad['open'] ="<span>Aberto:</span> <span>Todos Dias(excepto Quarta-feira)</span> <span>12:00 - 15:00, 18:00-23:00</span>";
 //Menu
 $trad['cardapio'] ="Menu";
 $trad['contacto'] ="Contacto";
@@ -81,5 +82,6 @@ $trd['7f'] = "Sábado";
 $trd['1f'] = "Domingo";
 $trd['instgram'] = "Instagram";
 
-
+// Resevation.php
+$trd['conheca']="Conheça o nosso Restaurante, bastando navegar o website.";
 ?>

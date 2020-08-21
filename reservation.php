@@ -1,3 +1,8 @@
+<?php 
+session_start();
+require('./translate.php');
+include $_SESSION['idioma'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -46,23 +51,23 @@
 				</div>
 			  </div>
 		</div>
-		  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 			<div class="container">
-			  <a class="navbar-brand" href="index.html">Chong Qing</a>
+			  <a class="navbar-brand" href="index.html">Chong Qing </a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
+				<span class="oi oi-menu"></span> <?php echo $trad['menu'];?>
 			  </button>
 	
 			  <div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-				  <li class="nav-item active"><a href="contact.html" class="nav-link"><strong>Contacto</strong> </a></li>
-				  <li class="nav-item cta"><a href="reservation.html" class="nav-link">Reservar uma mesa</a></li>
+				
+					<li class="nav-item"><a href="menu.php" class="nav-link"><?php echo $trad['cardapio'];?></a></li>
+				  <li class="nav-item"><a href="contact.php" class="nav-link"><?php echo $trad['contacto'];?></a></li>
+				  <li class="nav-item cta"><a href="reservation.php" class="nav-link"><?php echo constant("reservar");?></a></li>
 				</ul>
 			  </div>
 			</div>
-		  </nav>
+		</nav>
     <!-- END nav -->
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/alternatives/restaurante.jpg');" data-stellar-background-ratio="0.5">
@@ -70,8 +75,8 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate text-center mb-4">
-            <h1 class="mb-2 bread">Reservar uma mesa</h1>
-            <p class="breadcrumbs"><span class="mr-2">Conheça o nosso Restaurante, bastando navegar o website.</p>
+            <h1 class="mb-2 bread"><?php echo constant("reservar");?></h1>
+            <p class="breadcrumbs"><span class="mr-2"><?php echo $trd['conheca'] ?></p>
 			</div>
         </div>
       </div>
@@ -85,49 +90,49 @@
 			
 			<div class="py-md-5">
 	          	<div class="heading-section ftco-animate mb-5 text-center">
-					<span class="subheading">Reservar</span>
-				  <h2 class="mb-4">Reservar uma mesa</h2>
+					<span class="subheading"><?php echo $trad['reservar_simples']; ?></span>
+				  <h2 class="mb-4"><?php echo constant("reservar");?></h2>
 				</div>
 				<div id="msg"></div>
 	            <form id="contact-form" name="contact-form" >
 	              <div class="row">
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="inputName">Nome</label>
+	                    <label for="inputName"><?php echo $trd['nome']; ?></label>
 	                    <input type="text" class="form-control contact-input" id="inputName" name="inputName" placeholder="Your Name">
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="inputEmail">Email</label>
+	                    <label for="inputEmail"><?php echo $trd['email']; ?></label>
                     	<input type="text" class="form-control contact-input" id="inputEmail" name="inputEmail" placeholder="Email">
                    	</div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="inputTelefone">Telefone</label>
+	                    <label for="inputTelefone"><?php echo $trd['telefone']; ?></label>
                 		<input type="text" class="form-control contact-input" id="inputTelefone" name="inputTelefone" placeholder="Telefone">
                        </div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group">
-						  <label for="inputData">Data</label>
+						  <label for="inputData"><?php echo $trd['data'];?></label>
 						  <input type="text" class="form-control contact-input" id="inputData" name="inputData" placeholder="Data">
 						 </div>
 					  </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="inputHora">Hora</label>
+	                    <label for="inputHora"><?php echo $trd['hora'];?></label>
                     <input type="text" class="form-control" id="book_time" name="book_time" placeholder="Hora">
                   </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-							<label for="inputPessoa">Nº de Pessoa</label>
+							<label for="inputPessoa"><?php echo $trd['n_pessoa']; ?></label>
 						<div class="select-wrap one-third">
 						<div class="icon"><span class="ion-ios-arrow-down"></span></div>
 						<select name="inputPessoa" id="inputPessoa" name="inputPessoa" class="form-control">
-							<option value="">Pessoas</option>
+							<option value=""><?php echo $trd['pessoa']; ?></option>
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
@@ -138,7 +143,7 @@
 	                </div>
 	                <div class="col-md-12 mt-3">
 	                  <div class="form-group">
-	                    <input type="submit" id="sub_reserva" value="Reservar" class="btn btn-primary py-3 px-5">
+	                    <input type="submit" id="sub_reserva" value="<?php echo $trad['reservar_simples']; ?>" class="btn btn-primary py-3 px-5">
 	                  </div>
 	                </div>
 	              </div>
@@ -153,66 +158,66 @@
 		</section>
 		
 		<footer class="ftco-footer ftco-bg-dark ftco-section">
-			<div class="container">
-			  <div class="row mb-5">
-				<div class="col-md-6 col-lg-4">
-				  <div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">ChongQing</h2>
-					<p>Venha experimentar esta iguaria, estamos a sua espera.</p>
-					<strong style="color: white;">Morada: </strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
-					<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-					  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-					  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-					  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-					</ul>
-				  </div>
-				</div>
-				<div class="col-md-6 col-lg-5">
-				  <div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">Aberto:</h2>
-					<ul class="list-unstyled open-hours">
-					  <li class="d-flex"><span>Segunda-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-					  <li class="d-flex"><span>Terça-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-					  <li class="d-flex"><span>Quarta-feita</span><span>Encerrado</span></li>
-					  <li class="d-flex"><span>Quinta-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-					  <li class="d-flex"><span>Sexta-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-					  <li class="d-flex"><span>Sábado</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-					  <li class="d-flex"><span>Domingo</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-					</ul>
-				  </div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-				   <div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">Instagram</h2>
-					<div class="thumb d-sm-flex">
-						  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
-						  </a>
-						  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
-						  </a>
-						  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
-						  </a>
-					  </div>
-					  <div class="thumb d-flex">
-						  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
-						  </a>
-						  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
-						  </a>
-						  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
-						  </a>
-					  </div>
-				  </div>
-				</div>
-			  
-			</div>
-			<div class="row">
-			  <div class="col-md-12 text-center">
-	  
-				<p ><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved ChongQing
-				   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			  </div>
-			</div>
-		  </footer>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><?php echo $trd['chongqing'];?></h2>
+              <p><?php echo $trd['atrai_cliente'];?></p>
+              <strong style="color: white;"><?php echo $trd['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><?php echo $trd['aberto1'];?></h2>
+              <ul class="list-unstyled open-hours">
+                <li class="d-flex"><span><?php echo $trd['2f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['3f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['4f'];?></span><span>Encerrado</span></li>
+                <li class="d-flex"><span><?php echo $trd['5f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['6f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['7f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trd['1f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><?php echo $trd['instgram']?></h2>
+              <div class="thumb d-sm-flex">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+	            	</a>
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+	            	</a>
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+	            	</a>
+	            </div>
+	            <div class="thumb d-flex">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+	            	</a>
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+	            	</a>
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+	            	</a>
+	            </div>
+            </div>
+          </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p ><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved ChongQing
+             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+      </div>
+    </footer>
   
 
   <!-- loader -->
