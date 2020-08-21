@@ -90,7 +90,7 @@ include $_SESSION['idioma'];
 			
 			<div class="py-md-5">
 	          	<div class="heading-section ftco-animate mb-5 text-center">
-					<span class="subheading"><?php echo $trad['reservar_simples']; ?></span>
+					<span class="subheading"><?php echo $trad['reservar1']; ?></span>
 				  <h2 class="mb-4"><?php echo constant("reservar");?></h2>
 				</div>
 				<div id="msg"></div>
@@ -99,31 +99,31 @@ include $_SESSION['idioma'];
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="inputName"><?php echo $trad['nome']; ?></label>
-	                    <input type="text" class="form-control contact-input" id="inputName" name="inputName" placeholder="Your Name">
+	                    <input type="text" class="form-control contact-input" id="inputName" name="inputName" placeholder="<?php echo $trad['nome']; ?>">
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="inputEmail"><?php echo $trad['email']; ?></label>
-                    	<input type="text" class="form-control contact-input" id="inputEmail" name="inputEmail" placeholder="Email">
+                    	<input type="text" class="form-control contact-input" id="inputEmail" name="inputEmail" placeholder="<?php echo $trad['email']; ?>">
                    	</div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="inputTelefone"><?php echo $trad['telefone']; ?></label>
-                		<input type="text" class="form-control contact-input" id="inputTelefone" name="inputTelefone" placeholder="Telefone">
+                		<input type="text" class="form-control contact-input" id="inputTelefone" name="inputTelefone" placeholder="<?php echo $trad['telefone']; ?>">
                        </div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group">
 						  <label for="inputData"><?php echo $trad['data'];?></label>
-						  <input type="text" class="form-control contact-input" id="inputData" name="inputData" placeholder="Data">
+						  <input type="text" class="form-control contact-input" id="inputData" name="inputData" placeholder="<?php echo $trad['data'];?>">
 						 </div>
 					  </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="inputHora"><?php echo $trad['hora'];?></label>
-                    <input type="text" class="form-control" id="book_time" name="book_time" placeholder="Hora">
+                    <input type="text" class="form-control" id="book_time" name="book_time" placeholder="<?php echo $trad['hora'];?>">
                   </div>
 	                </div>
 	                <div class="col-md-6">
@@ -143,7 +143,7 @@ include $_SESSION['idioma'];
 	                </div>
 	                <div class="col-md-12 mt-3">
 	                  <div class="form-group">
-	                    <input type="submit" id="sub_reserva" value="<?php echo $trad['reservar_simples']; ?>" class="btn btn-primary py-3 px-5">
+	                    <input type="submit" id="sub_reserva" value="<?php echo $trad['reservar1']; ?>" class="btn btn-primary py-3 px-5">
 	                  </div>
 	                </div>
 	              </div>
