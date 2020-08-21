@@ -7,7 +7,7 @@ $trad['open'] ="<span>Aberto:</span> <span>每天（星期三除外）</span> <s
 //Menu
 $trad['cardapio'] ="菜谱";
 $trad['contacto'] ="联系方式";
-define("reservar","网上订台");
+define("reservar","网上预订系统");
 
 $trad['sobre'] ="关于";
 $trad['sobre_descricao'] ="<p>我们的特色是:<strong>重庆传统火锅</strong>.</p>

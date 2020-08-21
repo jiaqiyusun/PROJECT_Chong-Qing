@@ -76,7 +76,7 @@ include $_SESSION['idioma'];
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate text-center mb-4">
             <h1 class="mb-2 bread"><?php echo constant("reservar");?></h1>
-            <p class="breadcrumbs"><span class="mr-2"><?php echo $trd['conheca'] ?></p>
+            <p class="breadcrumbs"><span class="mr-2"><?php echo $trad['conheca'] ?></p>
 			</div>
         </div>
       </div>
@@ -98,41 +98,41 @@ include $_SESSION['idioma'];
 	              <div class="row">
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="inputName"><?php echo $trd['nome']; ?></label>
+	                    <label for="inputName"><?php echo $trad['nome']; ?></label>
 	                    <input type="text" class="form-control contact-input" id="inputName" name="inputName" placeholder="Your Name">
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="inputEmail"><?php echo $trd['email']; ?></label>
+	                    <label for="inputEmail"><?php echo $trad['email']; ?></label>
                     	<input type="text" class="form-control contact-input" id="inputEmail" name="inputEmail" placeholder="Email">
                    	</div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="inputTelefone"><?php echo $trd['telefone']; ?></label>
+	                    <label for="inputTelefone"><?php echo $trad['telefone']; ?></label>
                 		<input type="text" class="form-control contact-input" id="inputTelefone" name="inputTelefone" placeholder="Telefone">
                        </div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group">
-						  <label for="inputData"><?php echo $trd['data'];?></label>
+						  <label for="inputData"><?php echo $trad['data'];?></label>
 						  <input type="text" class="form-control contact-input" id="inputData" name="inputData" placeholder="Data">
 						 </div>
 					  </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-	                    <label for="inputHora"><?php echo $trd['hora'];?></label>
+	                    <label for="inputHora"><?php echo $trad['hora'];?></label>
                     <input type="text" class="form-control" id="book_time" name="book_time" placeholder="Hora">
                   </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
-							<label for="inputPessoa"><?php echo $trd['n_pessoa']; ?></label>
+							<label for="inputPessoa"><?php echo $trad['n_pessoa']; ?></label>
 						<div class="select-wrap one-third">
 						<div class="icon"><span class="ion-ios-arrow-down"></span></div>
 						<select name="inputPessoa" id="inputPessoa" name="inputPessoa" class="form-control">
-							<option value=""><?php echo $trd['pessoa']; ?></option>
+							<option value=""><?php echo $trad['pessoa']; ?></option>
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
@@ -162,9 +162,9 @@ include $_SESSION['idioma'];
         <div class="row mb-5">
           <div class="col-md-6 col-lg-4">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><?php echo $trd['chongqing'];?></h2>
-              <p><?php echo $trd['atrai_cliente'];?></p>
-              <strong style="color: white;"><?php echo $trd['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
+              <h2 class="ftco-heading-2"><?php echo $trad['chongqing'];?></h2>
+              <p><?php echo $trad['atrai_cliente'];?></p>
+              <strong style="color: white;"><?php echo $trad['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -174,21 +174,21 @@ include $_SESSION['idioma'];
           </div>
           <div class="col-md-6 col-lg-5">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><?php echo $trd['aberto1'];?></h2>
+              <h2 class="ftco-heading-2"><?php echo $trad['aberto1'];?></h2>
               <ul class="list-unstyled open-hours">
-                <li class="d-flex"><span><?php echo $trd['2f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['3f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['4f'];?></span><span>Encerrado</span></li>
-                <li class="d-flex"><span><?php echo $trd['5f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['6f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['7f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span><?php echo $trd['1f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['2f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['3f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['4f'];?></span><span>Encerrado</span></li>
+                <li class="d-flex"><span><?php echo $trad['5f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['6f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['7f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['1f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
               </ul>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><?php echo $trd['instgram']?></h2>
+              <h2 class="ftco-heading-2"><?php echo $trad['instgram']?></h2>
               <div class="thumb d-sm-flex">
 	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
 	            	</a>

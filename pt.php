@@ -35,53 +35,53 @@ $trad['texto'] = 'Neste momento estamos utilizando a versão em Português';
 
 //geral
 $trad['unico'] ="Único";
-$trd['hot_pot_tradicional_em_portugal'] = "Hot Pot Tradicional em Portugal";
-$trd['ano_expriencia'] = "Anos de Experiência";
-$trd['menus'] = "Menus";
-$trd['clientes_satisfeitos'] = "Clientes Satisfeitos";
+$trad['hot_pot_tradicional_em_portugal'] = "Hot Pot Tradicional em Portugal";
+$trad['ano_expriencia'] = "Anos de Experiência";
+$trad['menus'] = "Menus";
+$trad['clientes_satisfeitos'] = "Clientes Satisfeitos";
 
 //especiais menu
-$trd['especiais'] = "Especiais";
-$trd['nosso_menu'] = "Nosso Menu";
-$trd['hot_pot_buffet'] = "Hot Pot (Biffet)";
-$trd['adulto_preco'] = "Adulto: 14.95€";
-$trd['crianca_preco'] = "Criança: 7.95€";
-$trd['ver_menu'] = "Ver Menu";
-$trd['vaca_cozida_com_picante'] = "Vaca Cozida com Picante";
-$trd['carne_de_porco_com_sabor_de_peixe'] = "Carne de Porco com Sabor de Peixe";
-$trd['massa_chongqing'] = "Massa ChongQing";
-$trd['ravioli_frito'] = "Ravioli Frito";
+$trad['especiais'] = "Especiais";
+$trad['nosso_menu'] = "Nosso Menu";
+$trad['hot_pot_buffet'] = "Hot Pot (Biffet)";
+$trad['adulto_preco'] = "Adulto: 14.95€";
+$trad['crianca_preco'] = "Criança: 7.95€";
+$trad['ver_menu'] = "Ver Menu";
+$trad['vaca_cozida_com_picante'] = "Vaca Cozida com Picante";
+$trad['carne_de_porco_com_sabor_de_peixe'] = "Carne de Porco com Sabor de Peixe";
+$trad['massa_chongqing'] = "Massa ChongQing";
+$trad['ravioli_frito'] = "Ravioli Frito";
 
 //tabela reserva
-$trd['reservar1'] = "Reservar";
-$trd['reservar2'] = "Reservar uma mesa";
-$trd['nome'] = "Nome";
-$trd['email'] = "Email";
-$trd['telefone'] = "Telefone";
-$trd['data'] = "Data";
-$trd['hora'] = "Hora";
-$trd['n_pessoa'] = "Nº de Pessoa";
-$trd['pessoa'] = "Pessoa";
+$trad['reservar1'] = "Reservar";
+$trad['reservar2'] = "Reservar uma mesa";
+$trad['nome'] = "Nome";
+$trad['email'] = "Email";
+$trad['telefone'] = "Telefone";
+$trad['data'] = "Data";
+$trad['hora'] = "Hora";
+$trad['n_pessoa'] = "Nº de Pessoa";
+$trad['pessoa'] = "Pessoa";
 
 //Testemunha
-$trd['testemunha'] = "Testemunho";
-$trd['cliente_feliz'] = "Cliente Feliz";
-$trd['cliente1'] = 'Cliente';
+$trad['testemunha'] = "Testemunho";
+$trad['cliente_feliz'] = "Cliente Feliz";
+$trad['cliente1'] = 'Cliente';
 
 //footer
-$trd['chongqing'] = "Chong Qing";
-$trd['atrai_cliente'] = "Venha experimentar esta iguaria, estamos a sua espera.";
-$trd['aberto1'] = "Aberto:";
-$trd['morada'] = 'Morada: ';
-$trd['2f'] = "Segunda-feira";
-$trd['3f'] = "Terça-feira";
-$trd['4f'] = "Quarta-feita";
-$trd['5f'] = "Quinta-feira";
-$trd['6f'] = "Sexta-feira";
-$trd['7f'] = "Sábado";
-$trd['1f'] = "Domingo";
-$trd['instgram'] = "Instagram";
+$trad['chongqing'] = "Chong Qing";
+$trad['atrai_cliente'] = "Venha experimentar esta iguaria, estamos a sua espera.";
+$trad['aberto1'] = "Aberto:";
+$trad['morada'] = 'Morada: ';
+$trad['2f'] = "Segunda-feira";
+$trad['3f'] = "Terça-feira";
+$trad['4f'] = "Quarta-feita";
+$trad['5f'] = "Quinta-feira";
+$trad['6f'] = "Sexta-feira";
+$trad['7f'] = "Sábado";
+$trad['1f'] = "Domingo";
+$trad['instgram'] = "Instagram";
 
 // Resevation.php
-$trd['conheca']="Conheça o nosso Restaurante, bastando navegar o website.";
+$trad['conheca']="Conheça o nosso Restaurante, bastando navegar o website.";
 ?>
