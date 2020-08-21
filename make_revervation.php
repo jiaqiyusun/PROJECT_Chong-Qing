@@ -14,7 +14,18 @@ use PHPMailer\PHPMailer\Exception;
 $mail = new PHPMailer(true);
 
 try {
-	$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+	// get Imputs
+	$name= filter_input(INPUT_POST, 'inputName');
+	$email= filter_input(INPUT_POST, 'inputEmail');
+	$phone= filter_input(INPUT_POST, 'inputTelefone');
+	$data= filter_input(INPUT_POST, 'inputData');
+	$time= filter_input(INPUT_POST, 'book_time');
+	$numberOfPerson= filter_input(INPUT_POST, 'inputPessoa');
+	if(empty($name) || empty($email) || empty($phone) || empty($data) || empty($time) || empty($numberOfPerson) ){
+		return 'erro';
+		exit;
+	}
+	//$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 	$mail->isSMTP(True);
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
@@ -22,18 +33,25 @@ try {
     $mail->Password = '934641870Ariclinis1998';
 	$mail->Port = 587;
 
-	$mail->setFrom('ariclinis1@gmail.com');
+	$mail->setFrom($email);
 	$mail->addAddress('ariclinis1@gmail.com');
 
 	$mail->isHTML(true);
-	$mail->Subject = 'Teste de email via gmail Canal TI';
-	$mail->Body = 'Chegou o email teste do <strong>Canal TI</strong>';
+	$mail->Subject = 'Reserva de Mesa';
+	$mail->Body ='<strong>Informações do Reservante</strong>'.
+				 '<p> <strong>Nome:</strong> '.$name.
+				'</p> <p>Email: '.$email.
+				'</p> <p> Telefone: '.$phone.
+				'</p> </hr>'.
+				'<p><strong>Data:</strong>'.$data.
+				'</p> <p><strong>Hora:</strong>'.$time.
+				'</p><p><strong>Número de Pessoas:</strong>'.$numberOfPerson.'</p>';
 	$mail->AltBody = 'Chegou o email teste do Canal TI';
 
 	if($mail->send()) {
-		echo 'Email enviado com sucesso';
+		echo 'success';
 	} else {
-		echo 'Email nao enviado';
+		echo 'error';
 	}
 } catch (Exception $e) {
 	echo "Erro ao enviar mensagem: {$mail->ErrorInfo}";

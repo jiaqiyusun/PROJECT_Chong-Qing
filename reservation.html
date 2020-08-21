@@ -80,42 +80,45 @@
 		<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container-fluid px-0">
 				<div class="row d-flex no-gutters">
+					<div class="col-md-3  ftco-animate makereservation p-4 p-md-5 pt-5"></div>
           <div class="col-md-6  ftco-animate makereservation p-4 p-md-5 pt-5">
-          	<div class="py-md-5">
+			
+			<div class="py-md-5">
 	          	<div class="heading-section ftco-animate mb-5 text-center">
 					<span class="subheading">Reservar</span>
 				  <h2 class="mb-4">Reservar uma mesa</h2>
 				</div>
-	            <form action="make_revervation.php" method="POST" id="contact-form" >
+				<div id="msg"></div>
+	            <form id="contact-form" name="contact-form" >
 	              <div class="row">
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="inputName">Nome</label>
-	                    <input type="text" class="form-control contact-input" id="inputName" placeholder="Your Name">
+	                    <input type="text" class="form-control contact-input" id="inputName" name="inputName" placeholder="Your Name">
 	                  </div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="inputEmail">Email</label>
-                    	<input type="text" class="form-control contact-input" id="inputEmail"placeholder="Email">
+                    	<input type="text" class="form-control contact-input" id="inputEmail" name="inputEmail" placeholder="Email">
                    	</div>
 	                </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="inputTelefone">Telefone</label>
-                		<input type="text" class="form-control contact-input" id="inputTelefone" placeholder="Telefone">
+                		<input type="text" class="form-control contact-input" id="inputTelefone" name="inputTelefone" placeholder="Telefone">
                        </div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-group">
 						  <label for="inputData">Data</label>
-						  <input type="text" class="form-control contact-input" id="inputData" placeholder="Data">
+						  <input type="text" class="form-control contact-input" id="inputData" name="inputData" placeholder="Data">
 						 </div>
 					  </div>
 	                <div class="col-md-6">
 	                  <div class="form-group">
 	                    <label for="inputHora">Hora</label>
-                    <input type="text" class="form-control" id="book_time" placeholder="Hora">
+                    <input type="text" class="form-control" id="book_time" name="book_time" placeholder="Hora">
                   </div>
 	                </div>
 	                <div class="col-md-6">
@@ -123,19 +126,19 @@
 							<label for="inputPessoa">Nº de Pessoa</label>
 						<div class="select-wrap one-third">
 						<div class="icon"><span class="ion-ios-arrow-down"></span></div>
-						<select name="" id="" class="form-control">
+						<select name="inputPessoa" id="inputPessoa" name="inputPessoa" class="form-control">
 							<option value="">Pessoas</option>
-							<option value="">1</option>
-							<option value="">2</option>
-							<option value="">3</option>
-							<option value="">4+</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4+</option>
                       </select>
 	                    </div>
 	                  </div>
 	                </div>
 	                <div class="col-md-12 mt-3">
 	                  <div class="form-group">
-	                    <input type="submit" value="Reservar" class="btn btn-primary py-3 px-5">
+	                    <input type="submit" id="sub_reserva" value="Reservar" class="btn btn-primary py-3 px-5">
 	                  </div>
 	                </div>
 	              </div>
@@ -234,6 +237,36 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script type="text/javascript">
+    $('#sub_reserva').click(function(e){
+		e.preventDefault();
+		console.log("Chegou aqui");
+		var name = $('#inputName').val();
+		var email = $('#inputEmail').val();
+		var telefone = $('#inputTelefone').val();
+		var data = $('#inputData').val();
+		var hora = $('#book_time').val();
+		var nP = $('#inputPessoa').val();
+		console.log("Com:"+name+email+telefone+data+hora+nP);
+
+		$.ajax({
+			type: "POST",
+            url: "./make_revervation.php",
+			data: {inputName: name,inputEmail: email, inputTelefone: telefone, inputData:data, book_time: hora, inputPessoa:nP},
+			success:function (data) {
+				if (data.toString() == 'success') {
+                    $('#msg').html('<div class="alert alert-success"><button data-dismiss="alert" class="close">×</button><strong>Reservado!</strong> Reserva Efectuada.</div>').show(300).delay(5000).hide(300);
+                    $(".form-control").val(""); //limpa todos inputs do formulário
+					return false;
+                }else{
+					$('#msg').html('<div class="alert alert-danger"><button data-dismiss="alert" class="close">×</button><strong>Não Reservado!</strong> Verifique se preencheu todos os campos ou contacte o restaurante</div>').show(300).delay(5000).hide(300);
+					$(".form-control").val(""); //limpa todos inputs do formulário
+					return false;
+				}
+			}
+		});
+
+	});
+  </script>
   </body>
 </html>
