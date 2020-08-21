@@ -15,70 +15,69 @@ $trad['sobre_descricao'] ="<p>我们的特色是:<strong>重庆传统火锅</str
 <p>鸳鸯火锅，是以传统毛肚火锅的红汤卤和宴席菊花火锅的清汤卤，俩者合并改制而成的重庆创新火锅</p>
             ";
 
-$trad['restaurante'] ="餐馆";
+$trad['restaurante'] ="我们的餐馆";
 
 // Frases das Imagens Index
-$trad['img1'] ="O Melhor Restaurante Chinês";
-$trad['img2'] ="Deliciosas Combinações";
-$trad['img3'] ="Bebidas Quentes e Frias";
-$trad['img4'] ="Muita Variedade";
+$trad['img1'] ="最好的中国餐馆";
+$trad['img2'] ="美味的搭配，厨师精心打造";
+$trad['img3'] ="爽口的酒水，搭配火热火锅";
+$trad['img4'] ="菜样齐全, 健康美味";
 
 // Menu
-$trad['fondue_hot_pot'] = ["FONDUE HOT POT",["Sopa Picante","Caldo Borrego"]];
-$trad['galinha_com_picante'] =["GALINHA COM PICANTE",["Galinha","Pimentos","Zanthoxylum"]];
-$trad['mapo_tofu'] =["MAPO TOFU",["Tofu","Carne de Vaca Picada","Cebolinha Fransesa"]];
-$trad['ravioli_de_camarao'] =["RAVIOLI DE CAMARÃO",["Camarão","Farinha de Amido","Cebolinha Fransesa"]];
-$trad['oi'] = 'bem vindo';
-$trad['texto'] = 'Neste momento estamos utilizando a versão em Português';
+$trad['fondue_hot_pot'] = ["鸳鸯火锅",["红汤麻辣","清汤爽口"]];
+$trad['galinha_com_picante'] =["辣子鸡",["鸡","辣椒","花椒"]];
+$trad['mapo_tofu'] =["麻婆豆腐",["豆腐","牛肉末","小葱"]];
+$trad['ravioli_de_camarao'] =["虾饺",["虾","澄粉","小葱"]];
+$trad['oi'] = '欢迎光临';
+$trad['texto'] = '现在我们在使用中文网页';
 
 //geral
-$trad['unico'] ="Único";
-$trd['hot_pot_tradicional_em_portugal'] = "Hot Pot Tradicional em Portugal";
-$trd['ano_expriencia'] = "Anos de Experiência";
-$trd['menus'] = "Menus";
-$trd['clientes_satisfeitos'] = "Clientes Satisfeitos";
+$trad['unico'] ="唯一的";
+$trad['hot_pot_tradicional_em_portugal'] = "重庆传统火锅在葡萄牙";
+$trad['ano_expriencia'] = "年的成立时间";
+$trad['menus'] = "道美味的佳肴";
+$trad['clientes_satisfeitos'] = "位满足的客人";
 
 //especiais menu
-$trd['especiais'] = "Especiais";
-$trd['nosso_menu'] = "Nosso Menu";
-$trd['hot_pot_buffet'] = "Hot Pot (Biffet)";
-$trd['adulto_preco'] = "Adulto: 14.95€";
-$trd['crianca_preco'] = "Criança: 7.95€";
-$trd['ver_menu'] = "Ver Menu";
-$trd['vaca_cozida_com_picante'] = "Vaca Cozida com Picante";
-$trd['carne_de_porco_com_sabor_de_peixe'] = "Carne de Porco com Sabor de Peixe";
-$trd['massa_chongqing'] = "Massa ChongQing";
-$trd['ravioli_frito'] = "Ravioli Frito";
+$trad['especiais'] = "特色";
+$trad['nosso_menu'] = "我们的菜品";
+$trad['hot_pot_buffet'] = "自助火锅";
+$trad['adulto_preco'] = "成人: 14.95€";
+$trad['crianca_preco'] = "孩童: 7.95€";
+$trad['ver_menu'] = "查看菜单";
+$trad['vaca_cozida_com_picante'] = "水煮牛肉";
+$trad['carne_de_porco_com_sabor_de_peixe'] = "鱼香肉丝";
+$trad['massa_chongqing'] = "重庆小面";
+$trad['ravioli_frito'] = "煎饺";
 
 //tabela reserva
-$trd['reservar1'] = "Reservar";
-$trd['reservar2'] = "Reservar uma mesa";
-$trd['nome'] = "Nome";
-$trd['email'] = "Email";
-$trd['telefone'] = "Telefone";
-$trd['data'] = "Data";
-$trd['hora'] = "Hora";
-$trd['n_pessoa'] = "Nº de Pessoa";
-$trd['pessoa'] = "Pessoa";
+$trad['reservar1'] = "订台";
+$trad['reservar2'] = "网上预定系统";
+$trad['nome'] = "姓名";
+$trad['email'] = "邮件";
+$trad['telefone'] = "电话";
+$trad['data'] = "日期";
+$trad['hora'] = "时间";
+$trad['n_pessoa'] = "人数";
+$trad['pessoa'] = "人数";
 
 //Testemunha
-$trd['testemunha'] = "Testemunho";
-$trd['cliente_feliz'] = "Cliente Feliz";
-$trd['cliente1'] = 'Cliente';
+$trad['testemunha'] = "客人评价";
+$trad['cliente_feliz'] = "美食美客";
+$trad['cliente1'] = '客人';
 
 //footer
-$trd['chongqing'] = "Chong Qing";
-$trd['atrai_cliente'] = "Venha experimentar esta iguaria, estamos a sua espera.";
-$trd['aberto1'] = "Aberto:";
-$trd['morada'] = 'Morada: ';
-$trd['2f'] = "Segunda-feira";
-$trd['3f'] = "Terça-feira";
-$trd['4f'] = "Quarta-feita";
-$trd['5f'] = "Quinta-feira";
-$trd['6f'] = "Sexta-feira";
-$trd['7f'] = "Sábado";
-$trd['1f'] = "Domingo";
-$trd['instgram'] = "Instagram";
+$trad['chongqing'] = "重庆饭店";
+$trad['atrai_cliente'] = "与最近的人，同享的味道。";
+$trad['aberto1'] = "营业时间:";
+$trad['morada'] = '地址: ';
+$trad['2f'] = "星期一";
+$trad['3f'] = "星期二";
+$trad['4f'] = "星期三";
+$trad['5f'] = "星期四";
+$trad['6f'] = "星期五";
+$trad['7f'] = "星期六";
+$trad['1f'] = "星期天";
 
 
 ?>
