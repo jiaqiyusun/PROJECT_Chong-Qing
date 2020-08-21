@@ -80,7 +80,7 @@ $trad['5f'] = "Quinta-feira";
 $trad['6f'] = "Sexta-feira";
 $trad['7f'] = "Sábado";
 $trad['1f'] = "Domingo";
-$trad['instgram'] = "Instagram";
+$trad['encerrado'] = "Encerrado";
 
 // Resevation.php
 $trad['conheca']="Conheça o nosso Restaurante, bastando navegar o website.";
