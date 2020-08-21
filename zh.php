@@ -7,14 +7,14 @@ $trad['cardapio'] ="菜谱";
 $trad['contacto'] ="联系方式";
 $trad['reservar'] ="网上订台";
 $trad['sobre'] ="关于";
-$trad['sobre_descricao'] ="<p>我们的特色是:<strong>中国传统火锅</strong>.</p>
-<p> Hot Pot é um FONDUE chinês original de Chong Qing, contém dois tipos diferentes de sopas divididos por um pot especial.</p>
-<p>Um dos lados constituído com sopa picante e do lado oposto constituído por caldo de borrego. </p> 
-<p>Os próprios apreciadores eescolhem os ingredientes ao seu gosto e põem no pot para cozinhar. </p>
-<p>Quando estes já estão prontos para comer é só retirar do pot e misturar com os diferentes molhos que temos a sua disposição. </p>
+$trad['sobre_descricao'] ="<p>我们的特色是:<strong>重庆传统火锅</strong>.</p>
+<p>火锅的发展亦如同餐饮史的发展是渐进式的，完全是依据当时的器皿，社会的需求与原物料的发现引进，而加以变化的。</p>
+<p>三国时代，魏文帝所提到的“五熟釜”，就是分有几格的锅，可以同时煮各种不同的食物，和现今的“鸳鸯锅”，可说是有异曲同工之妙。到了南北朝，“铜鼎”是最普遍的器皿，也就是现今的火锅。演变至唐朝，火锅又称为“暖锅”。</p>
+<p>鸳鸯火锅，是一道美味可口的名吃，属于渝派川菜系。成菜风味别致，麻辣鲜香，鲜醇浓厚，各有特色。</p> 
+<p>鸳鸯火锅，是以传统毛肚火锅的红汤卤和宴席菊花火锅的清汤卤，俩者合并改制而成的重庆创新火锅</p>
             ";
 
-$trad['restaurante'] ="Restaurante";
+$trad['restaurante'] ="餐馆";
 
 // Frases das Imagens Index
 $trad['img1'] ="O Melhor Restaurante Chinês";
