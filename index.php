@@ -90,7 +90,7 @@ include $_SESSION['idioma'];
         </div>
       </div>
 
-      <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/buffe.jpg);">
+      <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/hotpotmenu.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
@@ -266,11 +266,10 @@ include $_SESSION['idioma'];
 		                  <h3><?php echo $trd['hot_pot_buffet']?></h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">xxxx$</span>
+		                  <span class="price">Adulto: 14.95€<br>Criança: 7.95€</span>
 		                </div>
 		              </div>
-		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="#" class="btn btn-primary">Order now</a></p>
+		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
 	              </div>
               </div>
             </div>
@@ -285,11 +284,11 @@ include $_SESSION['idioma'];
 		                  <h3>Lagostins Picantes</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">xxxxx$</span>
+		                  <span class="price">xxxxx€</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="#" class="btn btn-primary">Order now</a></p>
+		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
 	              </div>
               </div>
             </div>
@@ -305,11 +304,11 @@ include $_SESSION['idioma'];
 		                  <h3>Vaca Cozida com Picante</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">9.95$</span>
+		                  <span class="price">9.95€</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="#" class="btn btn-primary">Order now</a></p>
+		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
 	              </div>
               </div>
             </div>
@@ -324,11 +323,11 @@ include $_SESSION['idioma'];
 		                  <h3>Carne de Porco com Sabor de Peixe</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">6.95$</span>
+		                  <span class="price">6.95€</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="#" class="btn btn-primary">Order now</a></p>
+		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
 	              </div>
               </div>
             </div>
@@ -344,11 +343,11 @@ include $_SESSION['idioma'];
 		                  <h3>Massa ChongQing</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">$29</span>
+		                  <span class="price">4.50€</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="#" class="btn btn-primary">Order now</a></p>
+		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
 	              </div>
               </div>
             </div>
@@ -363,11 +362,11 @@ include $_SESSION['idioma'];
 		                  <h3>Ravioli Frito</h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">5.00$</span>
+		                  <span class="price">5.00€</span>
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="#" class="btn btn-primary">Order now</a></p>
+		              <p><a href="menu.html" class="btn btn-primary">Ver Menu</a></p>
 	              </div>
               </div>
             </div>
