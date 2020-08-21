@@ -1,6 +1,6 @@
 <?php 
 // Traduções em Português
-$trad['titulo'] = 'Chong Qing';
+$trad['titulo'] = 'Restaurante Chong Qing';
 $trad['menu'] ="Menu";
 //Menu
 $trad['cardapio'] ="Menu";

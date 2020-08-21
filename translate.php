@@ -5,6 +5,7 @@ session_start();
     if(!isset($_SESSION['idioma'])){
         $_SESSION['idioma']='pt.php';
     }else if(isset($_GET['idioma'])){
-        include 'traducoes/'.$_GET['idioma'].'.php';
+        include './'.$_GET['idioma'].'.php';
+        $_SESSION['idioma']=$_GET['idioma'].'.php';
     }
 ?>
