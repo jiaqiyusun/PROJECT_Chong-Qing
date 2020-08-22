@@ -141,5 +141,34 @@ $trad['limCrianca']="(Até 10 anos)";
 
     $trad['c1_frutas_sazonais'] = "Frutas Sazonais";
     $trad['c1_frutas_sazonais_1'] = "Dimsum";
+        // c2 --Entradas  -Pratos Frios  -Massas
 
+        $trad['c2_pratos_frios'] = "Pratos Frios";
+        $trad['c2_a'] = "Frango Cozido com Molho Picante Chong Qing Style";
+        $trad['c2_b'] = "Carne Novilho com Molho Picante";
+        $trad['c2_c'] = "Doubrado com Molho Picante";
+        $trad['c2_d'] = "Salada com Orelha de Porco";
+        $trad['c2_e'] = "Salada de Soja";
+        $trad['c2_f'] = "Salada de Pepino";
+        $trad['c2_g'] = "Salada de Algas";
+    
+        //Massas
+        $trad['massas'] = "Massas";
+        $trad['c2_h'] = "Massa Ensopada Picant";
+        $trad['c2_i'] = "Massa de Batata Doce";
+        $trad['c2_g'] = "Massa com Carne de Novilho";
+        $trad['c2_k'] = "Massa Ensopada com Carne de Porco";
+        $trad['c2_l'] = "Ravioli Frito de 12 Peças";
+        $trad['c2_m'] = "Ravioli Cozido de 12 Peças";
+        $trad['c2_n'] = "Massa Fina com Molho Picante";
+        $trad['c2_o'] = "Gelatina Com Molho Picante";
+        $trad['c2_p'] = "Pasteis de Arroz Salteados";
+        $trad['c2_q'] = "Ravioli de Gambas(4 Unidades)";
+        $trad['c2_r'] = "Arroz Chao Chao Yan Zhou";
+        $trad['c2_s'] = "Arroz Chao Chao com Camarão";
+        $trad['c2_t'] = "Massa de Arroz com legumes Salteados";
+        $trad['c2_u'] = "Arroz Branco";
+        $trad['c2_v'] = "";
+        $trad['c2_x'] = "";
+        $trad['c2_z'] = "";
 ?>
