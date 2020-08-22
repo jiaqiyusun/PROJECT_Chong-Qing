@@ -46,18 +46,24 @@ include $_SESSION['idioma'];
 							<div class="col-md-6 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
 								<p class="mb-0 register-link"><span>Aberto:</span> <span>Todos Dias(excepto Quarta-feira)</span> <span>12:00 - 15:00, 18:00-23:00</span></p>
 							</div>
+							<div class="col-md-2 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+								<a href="./?idioma=pt" class="icon flag"><img src="images/pt.svg" alt="" width="20px" height="20px"></a>
+								<a href="./?idioma=zh" class="icon flag"><img src="images/cn.svg" alt="" width="20px" height="20px" style="margin-left: 4px;"></a>      
+							</div>
 						</div>
 					</div>
 				</div>
 			  </div>
 		</div>
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+			
 			<div class="container">
-			  <a class="navbar-brand" href="index.html">Chong Qing </a>
+			  <a class="navbar-brand" href="index.php">Chong Qing </a>
+			  
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> <?php echo $trad['menu'];?>
 			  </button>
-	
+			 
 			  <div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 				
@@ -66,6 +72,8 @@ include $_SESSION['idioma'];
 				  <li class="nav-item cta"><a href="reservation.php" class="nav-link"><?php echo constant("reservar");?></a></li>
 				</ul>
 			  </div>
+			  
+			  
 			</div>
 		</nav>
     <!-- END nav -->
@@ -260,11 +268,11 @@ include $_SESSION['idioma'];
 			data: {inputName: name,inputEmail: email, inputTelefone: telefone, inputData:data, book_time: hora, inputPessoa:nP},
 			success:function (data) {
 				if (data.toString() == 'success') {
-                    $('#msg').html('<div class="alert alert-success"><button data-dismiss="alert" class="close">×</button><strong>Reservado!</strong> Reserva Efectuada.</div>').show(300).delay(5000).hide(300);
+                    $('#msg').php('<div class="alert alert-success"><button data-dismiss="alert" class="close">×</button><strong>Reservado!</strong> Reserva Efectuada.</div>').show(300).delay(5000).hide(300);
                     $(".form-control").val(""); //limpa todos inputs do formulário
 					return false;
                 }else{
-					$('#msg').html('<div class="alert alert-danger"><button data-dismiss="alert" class="close">×</button><strong>Não Reservado!</strong> Verifique se preencheu todos os campos ou contacte o restaurante</div>').show(300).delay(5000).hide(300);
+					$('#msg').php('<div class="alert alert-danger"><button data-dismiss="alert" class="close">×</button><strong>Não Reservado!</strong> Verifique se preencheu todos os campos ou contacte o restaurante</div>').show(300).delay(5000).hide(300);
 					$(".form-control").val(""); //limpa todos inputs do formulário
 					return false;
 				}

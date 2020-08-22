@@ -82,5 +82,63 @@ $trad['7f'] = "星期六";
 $trad['1f'] = "星期天";
 $trad['encerrado'] = "不营业";
 
+// Resevation.php
+$trad['conheca']="Conheça o nosso Restaurante, bastando navegar o website.";
+
+//Cardapio
+$trad['sentence_of_menu']="Deliciosas combinações, Melhor sabor de Portugal.";
+$trad['adulto']="Adulto";
+$trad['crianca']="Criança";
+$trad['limCrianca']="(Até 10 anos)";
+    //Categoria Cardapio
+    $trad['c1']="Hot Pot Buffet";
+    $trad['c2']="Entradas  -Pratos Frios  -Massas";
+    $trad['c3']="Pratos Tradicionais de Sichuan";
+    $trad['c4']="Sopas";
+    $trad['c5']="Menus Tradicionais";
+    $trad['c6']="Sobremesas";
+    
+    //C1
+    $trad['c1_a'] = "Sopa típica de Chongqing Style";
+    $trad['c1_b'] = "Sopa de vaca quente e picante suave";
+    $trad['c1_c'] = "Sopa de osso cabrito com Wolfberry";
+    $trad['c1_d'] = "Sopa de fungue";
+    $trad['c1_e'] = "Sopa de vegetais com tomate e milho";
+    // C1 ingredientes
+
+    $trad['ingre'] = "Ingredientes";
+    $trad['c1_f'] ="Carnes";
+    $trad['c1_f_vaca'] = "Carne de vaca";
+    $trad['c1_f_cabrito'] = "Carne de Cabrito";
+    $trad['c1_f_porco'] = "Carne de Porco";
+    
+    $trad['c1_g'] = "Doubradas";
+    $trad['c1_h'] = "Sangue de Pato";
+    $trad['c1_i'] = "Presunto";
+    $trad['c1_j'] = "Carne de Latas";
+    $trad['c1_k'] = "Pele de Porco Frito";
+    $trad['c1_l'] = "Peixe torturado da casa";
+    $trad['c1_m'] = "Cilantro de Almôndegas";
+    $trad['c1_n'] = "Camarão Pequenos";
+    $trad['c1_o'] = "Vara de Caranguejo";
+    $trad['c1_p'] = "Tofu";
+    $trad['c1_q'] = "Pasteis de arroz";
+    $trad['c1_r'] = "Massa Normal ou Massa fina de batata doce";
+    $trad['c1_s'] = "Salada";
+    $trad['c1_t'] = "Pepino";
+    $trad['c1_u'] = "Brassica chinês(couve chinês)";
+    $trad['c1_v'] = "Repolho";
+    $trad['c1_x'] = "Cogumelo shimeji";
+    $trad['c1_z'] = "Cogumelo enokitake";
+    $trad['c1_z_1'] = "Cogumelo de shiitake";
+    $trad['c1_z_2'] = "Cogumelo";
+    $trad['c1_z_3'] = "Orelha de judas";
+    $trad['c1_z_4'] = "Brotos de bambu";
+    $trad['c1_z_5'] = "Massa Chinesa";
+
+    // C1 Frutas Sazonais
+
+    $trad['c1_frutas_sazonais'] = "Frutas Sazonais";
+    $trad['c1_frutas_sazonais_1'] = "Dimsum";
 
 ?>

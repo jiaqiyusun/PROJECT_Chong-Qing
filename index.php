@@ -59,7 +59,7 @@ include $_SESSION['idioma'];
     </div>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Chong Qing </a>
+	      <a class="navbar-brand" href="index.php">Chong Qing </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> <?php echo $trad['menu'];?>
 	      </button>
@@ -269,7 +269,7 @@ include $_SESSION['idioma'];
 		                  <span class="price"><?php echo $trad['adulto_preco']?><br><?php echo $trad['crianca_preco']?></span>
 		                </div>
 		              </div>
-		              <p><a href="menu.html" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
+		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
             </div>
@@ -288,7 +288,7 @@ include $_SESSION['idioma'];
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
+		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
             </div>
@@ -308,7 +308,7 @@ include $_SESSION['idioma'];
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
+		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
             </div>
@@ -327,7 +327,7 @@ include $_SESSION['idioma'];
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
+		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
             </div>
@@ -347,7 +347,7 @@ include $_SESSION['idioma'];
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
+		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
             </div>
@@ -366,7 +366,7 @@ include $_SESSION['idioma'];
 		                </div>
 		              </div>
 		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-		              <p><a href="menu.html" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
+		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
             </div>

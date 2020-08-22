@@ -34,7 +34,7 @@ include $_SESSION['idioma'];
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-	<div class="py-1 bg-black top">
+  <div class="py-1 bg-black top">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
 	    		<div class="col-lg-12 d-block">
@@ -45,26 +45,31 @@ include $_SESSION['idioma'];
 					    </div>
 					    
 					    <div class="col-md-6 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
-						    <p class="mb-0 register-link"><span>Aberto:</span> <span>Todos Dias(excepto Quarta-feira)</span> <span>12:00 - 15:00, 18:00-23:00</span></p>
-					    </div>
+						    <p class="mb-0 register-link"> <?php echo $trad['open'] ?></p>
+              </div>
+              <div class="col-md-2 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+                <a href="./?idioma=pt" class="icon flag"><img src="images/pt.svg" alt="" width="20px" height="20px"></a>
+
+                <a href="./?idioma=zh" class="icon flag"><img src="images/cn.svg" alt="" width="20px" height="20px" style="margin-left: 4px;"></a>      
+              </div>
 				    </div>
 			    </div>
 		    </div>
 		  </div>
     </div>
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Chong Qing</a>
+	      <a class="navbar-brand" href="index.php">Chong Qing </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span> <?php echo $trad['menu'];?>
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item active"><a href="menu.html" class="nav-link"><strong>Menu</strong></a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
-	          <li class="nav-item cta"><a href="reservation.html" class="nav-link">Reservar uma mesa</a></li>
+	        
+	        <li class="nav-item"><a href="menu.php" class="nav-link"><?php echo $trad['cardapio'];?></a></li>
+				  <li class="nav-item"><a href="contact.php" class="nav-link"><?php echo $trad['contacto'];?></a></li>
+				  <li class="nav-item cta"><a href="reservation.php" class="nav-link"><?php echo constant("reservar");?></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -76,8 +81,8 @@ include $_SESSION['idioma'];
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate text-center mb-4">
-            <h1 class="mb-2 bread">Menu</h1>
-            <p class="breadcrumbs"><span class="mr-2">Deliciosas combinações, Melhor sabor de Portugal.</p>
+            <h1 class="mb-2 bread"><?php echo $trad['cardapio'];?></h1>
+            <p class="breadcrumbs"><span class="mr-2"><?php echo $trad['sentence_of_menu'] ;?></p>
           </div>
         </div>
       </div>
@@ -90,17 +95,17 @@ include $_SESSION['idioma'];
 					<div class="row">
             <div class="col-md-12 nav-link-wrap">
 	            <div class="nav nav-pills d-flex text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-	              <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Hot Pot Buffet</a>
+	              <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><?php echo $trad['c1'] ;?></a>
 
-	              <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Entradas  -Pratos Frios  -Massas</a>
+	              <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><?php echo $trad['c2'] ;?></a>
 
-				  <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Pratos Tradicionais de Sichuan</a>
+				  <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><?php echo $trad['c3'] ;?></a>
 				  
-	              <a class="nav-link ftco-animate" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false">Sopas</a>
+	              <a class="nav-link ftco-animate" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false"><?php echo $trad['c4'] ;?></a>
 
-				  <a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Menus Tradicionais</a>
+				  <a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><?php echo $trad['c5'] ;?></a>
 
-	              <a class="nav-link ftco-animate" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false">Sobremesas</a>
+	              <a class="nav-link ftco-animate" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false"><?php echo $trad['c6'] ;?></a>
 
 	            </div>
 	          </div>
@@ -111,8 +116,8 @@ include $_SESSION['idioma'];
 	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
 					  <div class="row">
 						   <div class="col-md-12 col-lg-12">
-							   <p><h6>Adulto: 14.95€</h6></p>
-							   <p><h6>Criança: 7.95€(Até 10 anos)</h6></p>
+							   <p><h6><?php echo $trad['adulto'] ;?>: 14.95€</h6></p>
+							   <p><h6><?php echo $trad['crianca'] ;?>: 7.95€<?php echo $trad['limCrianca'] ;?></h6></p>
 						   </div>
 					  </div>
 					<div class="row no-gutters d-flex align-items-stretch">
@@ -123,7 +128,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Sopa típica de Chongqing Style</h3>
+							                  <h3><?php echo $trad['c1_a'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -138,7 +143,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Sopa de vaca quente e picante suave</h3>
+							                  <h3><?php echo $trad['c1_b'] ;?></h3>
 							                </div>
 							              <br>
 						              </div>
@@ -154,8 +159,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Sopa de osso cabrito com Wolfberry
-											</h3>
+							                  <h3><?php echo $trad['c1_c'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -170,7 +174,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Sopa de fungue</h3>
+							                  <h3><?php echo $trad['c1_d'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -186,7 +190,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Sopa de vegetais com tomate e milho</h3>
+							                  <h3><?php echo $trad['c1_e'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -198,7 +202,7 @@ include $_SESSION['idioma'];
 					<div class="row">
 						<div class="col-md-12 col-lg-12">
 							<hr>
-							<h2>Ingredientes</h4>
+							<h2><?php echo $trad['ingre'] ;?></h4>
 						</div>
 				   </div>
 					<div class="row no-gutters d-flex align-items-stretch">
@@ -210,11 +214,11 @@ include $_SESSION['idioma'];
 													<div>
 												<div class="d-flex flex-column">
 													<div class="one-half">
-														<h3>Carnes</h3>
+														<h3><?php echo $trad['c1_f'] ;?></h3>
 													  </div>
-													<div class="p-2">Carne de vaca</div>
-													<div class="p-2">Carne de Cabrito</div>
-													<div class="p-2">Carne de Porco</div>
+													<div class="p-2"><?php echo $trad['c1_f_vaca'] ;?></div>
+													<div class="p-2"><?php echo $trad['c1_f_cabrito'] ;?></div>
+													<div class="p-2"><?php echo $trad['c1_f_porco'] ;?></div>
 												</div>
 							              <br>
 						              </div>
@@ -229,7 +233,7 @@ include $_SESSION['idioma'];
 														<div>
 											<div class="d-flex">
 												<div class="one-half">
-												<h3>Doubradas</h3>
+												<h3><?php echo $trad['c1_g'] ;?></h3>
 												</div>
 											</div>
 											<br>
@@ -244,7 +248,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Sangue de Pato</h3>
+							                  <h3><?php echo $trad['c1_h'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -260,7 +264,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Presunto</h3>
+							                  <h3><?php echo $trad['c1_i'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -276,7 +280,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Carne de Latas</h3>
+							                  <h3><?php echo $trad['c1_j'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -292,7 +296,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Pele de Porco Frito</h3>
+							                  <h3><?php echo $trad['c1_k'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -308,7 +312,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Peixe torturado da casa</h3>
+							                  <h3><?php echo $trad['c1_l'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -324,7 +328,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Cilantro de Almôndegas</h3>
+							                  <h3> <?php echo $trad['c1_m'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -340,7 +344,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Camarão Pequenos</h3>
+							                  <h3><?php echo $trad['c1_n'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -356,7 +360,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Vara de Caranguejo</h3>
+							                  <h3>    <?php echo $trad['c1_o'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -372,7 +376,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Tofu</h3>
+							                  <h3><?php echo $trad['c1_p'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -388,7 +392,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Pasteis de arroz</h3>
+							                  <h3><?php echo $trad['c1_q'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -404,7 +408,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Massa Normal ou Massa fina de batata doce</h3>
+							                  <h3><?php echo $trad['c1_r'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -420,7 +424,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Salada</h3>
+							                  <h3><?php echo $trad['c1_s'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -436,7 +440,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Pepino</h3>
+							                  <h3><?php echo $trad['c1_t'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -453,7 +457,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Brassica chinês(couve chinês)</h3>
+							                  <h3><?php echo $trad['c1_u'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -469,7 +473,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Repolho</h3>
+							                  <h3><?php echo $trad['c1_v'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -485,7 +489,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Cogumelo shimeji</h3>
+							                  <h3> <?php echo $trad['c1_x'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -501,7 +505,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Cogumelo enokitake</h3>
+							                  <h3><?php echo $trad['c1_z'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -517,7 +521,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Cogumelo de shiitake</h3>
+							                  <h3><?php echo $trad['c1_z_1'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -533,7 +537,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Cogumelo</h3>
+							                  <h3><?php echo $trad['c1_z_2'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -549,7 +553,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Orelha de judas</h3>
+							                  <h3><?php echo $trad['c1_z_3'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -565,7 +569,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Brotos de bambu</h3>
+							                  <h3><?php echo $trad['c1_z_4'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -581,7 +585,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Massa Chinesa</h3>
+							                  <h3><?php echo $trad['c1_z_5'] ;?></h3>
 							                </div>
 							              </div>
 							              <br>
@@ -593,7 +597,7 @@ include $_SESSION['idioma'];
 					<div class="row">
 						<div class="col-md-12 col-lg-12">
 							<hr>
-							<h2>Frutas sazonais(Ofertas)</h4>
+							<h2><?php echo $trad['c1_frutas_sazonais'].$trad['Ofertas'] ;?></h4>
 						</div>
 					</div>
 					<div class="row no-gutters d-flex align-items-stretch">
@@ -604,7 +608,7 @@ include $_SESSION['idioma'];
 											<div>
 								  <div class="d-flex">
 									<div class="one-half">
-									  <h3>Frutas Sazonais</h3>
+									  <h3><?php echo $trad['c1_frutas_sazonais'] ;?></h3>
 									</div>
 								  </div>
 								  <br>
@@ -622,7 +626,7 @@ include $_SESSION['idioma'];
 											<div>
 								  <div class="d-flex">
 									<div class="one-half">
-									  <h3>Dimsum</h3>
+									  <h3><?php echo $trad['c1_g'] ;?></h3>
 									</div>
 								  </div>
 								  <br>
