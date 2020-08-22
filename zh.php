@@ -83,62 +83,62 @@ $trad['1f'] = "星期天";
 $trad['encerrado'] = "不营业";
 
 // Resevation.php
-$trad['conheca']="Conheça o nosso Restaurante, bastando navegar o website.";
+$trad['conheca']="认识我们的餐厅，只需浏览我们的网站！！";
 
 //Cardapio
-$trad['sentence_of_menu']="Deliciosas combinações, Melhor sabor de Portugal.";
-$trad['adulto']="Adulto";
-$trad['crianca']="Criança";
-$trad['limCrianca']="(Até 10 anos)";
+$trad['sentence_of_menu']="美味的搭配，葡萄牙的最佳口味。";
+$trad['adulto']="成人";
+$trad['crianca']="儿童";
+$trad['limCrianca']="(10岁以下)";
     //Categoria Cardapio
-    $trad['c1']="Hot Pot Buffet";
-    $trad['c2']="Entradas  -Pratos Frios  -Massas";
-    $trad['c3']="Pratos Tradicionais de Sichuan";
-    $trad['c4']="Sopas";
-    $trad['c5']="Menus Tradicionais";
-    $trad['c6']="Sobremesas";
+    $trad['c1']="自助火锅";
+    $trad['c2']="前菜  -冷盘  -面食";
+    $trad['c3']="传统四川菜";
+    $trad['c4']="汤煲";
+    $trad['c5']="传统中餐";
+    $trad['c6']="甜品";
     
     //C1
-    $trad['c1_a'] = "Sopa típica de Chongqing Style";
-    $trad['c1_b'] = "Sopa de vaca quente e picante suave";
-    $trad['c1_c'] = "Sopa de osso cabrito com Wolfberry";
-    $trad['c1_d'] = "Sopa de fungue";
-    $trad['c1_e'] = "Sopa de vegetais com tomate e milho";
+    $trad['c1_a'] = "重庆火锅基本汤底";
+    $trad['c1_b'] = "麻辣牛油老汤底";
+    $trad['c1_c'] = "养生羊骨枸杞汤底";
+    $trad['c1_d'] = "鸳鸯火锅双味汤底";
+    $trad['c1_e'] = "番茄玉米素食汤底";
     // C1 ingredientes
 
-    $trad['ingre'] = "Ingredientes";
-    $trad['c1_f'] ="Carnes";
-    $trad['c1_f_vaca'] = "Carne de vaca";
-    $trad['c1_f_cabrito'] = "Carne de Cabrito";
-    $trad['c1_f_porco'] = "Carne de Porco";
+    $trad['ingre'] = "基本食材";
+    $trad['c1_f'] ="现切";
+    $trad['c1_f_vaca'] = "牛肉";
+    $trad['c1_f_cabrito'] = "羊肉";
+    $trad['c1_f_porco'] = "猪肉";
     
-    $trad['c1_g'] = "Doubradas";
-    $trad['c1_h'] = "Sangue de Pato";
-    $trad['c1_i'] = "Presunto";
-    $trad['c1_j'] = "Carne de Latas";
-    $trad['c1_k'] = "Pele de Porco Frito";
-    $trad['c1_l'] = "Peixe torturado da casa";
-    $trad['c1_m'] = "Cilantro de Almôndegas";
-    $trad['c1_n'] = "Camarão Pequenos";
-    $trad['c1_o'] = "Vara de Caranguejo";
-    $trad['c1_p'] = "Tofu";
-    $trad['c1_q'] = "Pasteis de arroz";
-    $trad['c1_r'] = "Massa Normal ou Massa fina de batata doce";
-    $trad['c1_s'] = "Salada";
-    $trad['c1_t'] = "Pepino";
-    $trad['c1_u'] = "Brassica chinês(couve chinês)";
-    $trad['c1_v'] = "Repolho";
-    $trad['c1_x'] = "Cogumelo shimeji";
-    $trad['c1_z'] = "Cogumelo enokitake";
-    $trad['c1_z_1'] = "Cogumelo de shiitake";
-    $trad['c1_z_2'] = "Cogumelo";
-    $trad['c1_z_3'] = "Orelha de judas";
-    $trad['c1_z_4'] = "Brotos de bambu";
-    $trad['c1_z_5'] = "Massa Chinesa";
+    $trad['c1_g'] = "牛毛肚";
+    $trad['c1_h'] = "鸭血";
+    $trad['c1_i'] = "火腿肉";
+    $trad['c1_j'] = "午餐肉";
+    $trad['c1_k'] = "炸猪皮";
+    $trad['c1_l'] = "自制鱼滑";
+    $trad['c1_m'] = "香菜肉丸";
+    $trad['c1_n'] = "虾仔";
+    $trad['c1_o'] = "蟹棒";
+    $trad['c1_p'] = "豆腐";
+    $trad['c1_q'] = "年糕片";
+    $trad['c1_r'] = "番薯粉条&粉丝";
+    $trad['c1_s'] = "沙拉菜";
+    $trad['c1_t'] = "黄瓜";
+    $trad['c1_u'] = "油冬菜";
+    $trad['c1_v'] = "大白菜";
+    $trad['c1_x'] = "白玉菇";
+    $trad['c1_z'] = "金针菇";
+    $trad['c1_z_1'] = "冬菇";
+    $trad['c1_z_2'] = "蘑菇";
+    $trad['c1_z_3'] = "黑木耳";
+    $trad['c1_z_4'] = "笋片";
+    $trad['c1_z_5'] = "方便面";
 
     // C1 Frutas Sazonais
 
-    $trad['c1_frutas_sazonais'] = "Frutas Sazonais";
-    $trad['c1_frutas_sazonais_1'] = "Dimsum";
+    $trad['c1_frutas_sazonais'] = "时令水果";
+    $trad['c1_frutas_sazonais_1'] = "中式点心";
 
 ?>

@@ -113,7 +113,7 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['c1_f_cabrito'] = "Carne de Cabrito";
     $trad['c1_f_porco'] = "Carne de Porco";
     
-    $trad['c1_g'] = "Doubradas";
+    $trad['c1_g'] = "Dobradas";
     $trad['c1_h'] = "Sangue de Pato";
     $trad['c1_i'] = "Presunto";
     $trad['c1_j'] = "Carne de Latas";
