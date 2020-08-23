@@ -862,7 +862,8 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3><?php echo $trad['c2_l'] ;?></h3>
+											  <h3><?php 
+											  echo $trad['c2_l'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5€</span>
