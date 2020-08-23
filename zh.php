@@ -221,6 +221,31 @@ $trad['limCrianca']="(10岁以下)";
     $trad['sb_4'] = "火烧冰淇淋";
     $trad['sb_5'] = "荔枝";
 
+    //Bebidas
+    $trad['bb_1'] = "矿泉水";
+    $trad['bb_2'] = "苏打水";
+    $trad['bb_3'] = "王老吉";
+    $trad['bb_4'] = "可口可乐";
+    $trad['bb_5'] = "零度可乐";
+    $trad['bb_6'] = "冰茶";
+    $trad['bb_7'] = "芬达";
+    $trad['bb_8'] = "雪碧";
+    $trad['bb_9'] = "Sumol";
+    $trad['bb_10'] = "茶";
+    $trad['bb_11'] = "啤酒";
+    $trad['bb_12'] = "青岛啤酒";
+    $trad['bb_13'] = "水果酒";
+    $trad['bb_14'] = "红酒Cartuxa";
+    $trad['bb_15'] = "红酒Esporão";
+    $trad['bb_16'] = "红酒Marquês de Borba";
+    $trad['bb_17'] = "红酒Monte Velho";
+    $trad['bb_18'] = "红酒Periquita";
+    $trad['bb_19'] = "红酒JP";
+    $trad['bb_20'] = "红酒Mateus Rosé";
+    $trad['bb_21'] = "红酒Casal Garcia";
+    $trad['bb_22'] = "红酒Vinho de Casa 1L";
+    $trad['bb_23'] = "红酒Vinho de Casa 0.5L";
+
 //Sopa
     $trad['sp_1'] = "酸辣汤";
     $trad['sp_2'] = "玉米汤";

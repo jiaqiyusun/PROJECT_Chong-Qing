@@ -1878,7 +1878,7 @@ include $_SESSION['idioma'];
 							<div class="row no-gutters d-flex align-items-stretch">
 					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img" style="background-image: url(images/alternatives/bananafrita.jpg);"></div>
+					              <div class="menu-img img" style="background-image: url(images/v1.jpg);"></div>
 					              <div class="text d-flex align-items-center">
 													<div>
 						              	<div class="d-flex">
@@ -1896,7 +1896,7 @@ include $_SESSION['idioma'];
 
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v2.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -1915,7 +1915,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v3.jpeg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -1934,7 +1934,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v4.jpeg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -1953,7 +1953,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v5.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -1972,7 +1972,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v6.png);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -1991,7 +1991,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v7.jpeg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2010,7 +2010,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v8.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2029,7 +2029,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v9.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2048,7 +2048,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v10.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2067,7 +2067,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v11.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2086,7 +2086,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(v12.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2105,7 +2105,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v13.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2124,7 +2124,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v14.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2143,7 +2143,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v15.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2162,7 +2162,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v16.jpeg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2181,7 +2181,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v17.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2200,7 +2200,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v18.jpeg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2219,7 +2219,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v19.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2238,7 +2238,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v20.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2256,7 +2256,7 @@ include $_SESSION['idioma'];
 								</div>
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v21.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2275,7 +2275,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v22.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2294,7 +2294,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 									<div class="menus d-sm-flex ftco-animate align-items-stretch">
-										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="menu-img img" style="background-image: url(images/v22.jpg);"></div>
 										<div class="text d-flex align-items-center">
 														<div>
 											<div class="d-flex">
@@ -2417,7 +2417,7 @@ include $_SESSION['idioma'];
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="https://www.tripadvisor.pt/Restaurant_Review-g189158-d13976473-Reviews-Restaurant_China_Chongqing-Lisbon_Lisbon_District_Central_Portugal.html"><span class="icon-tripadvisor"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/yao.weiwei/"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>
@@ -2439,19 +2439,19 @@ include $_SESSION['idioma'];
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2"><?php echo $trad['instgram']?></h2>
               <div class="thumb d-sm-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/restaurante.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/hotpotmenu.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/bears.jpg);">
 	            	</a>
 	            </div>
 	            <div class="thumb d-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/frigorifico.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/hotpotgif.gif);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/vacacozidacompicante.jpg);">
 	            	</a>
 	            </div>
             </div>

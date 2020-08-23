@@ -546,7 +546,7 @@ include $_SESSION['idioma'];
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="https://www.tripadvisor.pt/Restaurant_Review-g189158-d13976473-Reviews-Restaurant_China_Chongqing-Lisbon_Lisbon_District_Central_Portugal.html"><span class="icon-tripadvisor"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/yao.weiwei/"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>
@@ -568,19 +568,19 @@ include $_SESSION['idioma'];
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2"><?php echo $trad['instgram']?></h2>
               <div class="thumb d-sm-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/restaurante.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/hotpotmenu.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/bears.jpg);">
 	            	</a>
 	            </div>
 	            <div class="thumb d-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/frigorifico.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/hotpotgif.gif);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+	            	<a href="https://www.instagram.com/yao.weiwei/" class="thumb-menu img" style="background-image: url(images/alternatives/vacacozidacompicante.jpg);">
 	            	</a>
 	            </div>
             </div>
