@@ -227,7 +227,7 @@ include $_SESSION['idioma'];
 		          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="73">0</strong>
+		                <strong class="number" data-number="67">0</strong>
 		                <span><?php echo $trad['menus']?></span>
 		              </div>
 		            </div>
@@ -288,7 +288,7 @@ include $_SESSION['idioma'];
 		                  <span class="price">xxxxx€</span>
 		                </div>
 		              </div>
-		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+		              <p> </p>
 		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
@@ -308,7 +308,7 @@ include $_SESSION['idioma'];
 		                  <span class="price">9.95€</span>
 		                </div>
 		              </div>
-		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+		              <p> </p>
 		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
@@ -327,7 +327,7 @@ include $_SESSION['idioma'];
 		                  <span class="price">6.95€</span>
 		                </div>
 		              </div>
-		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+		              <p> </p>
 		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
@@ -347,7 +347,7 @@ include $_SESSION['idioma'];
 		                  <span class="price">4.50€</span>
 		                </div>
 		              </div>
-		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+		              <p> </p>
 		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
@@ -366,7 +366,7 @@ include $_SESSION['idioma'];
 		                  <span class="price">5.00€</span>
 		                </div>
 		              </div>
-		              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+		              <p> </p>
 		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
 	              </div>
               </div>
