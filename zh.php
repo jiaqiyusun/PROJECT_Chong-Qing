@@ -6,6 +6,7 @@ $trad['open'] ="<span>营业时间:</span> <span>每天（星期三除外）</sp
 
 //Menu
 $trad['cardapio'] ="菜谱";
+$trad['inicio'] = "主页";
 $trad['contacto'] ="联系方式";
 define("reservar","网上预订系统");
 
@@ -44,6 +45,7 @@ $trad['clientes_satisfeitos'] = "位满足的客人";
 $trad['especiais'] = "特色";
 $trad['nosso_menu'] = "我们的菜品";
 $trad['hot_pot_buffet'] = "自助火锅";
+$trad['lagostins'] = "麻辣小龙虾";
 $trad['adulto_preco'] = "成人: 14.95€";
 $trad['crianca_preco'] = "孩童: 7.95€";
 $trad['ver_menu'] = "查看菜单";

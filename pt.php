@@ -6,6 +6,7 @@ $trad['open'] ="<span>Aberto:</span> <span>Todos Dias(excepto Quarta-feira)</spa
 $trad['oferta'] ="(Ofertas)";
 //Menu
 $trad['cardapio'] ="Menu";
+$trad['inicio'] = "Início";
 $trad['contacto'] ="Contacto";
 define("reservar","Reservar uma mesa");
 
@@ -45,6 +46,7 @@ $trad['clientes_satisfeitos'] = "Clientes Satisfeitos";
 $trad['especiais'] = "Especiais";
 $trad['nosso_menu'] = "Nosso Menu";
 $trad['hot_pot_buffet'] = "Hot Pot (Biffet)";
+$trad['lagostins'] = "Lagostins Picantes";
 $trad['adulto_preco'] = "Adulto: 14.95€";
 $trad['crianca_preco'] = "Criança: 7.95€";
 $trad['ver_menu'] = "Ver Menu";

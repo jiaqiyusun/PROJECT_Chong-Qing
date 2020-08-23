@@ -67,6 +67,7 @@ include $_SESSION['idioma'];
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        
+			  	<li class="nav-item"><a href="index.php" class="nav-link"><?php echo $trad['inicio'];?></a></li>
 	        <li class="nav-item"><a href="menu.php" class="nav-link"><?php echo $trad['cardapio'];?></a></li>
 				  <li class="nav-item"><a href="contact.php" class="nav-link"><?php echo $trad['contacto'];?></a></li>
 				  <li class="nav-item cta"><a href="reservation.php" class="nav-link"><?php echo constant("reservar");?></a></li>
@@ -276,12 +277,12 @@ include $_SESSION['idioma'];
         	</div>
         	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
         		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-              <div class="menu-img img" style="background-image: url(images/alternatives/lagostino.jpg);"></div>
+              <div class="menu-img img" style="background-image: url(images/alternatives/lagostins.jpg);"></div>
               <div class="text d-flex align-items-center">
 								<div>
 	              	<div class="d-flex">
 		                <div class="one-half">
-		                  <h3>Lagostins Picantes</h3>
+		                  <h3><?php echo $trad['lagostins']?></h3>
 		                </div>
 		                <div class="one-forth">
 		                  <span class="price">xxxxx€</span>
