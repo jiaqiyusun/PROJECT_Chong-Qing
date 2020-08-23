@@ -196,35 +196,35 @@ $trad['limCrianca']="(10岁以下)";
     $trad['pts_24'] = "鲜蒸斋菜大盘";
 
 //Menu tradicional
-    $trad['pt_1'] = "Massa de Arroz Salteado";
-    $trad['pt_2'] = "Chao Ming Salteado";
-    $trad['pt_3'] = "Frango Salteado com Amêndoas e Legumes";
-    $trad['pt_4'] = "Chopsoy";
-    $trad['pt_5'] = "Carne de Novilho com Molho de Ostras";
-    $trad['pt_6'] = "Porco com Molho Agridoce";
-    $trad['pt_7'] = "Frango com Molho de Caril";
-    $trad['pt_8'] = "Pato à Pequim";
-    $trad['pt_9'] = "Cogumelos Chineses e Bambu";
-    $trad['pt_10'] = "Pato Frito com Laranja";
-    $trad['pt_11'] = "Gambas c/legumes e alho na chapa quente";
-    $trad['pt_12'] = "Familia Feliz na Chapa Quente";
-    $trad['pt_13'] = "Tofu na Caçarola";
-    $trad['pt_14'] = "<span>Frango</span>/<span>Porco</span>/<span>Novilho</span>/<span>Camarão</span>/<span>Mix</span>";
+    $trad['pt_1'] = "炒面";
+    $trad['pt_2'] = "炒米粉";
+    $trad['pt_3'] = "清炒杏仁鸡丁";
+    $trad['pt_4'] = "铁板时蔬";
+    $trad['pt_5'] = "蚝油牛肉";
+    $trad['pt_6'] = "糖醋猪肉";
+    $trad['pt_7'] = "咖喱鸡";
+    $trad['pt_8'] = "北京烤鸭";
+    $trad['pt_9'] = "炒时蔬蘑菇笋";
+    $trad['pt_10'] = "橙汁炸鸭";
+    $trad['pt_11'] = "铁板蒜子虾仁";
+    $trad['pt_12'] = "铁板全家开心";
+    $trad['pt_13'] = "豆腐煲";
+    $trad['pt_14'] = "<span>鸡肉</span>/<span>猪肉</span>/<span>牛肉</span>/<span>虾</span>/<span>混合</span>";
     
 
 //Sobremesa
-    $trad['sb_1'] = "Banana ou Maçã Frita";
-    $trad['sb_2'] = "Banana ou Maçã Fasi";
-    $trad['sb_3'] = "Gelado Frit";
-    $trad['sb_4'] = "Gelado Flambé";
-    $trad['sb_5'] = "Lichias à Taça";
+    $trad['sb_1'] = "炸香蕉或苹果";
+    $trad['sb_2'] = "香蕉或苹果Fasi";
+    $trad['sb_3'] = "炸冰淇淋";
+    $trad['sb_4'] = "火烧冰淇淋";
+    $trad['sb_5'] = "荔枝";
 
 //Sopa
-    $trad['sp_1'] = "Sopa Picante";
-    $trad['sp_2'] = "Sopa de Milho";
-    $trad['sp_3'] = "Sopa de Ovo e Tomate";
-    $trad['sp_4'] = "Sopa de Mariscos";
-    $trad['sp_5'] = "PQ 2.00€/GD 6.00€";
+    $trad['sp_1'] = "酸辣汤";
+    $trad['sp_2'] = "玉米汤";
+    $trad['sp_3'] = "番茄鸡蛋汤";
+    $trad['sp_4'] = "海鲜羹";
+    $trad['sp_5'] = "小碗 2.00€/大碗 6.00€";
 
     
 
