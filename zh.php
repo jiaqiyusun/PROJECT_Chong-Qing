@@ -141,4 +141,31 @@ $trad['limCrianca']="(10岁以下)";
     $trad['c1_frutas_sazonais'] = "时令水果";
     $trad['c1_frutas_sazonais_1'] = "中式点心";
 
+    // Prato frio
+    $trad['pf_0'] = "冷盘";
+    $trad['pf_1'] = "重庆白切怪味鸡";
+    $trad['pf_2'] = "五香卤牛肉/麻辣";
+    $trad['pf_3'] = "香油牛肚条/百叶/麻辣";
+    $trad['pf_4'] = "香油猪耳/麻辣";
+    $trad['pf_5'] = "凉拌豆芽/香油/麻辣";
+    $trad['pf_6'] = "拌黄瓜";
+    $trad['pf_7'] = "凉拌木耳/香油/麻辣";
+
+    //massa
+    $trad['msa_0'] = "面食";
+    $trad['msa_1'] = "重庆小面";
+    $trad['msa_2'] = "酸辣粉";
+    $trad['msa_3'] = "牛肉面";
+    $trad['msa_4'] = "榨菜肉丝面";
+    $trad['msa_5'] = "锅贴 -12个";
+    $trad['msa_6'] = "水饺 -12个";
+    $trad['msa_7'] = "凉面（麻辣）";
+    $trad['msa_8'] = "重庆凉粉（麻辣）";
+    $trad['msa_9'] = "炒年糕";
+    $trad['msa_10'] = "虾饺 -4个";
+    $trad['msa_11'] = "扬州炒饭";
+    $trad['msa_12'] = "虾仁炒饭";
+    $trad['msa_13'] = "素炒粉干";
+    $trad['msa_14'] = "小碗白饭";
+
 ?>
