@@ -1052,7 +1052,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Entremeada Picante Cozido/Salteada com Legumes</h3>
+							                  <h3><?php echo $trad['pts_1'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
@@ -1070,7 +1070,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Frango Salteado com PiriPiri Chong Qing Style</h3>
+							                  <h3><?php echo $trad['pts_2'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">8.95€</span>
@@ -1089,7 +1089,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Camarão Kong Bao</h3>
+							                  <h3><?php echo $trad['pts_3'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">9.95€</span>
@@ -1107,7 +1107,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Entrecosto com Molho Agridoce da Casa</h3>
+							                  <h3><?php echo $trad['pts_4'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.95€</span>
@@ -1126,7 +1126,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Feijão Salteado</h3>
+							                  <h3><?php echo $trad['pts_5'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
@@ -1144,7 +1144,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Carne de Porco Salteado com Sabor Picante Ácido</h3>
+							                  <h3><?php echo $trad['pts_6'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.95€</span>
@@ -1163,7 +1163,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Tofu com Molho Picante</h3>
+							                  <h3><?php echo $trad['pts_7'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.95€</span>
@@ -1181,7 +1181,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Frango com Inhame</h3>
+							                  <h3><?php echo $trad['pts_8'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">8.95€</span>
@@ -1200,7 +1200,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Tofu da Casa</h3>
+							                  <h3><?php echo $trad['pts_9'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.95€</span>
@@ -1218,7 +1218,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Carne de Porco com Legumes Sichuan</h3>
+							                  <h3><?php echo $trad['pts_10'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.95€</span>
@@ -1237,7 +1237,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Carne Novilho com Caldo Picante</h3>
+							                  <h3><?php echo $trad['pts_11'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">9.95€</span>
@@ -1255,7 +1255,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Intestisnos de Porco Salteado com PiriPiri</h3>
+							                  <h3><?php echo $trad['pts_12'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">7.95€</span>
@@ -1274,7 +1274,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Entrecosto com PiriPiri</h3>
+							                  <h3><?php echo $trad['pts_13'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">7.95€</span>
@@ -1292,7 +1292,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Couve com PiriPiri e Alho</h3>
+							                  <h3><?php echo $trad['pts_14'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.50€</span>
@@ -1311,7 +1311,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Legumes Salteados</h3>
+							                  <h3><?php echo $trad['pts_15'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.50€</span>
@@ -1329,7 +1329,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Prato Típico Chong Qing</h3>
+							                  <h3><?php echo $trad['pts_16'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">17.95€</span>
@@ -1348,7 +1348,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Filete com Caldo PiriPiri</h3>
+							                  <h3><?php echo $trad['pts_14'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">14.95€</span>
@@ -1366,7 +1366,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Filete com Caldo de Pikles</h3>
+							                  <h3><?php echo $trad['pts_18'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">14.95€</span>
@@ -1385,7 +1385,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Filete Frito com Molho Agridoce</h3>
+							                  <h3><?php echo $trad['pts_19'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">14.95€</span>
@@ -1403,7 +1403,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Peixe Agridoce</h3>
+							                  <h3><?php echo $trad['pts_20'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">19.95€</span>
@@ -1422,7 +1422,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Peixe com Feijão Preto</h3>
+							                  <h3><?php echo $trad['pts_21'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">19.95€</span>
@@ -1440,7 +1440,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Camarão com Molho Sichuan Picante</h3>
+							                  <h3><?php echo $trad['pts_22'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">24.95€</span>
@@ -1459,7 +1459,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Camarão com Manteiga e Alho</h3>
+							                  <h3><?php echo $trad['pts_23'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">24.95€</span>
@@ -1477,7 +1477,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Legumes a Vapor</h3>
+							                  <h3><?php echo $trad['pts_24'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">19.95€</span>

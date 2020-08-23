@@ -169,4 +169,31 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['msa_13'] = "Massa de Arroz com legumes Salteados";
     $trad['msa_14'] = "Arroz Branco";
 
+    // Prato tradicional de sichuan
+    $trad['pts_1'] = "Entremeada Picante Cozido/Salteada com Legumes";
+    $trad['pts_2'] = "Frango Salteado com PiriPiri Chong Qing Style";
+    $trad['pts_3'] = "Camarão Kong Bao";
+    $trad['pts_4'] = "Entrecosto com Molho Agridoce da Casa";
+    $trad['pts_5'] = "Feijão Salteado";
+    $trad['pts_6'] = "Carne de Porco Salteado com Sabor Picante Ácido";
+    $trad['pts_7'] = "Tofu com Molho Picante";
+    $trad['pts_8'] = "Frango com Inhame";
+    $trad['pts_9'] = "Tofu da Casa";
+    $trad['pts_10'] = "Carne de Porco com Legumes Sichuan";
+    $trad['pts_11'] = "Carne Novilho com Caldo Picante";
+    $trad['pts_12'] = "Intestisnos de Porco Salteado com PiriPiri";
+    $trad['pts_13'] = "Entrecosto com PiriPiri";
+    $trad['pts_14'] = "Couve com PiriPiri e Alho";
+    $trad['pts_15'] = "Legumes Salteados";
+    $trad['pts_16'] = "Prato Típico Chong Qing";
+    $trad['pts_17'] = "Filete com Caldo PiriPiri";
+    $trad['pts_18'] = "Filete com Caldo de Pikles";
+    $trad['pts_19'] = "Filete Frito com Molho Agridoce";
+    $trad['pts_20'] = "Peixe Agridoce";
+    $trad['pts_21'] = "Peixe com Feijão Preto";
+    $trad['pts_22'] = "Camarão com Molho Sichuan Picante";
+    $trad['pts_23'] = "Camarão com Manteiga e Alho";
+    $trad['pts_24'] = "Legumes a Vapor";
+
+
 ?>

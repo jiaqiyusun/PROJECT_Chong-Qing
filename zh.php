@@ -168,4 +168,31 @@ $trad['limCrianca']="(10岁以下)";
     $trad['msa_13'] = "素炒粉干";
     $trad['msa_14'] = "小碗白饭";
 
+
+    // Prato tradicional de sichuan
+    $trad['pts_1'] = "回锅肉";
+    $trad['pts_2'] = "辣子鸡";
+    $trad['pts_3'] = "宫保虾球";
+    $trad['pts_4'] = "糖醋排骨";
+    $trad['pts_5'] = "干煸豆角";
+    $trad['pts_6'] = "鱼香肉丝";
+    $trad['pts_7'] = "麻婆豆腐";
+    $trad['pts_8'] = "芋儿鸡块";
+    $trad['pts_9'] = "家常豆腐";
+    $trad['pts_10'] = "榨菜肉丝";
+    $trad['pts_11'] = "水煮牛肉";
+    $trad['pts_12'] = "香辣干锅肥肠";
+    $trad['pts_13'] = "香辣干锅排骨";
+    $trad['pts_14'] = "手撕包菜";
+    $trad['pts_15'] = "炒时令蔬菜";
+    $trad['pts_16'] = "毛血旺";
+    $trad['pts_17'] = "水煮鱼片";
+    $trad['pts_18'] = "酸菜鱼片";
+    $trad['pts_19'] = "糖醋鱼片";
+    $trad['pts_20'] = "糖醋全鱼";
+    $trad['pts_21'] = "豆瓣全鱼";
+    $trad['pts_22'] = "鱼香大红虾碌";
+    $trad['pts_23'] = "蒜香牛油煎大虾";
+    $trad['pts_24'] = "鲜蒸斋菜大盘";
+
 ?>
