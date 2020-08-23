@@ -45,14 +45,19 @@ include $_SESSION['idioma'];
 					    </div>
 					    
 					    <div class="col-md-6 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
-						    <p class="mb-0 register-link"><span>Aberto:</span> <span>Todos Dias(excepto Quarta-feira)</span> <span>12:00 - 15:00, 18:00-23:00</span></p>
-					    </div>
+						    <p class="mb-0 register-link"> <?php echo $trad['open'] ?></p>
+              </div>
+              <div class="col-md-2 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+                <a href="./?idioma=pt" class="icon flag"><img src="images/pt.svg" alt="" width="20px" height="20px"></a>
+
+                <a href="./?idioma=zh" class="icon flag"><img src="images/cn.svg" alt="" width="20px" height="20px" style="margin-left: 4px;"></a>      
+              </div>
 				    </div>
 			    </div>
 		    </div>
 		  </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.php">Chong Qing </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,8 +83,8 @@ include $_SESSION['idioma'];
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate text-center mb-4">
-            <h1 class="mb-2 bread">Contacto</h1>
-            <p class="breadcrumbs"><span class="mr-2">Pode encontrar nesta página os contactos da ChongQing Portugal.</p>
+            <h1 class="mb-2 bread"><?php echo $trad['contacto'];?></h1>
+            <p class="breadcrumbs"><span class="mr-2"><?php echo $trad['contacto_1'];?></p>
            </div>
         </div>
       </div>
@@ -89,19 +94,19 @@ include $_SESSION['idioma'];
 			<div class="container">
 				<div class="row d-flex align-items-stretch no-gutters">
 					<div class="col-md-6 pt-5 px-2 pb-2 p-md-5 ">
-						<h2 class="h4 mb-2 mb-md-5 font-weight-bold">Informações de Contacto</h2>
+						<h2 class="h4 mb-2 mb-md-5 font-weight-bold"><?php echo $trad['contacto_2'];?></h2>
 						<form action="#">
               <div class="form-group">
                 
               </div>
               <div class="form-group">
                 <div class="dbox">
-                <p><span>Morada:</span> Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
+                <p><span><?php echo $trad['morada'];?></span> Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
                 </div>
               </div>
               <div class="form-group">
                 <div class="dbox">
-                  <p><span>Telefone:</span> <a href="tel://1234567920">+ +351 968 485 955</a></p>
+                  <p><span><span class="icon-phone2"></span> <a href="tel://1234567920">+ +351 968 485 955</a></p>
                 </div>
               </div>
               <div class="form-group">
@@ -123,9 +128,9 @@ include $_SESSION['idioma'];
         <div class="row mb-5">
           <div class="col-md-6 col-lg-4">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">ChongQing</h2>
-              <p>Venha experimentar esta iguaria, estamos a sua espera.</p>
-              <strong style="color: white;">Morada: </strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
+              <h2 class="ftco-heading-2"><?php echo $trad['chongqing'];?></h2>
+              <p><?php echo $trad['atrai_cliente'];?></p>
+              <strong style="color: white;"><?php echo $trad['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -135,21 +140,21 @@ include $_SESSION['idioma'];
           </div>
           <div class="col-md-6 col-lg-5">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Aberto:</h2>
+              <h2 class="ftco-heading-2"><?php echo $trad['aberto1'];?></h2>
               <ul class="list-unstyled open-hours">
-                <li class="d-flex"><span>Segunda-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span>Terça-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span>Quarta-feita</span><span>Encerrado</span></li>
-                <li class="d-flex"><span>Quinta-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span>Sexta-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span>Sábado</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-                <li class="d-flex"><span>Domingo</span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['2f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['3f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['4f'];?></span><span><?php echo $trad['encerrado'];?></span></li>
+                <li class="d-flex"><span><?php echo $trad['5f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['6f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['7f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['1f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
               </ul>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Instagram</h2>
+              <h2 class="ftco-heading-2"><?php echo $trad['instgram']?></h2>
               <div class="thumb d-sm-flex">
 	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
 	            	</a>
@@ -179,7 +184,6 @@ include $_SESSION['idioma'];
         </div>
       </div>
     </footer>
-  
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>

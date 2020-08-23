@@ -228,6 +228,11 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['sp_4'] = "Sopa de Mariscos";
     $trad['sp_5'] = "PQ 2.00€/GD 6.00€";
 
-    
+//Contacto 
+    $trad['contacto_1'] = "Pode encontrar nesta página os contactos da ChongQing Portugal.";
+    $trad['contacto_2'] = "Informações de Contacto";
+
+    $trad['instgram'] = "Instgram";
+
 
 ?>

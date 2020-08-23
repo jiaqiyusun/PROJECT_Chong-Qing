@@ -226,6 +226,12 @@ $trad['limCrianca']="(10岁以下)";
     $trad['sp_4'] = "海鲜羹";
     $trad['sp_5'] = "小碗 2.00€/大碗 6.00€";
 
+//Contacto 
+$trad['contacto_1'] = "您可以在此页面上找到重庆饭店的联系方式。";
+$trad['contacto_2'] = "联系信息";
+
+$trad['instgram'] = "Instgram";
+
     
 
 
