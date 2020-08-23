@@ -1521,13 +1521,13 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Massa de Arroz Salteado</h3>
+							                  <h3><?php echo $trad['pt_1'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
 							                </div>
 							              </div>
-							              <p style="font-size: small;"><span>Frango</span>/<span>Porco</span>/<span>Novilho</span>/<span>Camarão</span>/<span>Mix</span></p>
+							              <p style="font-size: small;"><?php echo $trad['pt_14'] ;?></p>
 							              <br>
 						              </div>
 					              </div>
@@ -1540,13 +1540,13 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Chao Ming Salteado</h3>
+							                  <h3><?php echo $trad['pt_2'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
 							                </div>
 							              </div>
-							              <p style="font-size: small;"><span>Frango</span>/<span>Porco</span>/<span>Novilho</span>/<span>Camarão</span>/<span>Mix</span></p>
+							              <p style="font-size: small;"><?php echo $trad['pt_14'] ;?></p>
 							              <br>
 						              </div>
 					              </div>
@@ -1560,7 +1560,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Frango Salteado com Amêndoas e Legumes</h3>
+							                  <h3><?php echo $trad['pt_3'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
@@ -1578,13 +1578,13 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Chopsoy</h3>
+							                  <h3><?php echo $trad['pt_4'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
 							                </div>
 							              </div>
-							              <p style="font-size: small;"><span>Frango</span>/<span>Porco</span>/<span>Novilho</span>/<span>Camarão</span>/<span>Mix</span></p>
+							              <p style="font-size: small;"><?php echo $trad['pt_14'] ;?></p>
 							              <br>
 						              </div>
 					              </div>
@@ -1598,7 +1598,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Carne de Novilho com Molho de Ostras</h3>
+							                  <h3><?php echo $trad['pt_5'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.95€</span>
@@ -1616,7 +1616,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Porco com Molho Agridoce</h3>
+							                  <h3><?php echo $trad['pt_6'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
@@ -1635,7 +1635,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Frango com Molho de Caril</h3>
+							                  <h3><?php echo $trad['pt_7'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
@@ -1654,7 +1654,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Pato à Pequim</h3>
+							                  <h3><?php echo $trad['pt_8'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">8.95€</span>
@@ -1672,14 +1672,14 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Cogumelos Chineses e Bambu</h3>
+							                  <h3><?php echo $trad['pt_9'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">6.95€</span>
 							                </div>
 							              </div>
 										  <br>
-							              <p style="font-size: small;"><span>Frango</span>/<span>Porco</span>/<span>Novilho</span>/<span>Camarão</span>/<span>Mix</span></p>
+							              <p style="font-size: small;"><?php echo $trad['pt_14'] ;?></p>
 						              </div>
 					              </div>
 					            </div>
@@ -1692,7 +1692,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Pato Frito com Laranja</h3>
+							                  <h3><?php echo $trad['pt_10'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">8.50€</span>
@@ -1711,7 +1711,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Gambas c/legumes e alho na chapa quente</h3>
+							                  <h3><?php echo $trad['pt_11'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">8.95€</span>
@@ -1730,7 +1730,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Familia Feliz na Chapa Quente</h3>
+							                  <h3><?php echo $trad['pt_12'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">7.95€</span>
@@ -1749,7 +1749,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Tofu na Caçarola</h3>
+							                  <h3><?php echo $trad['pt_13'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">7.95€</span>
@@ -1773,7 +1773,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Banana ou Maçã Frita</h3>
+							                  <h3><?php echo $trad['sb_1'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">1.95€</span>
@@ -1791,7 +1791,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-												<h3>Banana ou Maçã Fasi</h3>
+												<h3><?php echo $trad['sb_2'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">2.25€</span>
@@ -1810,7 +1810,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Gelado Frito</h3>
+							                  <h3><?php echo $trad['sb_3'] ;?>o</h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">2.50€</span>
@@ -1828,10 +1828,10 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3>Gelado Flambé</h3>
+							                  <h3><?php echo $trad['sb_4'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
-							                  <span class="price">2.95$</span>
+							                  <span class="price">2.95€</span>
 							                </div>
 							              </div>
 							              <br>
@@ -1847,10 +1847,10 @@ include $_SESSION['idioma'];
 														<div>
 											<div class="d-flex">
 												<div class="one-half">
-													<h3>Lichias à Taça</h3>
+													<h3><?php echo $trad['sb_5'] ;?></h3>
 												</div>
 												<div class="one-forth">
-													<span class="price">1.75$</span>
+													<span class="price">1.75€</span>
 												</div>
 											</div>
 												<br>
@@ -1873,10 +1873,10 @@ include $_SESSION['idioma'];
 												  <div>
 										<div class="d-flex">
 										  <div class="one-half">
-											<h3>Sopa Picante</h3>
+											<h3><?php echo $trad['sp_1'] ;?></h3>
 										  </div>
 										  <div class="one-forth">
-											<span class="price">PQ 2.00€/GD 6.00€</span>
+											<span class="price"><?php echo $trad['sp_5'] ;?></span>
 										  </div>
 										</div>
 										<br>
@@ -1891,10 +1891,10 @@ include $_SESSION['idioma'];
 												  <div>
 										<div class="d-flex">
 										  <div class="one-half">
-											  <h3>Sopa de Milho</h3>
+											  <h3><?php echo $trad['sp_2'] ;?></h3>
 										  </div>
 										  <div class="one-forth">
-											<span class="price">PQ 2.00€/GD 6.00€</span>
+											<span class="price"><?php echo $trad['sp_5'] ;?></span>
 										  </div>
 										</div>
 										<br>
@@ -1910,10 +1910,10 @@ include $_SESSION['idioma'];
 												  <div>
 										<div class="d-flex">
 										  <div class="one-half">
-											<h3>Sopa de Ovo e Tomate</h3>
+											<h3><?php echo $trad['sp_3'] ;?></h3>
 										  </div>
 										  <div class="one-forth">
-											<span class="price">PQ 2.00€/GD 6.00€</span>
+											<span class="price"><?php echo $trad['sp_5'] ;?></span>
 										  </div>
 										</div>
 										<br>
@@ -1928,10 +1928,10 @@ include $_SESSION['idioma'];
 												  <div>
 										<div class="d-flex">
 										  <div class="one-half">
-											<h3>Sopa de Mariscos</h3>
+											<h3><?php echo $trad['sp_4'] ;?></h3>
 										  </div>
 										  <div class="one-forth">
-											<span class="price">PQ 2.00€/GD 6.00€</span>
+											<span class="price"><?php echo $trad['sp_5'] ;?></span>
 										  </div>
 										</div>
 										<br>
@@ -1952,66 +1952,66 @@ include $_SESSION['idioma'];
     </section>
 		
 	<footer class="ftco-footer ftco-bg-dark ftco-section">
-		<div class="container">
-		  <div class="row mb-5">
-			<div class="col-md-6 col-lg-4">
-			  <div class="ftco-footer-widget mb-4">
-				<h2 class="ftco-heading-2">ChongQing</h2>
-				<p>Venha experimentar esta iguaria, estamos a sua espera.</p>
-				<strong style="color: white;">Morada: </strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
-				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-				  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-				  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-				  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-				</ul>
-			  </div>
-			</div>
-			<div class="col-md-6 col-lg-5">
-			  <div class="ftco-footer-widget mb-4">
-				<h2 class="ftco-heading-2">Aberto:</h2>
-				<ul class="list-unstyled open-hours">
-				  <li class="d-flex"><span>Segunda-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-				  <li class="d-flex"><span>Terça-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-				  <li class="d-flex"><span>Quarta-feita</span><span>Encerrado</span></li>
-				  <li class="d-flex"><span>Quinta-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-				  <li class="d-flex"><span>Sexta-feira</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-				  <li class="d-flex"><span>Sábado</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-				  <li class="d-flex"><span>Domingo</span><span>12:00 - 15:00, 18:00-23:00</span></li>
-				</ul>
-			  </div>
-			</div>
-			<div class="col-md-6 col-lg-3">
-			   <div class="ftco-footer-widget mb-4">
-				<h2 class="ftco-heading-2">Instagram</h2>
-				<div class="thumb d-sm-flex">
-					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
-					  </a>
-					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
-					  </a>
-					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
-					  </a>
-				  </div>
-				  <div class="thumb d-flex">
-					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
-					  </a>
-					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
-					  </a>
-					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
-					  </a>
-				  </div>
-			  </div>
-			</div>
-		  
-		</div>
-		<div class="row">
-		  <div class="col-md-12 text-center">
-  
-			<p ><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved ChongQing
-			   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-		  </div>
-		</div>
-	  </footer>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><?php echo $trad['chongqing'];?></h2>
+              <p><?php echo $trad['atrai_cliente'];?></p>
+              <strong style="color: white;"><?php echo $trad['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><?php echo $trad['aberto1'];?></h2>
+              <ul class="list-unstyled open-hours">
+                <li class="d-flex"><span><?php echo $trad['2f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['3f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['4f'];?></span><span><?php echo $trad['encerrado'];?></span></li>
+                <li class="d-flex"><span><?php echo $trad['5f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['6f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['7f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+                <li class="d-flex"><span><?php echo $trad['1f'];?></span><span>12:00 - 15:00, 18:00-23:00</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><?php echo $trad['instgram']?></h2>
+              <div class="thumb d-sm-flex">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+	            	</a>
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+	            	</a>
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+	            	</a>
+	            </div>
+	            <div class="thumb d-flex">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+	            	</a>
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+	            	</a>
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+	            	</a>
+	            </div>
+            </div>
+          </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p ><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved ChongQing
+             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+      </div>
+    </footer>
   
 
   <!-- loader -->
