@@ -98,8 +98,9 @@ $trad['limCrianca']="(10岁以下)";
     $trad['c3']="传统四川菜";
     $trad['c4']="汤煲";
     $trad['c5']="传统中餐";
-    $trad['c6']="甜品";
-    
+    $trad['c6']="甜品 酒水";
+    $trad['c6_bebidas'] ="酒水";
+    $trad['c6_sobremesas'] ="甜品";
     //C1
     $trad['c1_a'] = "重庆火锅基本汤底";
     $trad['c1_b'] = "麻辣牛油老汤底";
