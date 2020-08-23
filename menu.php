@@ -1772,6 +1772,11 @@ include $_SESSION['idioma'];
 				  <!-- Sobremesas -->
 	              <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-day-6-tab">
 	              	<div class="row no-gutters d-flex align-items-stretch">
+					  <div class="col-md-12 col-lg-12">
+								
+								<h2><?php echo $trad['c6_sobremesas'] ;?></h4>
+								<hr>
+							</div>
 					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
 					              <div class="menu-img img" style="background-image: url(images/alternatives/bananafrita.jpg);"></div>
@@ -1865,7 +1870,451 @@ include $_SESSION['idioma'];
 									</div>
 					        	</div>
 					        	
-					        </div>
+							</div>
+							<div class="col-md-12 col-lg-12">
+								<h2><?php echo $trad['c6_bebidas'] ;?></h4>
+								<hr>
+							</div>
+							<div class="row no-gutters d-flex align-items-stretch">
+					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
+					              <div class="menu-img img" style="background-image: url(images/alternatives/bananafrita.jpg);"></div>
+					              <div class="text d-flex align-items-center">
+													<div>
+						              	<div class="d-flex">
+							                <div class="one-half">
+							                  <h3><?php echo $trad['bb_1'] ;?></h3>
+							                </div>
+							                <div class="one-forth">
+							                  <span class="price">1.00€</span>							                </div>
+							              </div>
+							              <br>
+						              </div>
+					              </div>
+					            </div>
+								</div>
+
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_2'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_3'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_4'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_5'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_6'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_7'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_8'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_9'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_10'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">2.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_11'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">1.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_12'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">2.50€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_13'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">7.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_14'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">24.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_15'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">24.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_16'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">12.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_17'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">8.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_18'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">8.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_19'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">4.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_20'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">8.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_21'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">7.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_22'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">4.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+									<div class="menus d-sm-flex ftco-animate align-items-stretch">
+										<div class="menu-img img" style="background-image: url(images/alternatives/lichiaataça.jpg);"></div>
+										<div class="text d-flex align-items-center">
+														<div>
+											<div class="d-flex">
+												<div class="one-half">
+													<h3><?php echo $trad['bb_23'] ;?></h3>
+												</div>
+												<div class="one-forth">
+													<span class="price">2.95€</span>
+												</div>
+											</div>
+												<br>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+							</div>
+							
 				  </div>
 				 <!--End Sopas -->
 

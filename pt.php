@@ -99,7 +99,9 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['c3']="Pratos Tradicionais de Sichuan";
     $trad['c4']="Sopas";
     $trad['c5']="Menus Tradicionais";
-    $trad['c6']="Sobremesas";
+    $trad['c6']="Sobremesas e Bebidas";
+    $trad['c6_bebidas'] ="Bebidas";
+    $trad['c6_sobremesas'] ="Sobremesas";
     
     //C1
     $trad['c1_a'] = "Sopa típica de Chongqing Style";
@@ -223,6 +225,30 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['sb_4'] = "Gelado Flambé";
     $trad['sb_5'] = "Lichias à Taça";
 
+    //Bebidas
+    $trad['bb_1'] = "Garrafa de Água";
+    $trad['bb_2'] = "Água das Pedras";
+    $trad['bb_3'] = "Ice-Tea Chinês";
+    $trad['bb_4'] = "Coca Cola";
+    $trad['bb_5'] = "Cola Zero";
+    $trad['bb_6'] = "Ice-Tea";
+    $trad['bb_7'] = "Fanta";
+    $trad['bb_8'] = "Sprit";
+    $trad['bb_9'] = "Sumol";
+    $trad['bb_10'] = "Chá";
+    $trad['bb_11'] = "Cerveja";
+    $trad['bb_12'] = "Cerveja Tsing Dao";
+    $trad['bb_13'] = "Sangria Tinto/Branco";
+    $trad['bb_14'] = "Cartuxa";
+    $trad['bb_15'] = "Esporão";
+    $trad['bb_16'] = "Marquês de Borba";
+    $trad['bb_17'] = "Monte Velho";
+    $trad['bb_18'] = "Periquita";
+    $trad['bb_19'] = "JP";
+    $trad['bb_20'] = "Mateus Rosé";
+    $trad['bb_21'] = "Casal Garcia";
+    $trad['bb_22'] = "Vinho de Casa 1L";
+    $trad['bb_23'] = "Vinho de Casa 0.5L";
 //Sopa
     $trad['sp_1'] = "Sopa Picante";
     $trad['sp_2'] = "Sopa de Milho";
@@ -235,6 +261,7 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['contacto_2'] = "Informações de Contacto";
 
     $trad['instgram'] = "Instagram";
+
 
 
 ?>
