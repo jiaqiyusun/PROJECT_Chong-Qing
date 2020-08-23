@@ -238,6 +238,7 @@ include $_SESSION['idioma'];
 												<h3><?php echo $trad['c1_g'] ;?></h3>
 												</div>
 											</div>
+											<h3> </h3>
 											<br>
 										</div>
 									</div>
@@ -252,7 +253,8 @@ include $_SESSION['idioma'];
 							                <div class="one-half">
 							                  <h3><?php echo $trad['c1_h'] ;?></h3>
 							                </div>
-							              </div>
+										  </div>
+										  <h3> </h3>
 							              <br>
 						              </div>
 					              </div>
@@ -1964,7 +1966,7 @@ include $_SESSION['idioma'];
               <p><?php echo $trad['atrai_cliente'];?></p>
               <strong style="color: white;"><?php echo $trad['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.tripadvisor.pt/Restaurant_Review-g189158-d13976473-Reviews-Restaurant_China_Chongqing-Lisbon_Lisbon_District_Central_Portugal.html"><span class="icon-tripadvisor"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
