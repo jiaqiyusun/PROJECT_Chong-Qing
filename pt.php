@@ -195,5 +195,37 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['pts_23'] = "Camarão com Manteiga e Alho";
     $trad['pts_24'] = "Legumes a Vapor";
 
+    //Menu tradicional
+    $trad['pt_1'] = "Massa de Arroz Salteado";
+    $trad['pt_2'] = "Chao Ming Salteado";
+    $trad['pt_3'] = "Frango Salteado com Amêndoas e Legumes";
+    $trad['pt_4'] = "Chopsoy";
+    $trad['pt_5'] = "Carne de Novilho com Molho de Ostras";
+    $trad['pt_6'] = "Porco com Molho Agridoce";
+    $trad['pt_7'] = "Frango com Molho de Caril";
+    $trad['pt_8'] = "Pato à Pequim";
+    $trad['pt_9'] = "Cogumelos Chineses e Bambu";
+    $trad['pt_10'] = "Pato Frito com Laranja";
+    $trad['pt_11'] = "Gambas c/legumes e alho na chapa quente";
+    $trad['pt_12'] = "Familia Feliz na Chapa Quente";
+    $trad['pt_13'] = "Tofu na Caçarola";
+    $trad['pt_14'] = "<span>Frango</span>/<span>Porco</span>/<span>Novilho</span>/<span>Camarão</span>/<span>Mix</span>";
+    
+
+//Sobremesa
+    $trad['sb_1'] = "Banana ou Maçã Frita";
+    $trad['sb_2'] = "Banana ou Maçã Fasi";
+    $trad['sb_3'] = "Gelado Frit";
+    $trad['sb_4'] = "Gelado Flambé";
+    $trad['sb_5'] = "Lichias à Taça";
+
+//Sopa
+    $trad['sp_1'] = "Sopa Picante";
+    $trad['sp_2'] = "Sopa de Milho";
+    $trad['sp_3'] = "Sopa de Ovo e Tomate";
+    $trad['sp_4'] = "Sopa de Mariscos";
+    $trad['sp_5'] = "PQ 2.00€/GD 6.00€";
+
+    
 
 ?>
