@@ -113,7 +113,7 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['c1_f_cabrito'] = "Carne de Cabrito";
     $trad['c1_f_porco'] = "Carne de Porco";
     
-    $trad['c1_g'] = "Doubradas";
+    $trad['c1_g'] = "Dobradas";
     $trad['c1_h'] = "Sangue de Pato";
     $trad['c1_i'] = "Presunto";
     $trad['c1_j'] = "Carne de Latas";
@@ -143,32 +143,57 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['c1_frutas_sazonais_1'] = "Dimsum";
         // c2 --Entradas  -Pratos Frios  -Massas
 
-        $trad['c2_pratos_frios'] = "Pratos Frios";
-        $trad['c2_a'] = "Frango Cozido com Molho Picante Chong Qing Style";
-        $trad['c2_b'] = "Carne Novilho com Molho Picante";
-        $trad['c2_c'] = "Doubrado com Molho Picante";
-        $trad['c2_d'] = "Salada com Orelha de Porco";
-        $trad['c2_e'] = "Salada de Soja";
-        $trad['c2_f'] = "Salada de Pepino";
-        $trad['c2_g'] = "Salada de Algas";
-    
-        //Massas
-        $trad['massas'] = "Massas";
-        $trad['c2_h'] = "Massa Ensopada Picant";
-        $trad['c2_i'] = "Massa de Batata Doce";
-        $trad['c2_g'] = "Massa com Carne de Novilho";
-        $trad['c2_k'] = "Massa Ensopada com Carne de Porco";
-        $trad['c2_l'] = "Ravioli Frito de 12 Peças";
-        $trad['c2_m'] = "Ravioli Cozido de 12 Peças";
-        $trad['c2_n'] = "Massa Fina com Molho Picante";
-        $trad['c2_o'] = "Gelatina Com Molho Picante";
-        $trad['c2_p'] = "Pasteis de Arroz Salteados";
-        $trad['c2_q'] = "Ravioli de Gambas(4 Unidades)";
-        $trad['c2_r'] = "Arroz Chao Chao Yan Zhou";
-        $trad['c2_s'] = "Arroz Chao Chao com Camarão";
-        $trad['c2_t'] = "Massa de Arroz com legumes Salteados";
-        $trad['c2_u'] = "Arroz Branco";
-        $trad['c2_v'] = "";
-        $trad['c2_x'] = "";
-        $trad['c2_z'] = "";
+    // Prato frio
+    $trad['pf_0'] = "Pratos Frios";
+    $trad['pf_1'] = "Frango Cozido com Molho Picante Chong Qing Style";
+    $trad['pf_2'] = "Carne Novilho com Molho Picante";
+    $trad['pf_3'] = "Doubrado com Molho Picante";
+    $trad['pf_4'] = "Salada com Orelha de Porco";
+    $trad['pf_5'] = "Salada de Soja";
+    $trad['pf_6'] = "Salada de Pepino";
+    $trad['pf_7'] = "Salada de Algas";
+
+    //massa
+    $trad['msa_0'] = "Massas";
+    $trad['msa_1'] = "Massa Ensopada Picante";
+    $trad['msa_2'] = "Massa de Batata Doce";
+    $trad['msa_3'] = "Massa com Carne de Novilho";
+    $trad['msa_4'] = "Massa Ensopada com Carne de Porco";
+    $trad['msa_5'] = "Ravioli Frito de 12 Peças";
+    $trad['msa_6'] = "Ravioli Cozido de 12 Peças";
+    $trad['msa_7'] = "Massa Fina com Molho Picante";
+    $trad['msa_8'] = "Gelatina Com Molho Picante";
+    $trad['msa_9'] = "Pasteis de Arroz Salteados";
+    $trad['msa_10'] = "Ravioli de Gambas(4 Unidades)";
+    $trad['msa_11'] = "Arroz Chao Chao Yan Zhou";
+    $trad['msa_12'] = "Arroz Chao Chao com Camarão";
+    $trad['msa_13'] = "Massa de Arroz com legumes Salteados";
+    $trad['msa_14'] = "Arroz Branco";
+
+    // Prato tradicional de sichuan
+    $trad['pts_1'] = "Entremeada Picante Cozido/Salteada com Legumes";
+    $trad['pts_2'] = "Frango Salteado com PiriPiri Chong Qing Style";
+    $trad['pts_3'] = "Camarão Kong Bao";
+    $trad['pts_4'] = "Entrecosto com Molho Agridoce da Casa";
+    $trad['pts_5'] = "Feijão Salteado";
+    $trad['pts_6'] = "Carne de Porco Salteado com Sabor Picante Ácido";
+    $trad['pts_7'] = "Tofu com Molho Picante";
+    $trad['pts_8'] = "Frango com Inhame";
+    $trad['pts_9'] = "Tofu da Casa";
+    $trad['pts_10'] = "Carne de Porco com Legumes Sichuan";
+    $trad['pts_11'] = "Carne Novilho com Caldo Picante";
+    $trad['pts_12'] = "Intestisnos de Porco Salteado com PiriPiri";
+    $trad['pts_13'] = "Entrecosto com PiriPiri";
+    $trad['pts_14'] = "Couve com PiriPiri e Alho";
+    $trad['pts_15'] = "Legumes Salteados";
+    $trad['pts_16'] = "Prato Típico Chong Qing";
+    $trad['pts_17'] = "Filete com Caldo PiriPiri";
+    $trad['pts_18'] = "Filete com Caldo de Pikles";
+    $trad['pts_19'] = "Filete Frito com Molho Agridoce";
+    $trad['pts_20'] = "Peixe Agridoce";
+    $trad['pts_21'] = "Peixe com Feijão Preto";
+    $trad['pts_22'] = "Camarão com Molho Sichuan Picante";
+    $trad['pts_23'] = "Camarão com Manteiga e Alho";
+    $trad['pts_24'] = "Legumes a Vapor";
+
 ?>
