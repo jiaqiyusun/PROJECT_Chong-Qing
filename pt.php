@@ -234,7 +234,7 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['contacto_1'] = "Pode encontrar nesta página os contactos da ChongQing Portugal.";
     $trad['contacto_2'] = "Informações de Contacto";
 
-    $trad['instgram'] = "Instgram";
+    $trad['instgram'] = "Instagram";
 
 
 ?>

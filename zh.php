@@ -232,7 +232,7 @@ $trad['limCrianca']="(10岁以下)";
 $trad['contacto_1'] = "您可以在此页面上找到重庆饭店的联系方式。";
 $trad['contacto_2'] = "联系信息";
 
-$trad['instgram'] = "Instgram";
+$trad['instgram'] = "Instagram";
 
     
 
