@@ -153,7 +153,7 @@ include $_SESSION['idioma'];
 	                  </div>
 	                </div>
 	                <div class="col-md-12 mt-3">
-	                  <div class="form-group">
+	                  <div class="form-group text-center">
 	                    <input type="submit" id="sub_reserva" value="<?php echo $trad['reservar1']; ?>" class="btn btn-primary py-3 px-5">
 	                  </div>
 	                </div>
