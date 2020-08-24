@@ -9,7 +9,8 @@ $trad['cardapio'] ="菜谱";
 $trad['inicio'] = "主页";
 $trad['contacto'] ="联系方式";
 define("reservar","网上预订系统");
-$trad['nota']="Nota: Após efetuar a reserva irá receber confirmação por telefone.";
+$trad['nota']="您也可以随时拨打电话进行预约<br>网上预订需等待餐厅人员得到通知后您会收到确定电话";
+
 
 
 $trad['sobre'] ="关于";

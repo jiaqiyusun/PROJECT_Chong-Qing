@@ -101,9 +101,10 @@ include $_SESSION['idioma'];
 	          	<div class="heading-section ftco-animate mb-5 text-center">
 					<span class="subheading"><?php echo $trad['reservar1']; ?></span>
 				  <h2 class="mb-4"><?php echo constant("reservar");?></h2>
+				  <p><?php echo $trad['nota']; ?></p>
 				</div>
 				<div id="msg"></div>
-				<div><p><?php echo $trad['nota']; ?></p></div>
+				
 	            <form id="contact-form" name="contact-form" >
 	              <div class="row">
 	                <div class="col-md-6">
