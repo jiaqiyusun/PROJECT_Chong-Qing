@@ -9,6 +9,8 @@ $trad['cardapio'] ="菜谱";
 $trad['inicio'] = "主页";
 $trad['contacto'] ="联系方式";
 define("reservar","网上预订系统");
+$trad['nota']="Nota: Após efetuar a reserva irá receber confirmação por telefone.";
+
 
 $trad['sobre'] ="关于";
 $trad['sobre_descricao'] ="<p>我们的特色是:<strong>重庆传统火锅</strong>.</p>

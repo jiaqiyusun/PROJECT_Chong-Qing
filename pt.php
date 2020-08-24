@@ -9,6 +9,7 @@ $trad['cardapio'] ="Menu";
 $trad['inicio'] = "Início";
 $trad['contacto'] ="Contacto";
 define("reservar","Reservar uma mesa");
+$trad['nota']="Nota: Após efetuar a reserva irá receber confirmação por telefone.";
 
 $trad['reservar_simples'] ="Reservar";
 $trad['sobre'] ="Sobre";

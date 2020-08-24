@@ -49,7 +49,6 @@ include $_SESSION['idioma'];
               </div>
               <div class="col-md-2 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
                 <a href="./?idioma=pt" class="icon flag"><img src="images/pt.svg" alt="" width="20px" height="20px"></a>
-
                 <a href="./?idioma=zh" class="icon flag"><img src="images/cn.svg" alt="" width="20px" height="20px" style="margin-left: 4px;"></a>      
               </div>
 				    </div>
@@ -59,7 +58,11 @@ include $_SESSION['idioma'];
     </div>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Chong Qing </a>
+        <a class="navbar-brand" href="index.php">Chong Qing </a>
+        <div id="idiomas">
+                <a href="./?idioma=pt" class="icon flag"><img src="images/pt.svg" alt="" width="20px" height="20px"></a>
+                <a href="./?idioma=zh" class="icon flag"><img src="images/cn.svg" alt="" width="20px" height="20px" style="margin-left: 4px;"></a>      
+        </div>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> <?php echo $trad['menu'];?>
 	      </button>
@@ -67,10 +70,12 @@ include $_SESSION['idioma'];
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        
-			  	<li class="nav-item"><a href="index.php" class="nav-link"><?php echo $trad['inicio'];?></a></li>
+			  	<li class="nav-item active"><a href="index.php" class="nav-link"><?php echo $trad['inicio'];?></a></li>
 	        <li class="nav-item"><a href="menu.php" class="nav-link"><?php echo $trad['cardapio'];?></a></li>
 				  <li class="nav-item"><a href="contact.php" class="nav-link"><?php echo $trad['contacto'];?></a></li>
-				  <li class="nav-item cta"><a href="reservation.php" class="nav-link"><?php echo constant("reservar");?></a></li>
+          <li class="nav-item cta"><a href="reservation.php" class="nav-link"><?php echo constant("reservar");?></a>
+          
+        </li>
 	        </ul>
 	      </div>
 	    </div>
@@ -78,6 +83,7 @@ include $_SESSION['idioma'];
     <!-- END nav -->
     
     <section class="home-slider owl-carousel js-fullheight">
+
       <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/restaurante.jpg);">
       	<div class="overlay"></div>
         <div class="container">

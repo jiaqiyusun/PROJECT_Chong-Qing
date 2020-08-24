@@ -8692,7 +8692,17 @@ h1, h2, h3, h4, h5,
     width: 100%; }
   @media (min-width: 992px) {
     .ftco-wrap-about .img-1 {
-      margin-top: -30px; } }
+      margin-top: -30px; }
+      #idiomas{
+        display: none;
+      } 
+  }
+  @media screen and (max-width: 380px) {
+    #idiomas {
+      background-color: #0062cc;
+      display:block;
+    }
+  }
   @media (min-width: 992px) {
     .ftco-wrap-about .img-2 {
       margin-bottom: -30px; } }
@@ -8700,6 +8710,7 @@ h1, h2, h3, h4, h5,
 @media (max-width: 767.98px) {
   .img-2 {
     height: 700px; } }
+
 
 .video {
   width: 100%;
