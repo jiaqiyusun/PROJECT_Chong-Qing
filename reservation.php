@@ -30,7 +30,9 @@ include $_SESSION['idioma'];
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="https://img.icons8.com/emoji/48/000000/pot-of-food-emoji.png">
+
   </head>
   <body>
   <div class="py-1 bg-black top">
@@ -128,7 +130,7 @@ include $_SESSION['idioma'];
 					<div class="col-md-6">
 						<div class="form-group">
 						  <label for="inputData"><?php echo $trad['data'];?></label>
-						  <input type="text" class="form-control contact-input" id="inputData" name="inputData" placeholder="<?php echo $trad['data'];?>">
+						  <input type="date" class="form-control contact-input" id="inputData" name="inputData" placeholder="<?php echo $trad['data'];?>">
 						 </div>
 					  </div>
 	                <div class="col-md-6">
@@ -256,14 +258,12 @@ include $_SESSION['idioma'];
   <script type="text/javascript">
     $('#sub_reserva').click(function(e){
 		e.preventDefault();
-		console.log("Chegou aqui");
 		var name = $('#inputName').val();
 		var email = $('#inputEmail').val();
 		var telefone = $('#inputTelefone').val();
 		var data = $('#inputData').val();
 		var hora = $('#book_time').val();
 		var nP = $('#inputPessoa').val();
-		console.log("Com:"+name+email+telefone+data+hora+nP);
 
 		$.ajax({
 			type: "POST",
@@ -271,11 +271,11 @@ include $_SESSION['idioma'];
 			data: {inputName: name,inputEmail: email, inputTelefone: telefone, inputData:data, book_time: hora, inputPessoa:nP},
 			success:function (data) {
 				if (data.toString() == 'success') {
-                    $('#msg').php('<div class="alert alert-success"><button data-dismiss="alert" class="close">×</button><strong>Reservado!</strong> Reserva Efectuada.</div>').show(300).delay(5000).hide(300);
+                    $('#msg').html('<div class="alert alert-success"><button data-dismiss="alert" class="close">×</button><strong>Reservado!</strong> Reserva Efectuada.</div>').show(300).delay(5000).hide(300);
                     $(".form-control").val(""); //limpa todos inputs do formulário
 					return false;
                 }else{
-					$('#msg').php('<div class="alert alert-danger"><button data-dismiss="alert" class="close">×</button><strong>Não Reservado!</strong> Verifique se preencheu todos os campos ou contacte o restaurante</div>').show(300).delay(5000).hide(300);
+					$('#msg').html('<div class="alert alert-danger"><button data-dismiss="alert" class="close">×</button><strong>Não Reservado!</strong> Verifique se preencheu todos os campos ou contacte o restaurante</div>').show(300).delay(5000).hide(300);
 					$(".form-control").val(""); //limpa todos inputs do formulário
 					return false;
 				}
@@ -284,5 +284,8 @@ include $_SESSION['idioma'];
 
 	});
   </script>
+
+    <!---Bilding to Ariclene & Jiaqi--->
+    <!---Tudo tem meu dedo--->
   </body>
 </html>

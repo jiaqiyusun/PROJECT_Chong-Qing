@@ -28,10 +28,11 @@ include $_SESSION['idioma'];
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="https://img.icons8.com/emoji/48/000000/pot-of-food-emoji.png">
   </head>
   <body>
     <div class="py-1 bg-black top">
@@ -390,61 +391,62 @@ include $_SESSION['idioma'];
           	<div class="heading-section ftco-animate mb-5 text-center">
 	          	<span class="subheading"><?php echo $trad['reservar1'];?></span>
 	            <h2 class="mb-4"><?php echo constant("reservar");?></h2>
-	          </div>
-            <form action="#">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for=""><?php echo $trad['nome'];?></label>
-                    <input type="text" class="form-control" placeholder="<?php echo $trad['nome'];?>">
+            </div>
+            <div id="msg"></div>
+            <form id="contact-form" name="contact-form" >
+	              <div class="row">
+	                <div class="col-md-6">
+	                  <div class="form-group">
+	                    <label for="inputName"><?php echo $trad['nome']; ?></label>
+	                    <input type="text" class="form-control contact-input" id="inputName" name="inputName" placeholder="<?php echo $trad['nome']; ?>">
+	                  </div>
+	                </div>
+	                <div class="col-md-6">
+	                  <div class="form-group">
+	                    <label for="inputEmail"><?php echo $trad['email']; ?></label>
+                    	<input type="text" class="form-control contact-input" id="inputEmail" name="inputEmail" placeholder="<?php echo $trad['email']; ?>">
+                   	</div>
+	                </div>
+	                <div class="col-md-6">
+	                  <div class="form-group">
+	                    <label for="inputTelefone"><?php echo $trad['telefone']; ?></label>
+                		<input type="text" class="form-control contact-input" id="inputTelefone" name="inputTelefone" placeholder="<?php echo $trad['telefone']; ?>">
+                       </div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+						  <label for="inputData"><?php echo $trad['data'];?></label>
+						  <input type="date" class="form-control contact-input" id="inputData" name="inputData" placeholder="<?php echo $trad['data'];?>">
+						 </div>
+					  </div>
+	                <div class="col-md-6">
+	                  <div class="form-group">
+	                    <label for="inputHora"><?php echo $trad['hora'];?></label>
+                    <input type="text" class="form-control" id="book_time" name="book_time" placeholder="<?php echo $trad['hora'];?>">
                   </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for=""><?php echo $trad['email']?></label>
-                    <input type="text" class="form-control" placeholder="<?php echo $trad['email'];?>">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for=""><?php echo $trad['telefone'];?></label>
-                    <input type="text" class="form-control" placeholder="<?php echo $trad['telefone']?>">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for=""><?php echo $trad['data'];?></label>
-                    <input type="text" class="form-control" id="book_date" placeholder="<?php echo $trad['data'];?>">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for=""><?php echo $trad['hora'];?></label>
-                    <input type="text" class="form-control" id="book_time" placeholder="<?php echo $trad['hora'];?>">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for=""><?php echo $trad['n_pessoa'];?></label>
-                    <div class="select-wrap one-third">
-                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value=""><?php echo $trad['pessoa'];?></option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4+</option>
+	                </div>
+	                <div class="col-md-6">
+	                  <div class="form-group">
+                    <label for="inputPessoa"><?php echo $trad['n_pessoa']; ?></label>
+                  <div class="select-wrap one-third">
+                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                  <select name="inputPessoa" id="inputPessoa" name="inputPessoa" class="form-control">
+                    <option value=""><?php echo $trad['pessoa']; ?></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4+</option>
                       </select>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12 mt-3">
-                  <div class="form-group text-center">
-                    <input type="submit" value="<?php echo $trad['reservar1'];?>" class="btn btn-primary py-3 px-5">
-                  </div>
-                </div>
-              </div>
-            </form>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="col-md-12 mt-3">
+	                  <div class="form-group text-center">
+	                    <input type="submit" id="sub_reserva" value="<?php echo $trad['reservar1']; ?>" class="btn btn-primary py-3 px-5">
+	                  </div>
+	                </div>
+	              </div>
+	            </form>
           </div>
         </div>
 			</div>
@@ -625,6 +627,36 @@ include $_SESSION['idioma'];
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script type="text/javascript">
+    $('#sub_reserva').click(function(e){
+		e.preventDefault();
+		var name = $('#inputName').val();
+		var email = $('#inputEmail').val();
+		var telefone = $('#inputTelefone').val();
+		var data = $('#inputData').val();
+		var hora = $('#book_time').val();
+		var nP = $('#inputPessoa').val();
+
+		$.ajax({
+			type: "POST",
+            url: "./make_revervation.php",
+			data: {inputName: name,inputEmail: email, inputTelefone: telefone, inputData:data, book_time: hora, inputPessoa:nP},
+			success:function (data) {
+				if (data.toString() == 'success') {
+                    $('#msg').html('<div class="alert alert-success"><button data-dismiss="alert" class="close">×</button><strong>Reservado!</strong> Reserva Efectuada.</div>').show(300).delay(5000).hide(300);
+                    $(".form-control").val(""); //limpa todos inputs do formulário
+					return false;
+                }else{
+					$('#msg').html('<div class="alert alert-danger"><button data-dismiss="alert" class="close">×</button><strong>Não Reservado!</strong> Verifique se preencheu todos os campos ou contacte o restaurante</div>').show(300).delay(5000).hide(300);
+					$(".form-control").val(""); //limpa todos inputs do formulário
+					return false;
+				}
+			}
+		});
+
+	});
+  </script>
+    <!---Bilding to Ariclene & Jiaqi--->
+    <!---Tudo tem meu dedo--->
   </body>
 </html>

@@ -31,7 +31,9 @@ include $_SESSION['idioma'];
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="https://img.icons8.com/emoji/48/000000/pot-of-food-emoji.png">
+
   </head>
   <body>
   <div class="py-1 bg-black top">
@@ -2493,6 +2495,7 @@ include $_SESSION['idioma'];
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+    <!---Bilding to Ariclene & Jiaqi--->
+    <!---Tudo tem meu dedo--->
   </body>
 </html>
