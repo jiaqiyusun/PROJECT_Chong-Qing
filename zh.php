@@ -32,8 +32,8 @@ $trad['img4'] ="菜样齐全, 健康美味";
 // Menu
 $trad['fondue_hot_pot'] = ["鸳鸯火锅",["红汤麻辣","清汤爽口"]];
 $trad['galinha_com_picante'] =["辣子鸡",["鸡","辣椒","花椒"]];
-$trad['mapo_tofu'] =["麻婆豆腐",["豆腐","牛肉末","小葱"]];
-$trad['ravioli_de_camarao'] =["虾饺",["虾","澄粉","小葱"]];
+$trad['mapo_tofu'] =["麻婆豆腐",["豆腐","牛肉末"]];
+$trad['ravioli_de_camarao'] =["煎饺",["虾","澄粉"]];
 $trad['oi'] = '欢迎光临';
 $trad['texto'] = '现在我们在使用中文网页';
 
@@ -56,6 +56,7 @@ $trad['vaca_cozida_com_picante'] = "水煮牛肉";
 $trad['carne_de_porco_com_sabor_de_peixe'] = "鱼香肉丝";
 $trad['massa_chongqing'] = "重庆小面";
 $trad['ravioli_frito'] = "煎饺";
+$trad['edicao_limitada'] = "季节性限量";
 
 //tabela reserva
 $trad['reservar1'] = "订台";
@@ -213,7 +214,7 @@ $trad['limCrianca']="(10岁以下)";
     $trad['pt_9'] = "炒时蔬蘑菇笋";
     $trad['pt_10'] = "橙汁炸鸭";
     $trad['pt_11'] = "铁板蒜子虾仁";
-    $trad['pt_12'] = "铁板全家开心";
+    $trad['pt_12'] = "全家福";
     $trad['pt_13'] = "豆腐煲";
     $trad['pt_14'] = "<span>鸡肉</span>/<span>猪肉</span>/<span>牛肉</span>/<span>虾</span>/<span>混合</span>";
     
