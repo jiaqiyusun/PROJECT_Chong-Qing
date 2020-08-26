@@ -29,12 +29,12 @@ try {
 	$mail->isSMTP(True);
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'ariclinis1@gmail.com';
-    $mail->Password = '934641870Ariclinis1998';
+	$mail->Username = 'chongqinglisboa@gmail.com';
+    $mail->Password = '968485955lisboa';
 	$mail->Port = 587;
 
 	$mail->setFrom($email);
-	$mail->addAddress('ariclinis1@gmail.com');
+	$mail->addAddress('chongqinglisboa@gmail.com');
 
 	$mail->isHTML(true);
 	$mail->Subject = 'Reserva de Mesa';

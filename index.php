@@ -484,7 +484,7 @@ include $_SESSION['idioma'];
               </div>
               <div class="item">
                 <div class="testimony-wrap text-center pb-5 move_scroll">
-                  <div class="user-img mb-4" style="background-image: url(images/alternatives/consumer2.jpg)">
+                  <div class="user-img blur mb-4" style="background-image: url(images/alternatives/consumer2.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
@@ -512,7 +512,7 @@ include $_SESSION['idioma'];
               </div>
               <div class="item">
                 <div class="testimony-wrap text-center pb-5 move_scroll">
-                  <div class="user-img mb-4" style="background-image: url(images/alternatives/consumer4.png)">
+                  <div class="user-img blur mb-4" style="background-image: url(images/alternatives/consumer4.png)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>

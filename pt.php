@@ -46,7 +46,7 @@ $trad['clientes_satisfeitos'] = "Clientes Satisfeitos";
 //especiais menu
 $trad['especiais'] = "Especiais";
 $trad['nosso_menu'] = "Nosso Menu";
-$trad['hot_pot_buffet'] = "Hot Pot (Biffet)";
+$trad['hot_pot_buffet'] = "Hot Pot (Buffet)";
 $trad['lagostins'] = "Lagostins Picantes";
 $trad['adulto_preco'] = "Adulto: 14.95€";
 $trad['crianca_preco'] = "Criança: 7.95€";

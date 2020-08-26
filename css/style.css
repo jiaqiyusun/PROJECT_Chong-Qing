@@ -9295,6 +9295,19 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center; }
 
+  .blur {
+ 
+    filter: blur(2px);
+          
+    -webkit-filter: blur(2px);  /* chrome, opera */
+          
+    -ms-filter: blur(2px);
+          
+    -moz-filter: blur(2px);
+          
+    }
+  
+
 .testimony-section {
   position: relative;
   background-position: top center;
