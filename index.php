@@ -257,6 +257,7 @@ include $_SESSION['idioma'];
 
     <section class="ftco-section bg-light">
     	<div class="container">
+			
     		<div class="row no-gutters justify-content-center mb-5 pb-2">
           <div class="col-md-12 text-center heading-section ftco-animate">
           	<span class="subheading"><?php echo $trad['especiais']?></span>
