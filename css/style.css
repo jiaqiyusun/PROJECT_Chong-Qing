@@ -365,6 +365,11 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3; }
 
+.move_scroll{
+ overflow:auto; 
+ overflow-x: hidden;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none; }
