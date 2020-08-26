@@ -14,8 +14,8 @@ $trad['nota']="Também nos pode contatar por telefone, se preferir.<br>Após efe
 $trad['reservar_simples'] ="Reservar";
 $trad['sobre'] ="Sobre";
 $trad['sobre_descricao'] ="<p>Nossa especialidade é o <strong>Hot Pot</strong>.</p>
-<p> Hot Pot é um FONDUE chinês original de Chong Qing, contém dois tipos diferentes de sopas divididos por um pot especial.</p>
-<p>Um dos lados constituído com sopa picante e do lado oposto constituído por caldo de borrego. </p> 
+<p> Hot Pot é um FONDUE chinês original de Chong Qing, contém dois tipos diferentes de caldos divididos por um pot especial.</p>
+<p>Um dos lados constituído com caldo picante e do lado oposto constituído por caldo de borrego. </p> 
 <p>Os próprios apreciadores eescolhem os ingredientes ao seu gosto e põem no pot para cozinhar. </p>
 <p>Quando estes já estão prontos para comer é só retirar do pot e misturar com os diferentes molhos que temos a sua disposição. </p>
             ";
@@ -29,16 +29,16 @@ $trad['img3'] ="Bebidas Quentes e Frias";
 $trad['img4'] ="Muita Variedade";
 
 // Menu
-$trad['fondue_hot_pot'] = ["FONDUE HOT POT",["Sopa Picante","Caldo Borrego"]];
-$trad['galinha_com_picante'] =["GALINHA COM PICANTE",["Galinha","Pimentos","Zanthoxylum"]];
-$trad['mapo_tofu'] =["MAPO TOFU",["Tofu","Carne de Vaca Picada","Cebolinha Fransesa"]];
-$trad['ravioli_de_camarao'] =["RAVIOLI DE CAMARÃO",["Camarão","Farinha de Amido","Cebolinha Fransesa"]];
+$trad['fondue_hot_pot'] = ["FONDUE HOT POT",["Caldo Picante","Caldo Sem Picante"]];
+$trad['galinha_com_picante'] =["GALINHA COM PICANTE",["Galinha","Pimentos","Pimento Sichuan"]];
+$trad['mapo_tofu'] =["MAPO TOFU",["Tofu","Carne de Vaca Picada"]];
+$trad['ravioli_frito1'] =["MASSA CHONGQING",["Massa","Carne Picada","Couve Chinês"]];
 $trad['oi'] = 'bem vindo';
 $trad['texto'] = 'Neste momento estamos utilizando a versão em Português';
 
 //geral
 $trad['unico'] ="Único";
-$trad['hot_pot_tradicional_em_portugal'] = "Hot Pot Tradicional em Portugal";
+$trad['hot_pot_tradicional_em_portugal'] = "Hot Pot ChongQing Tradicional";
 $trad['ano_expriencia'] = "Anos de Experiência";
 $trad['menus'] = "Menus";
 $trad['clientes_satisfeitos'] = "Clientes Satisfeitos";
@@ -52,9 +52,10 @@ $trad['adulto_preco'] = "Adulto: 14.95€";
 $trad['crianca_preco'] = "Criança: 7.95€";
 $trad['ver_menu'] = "Ver Menu";
 $trad['vaca_cozida_com_picante'] = "Vaca Cozida com Picante";
-$trad['carne_de_porco_com_sabor_de_peixe'] = "Carne de Porco com Sabor de Peixe";
+$trad['carne_de_porco_com_sabor_de_peixe'] = "Carne de Porco Salteado com Sabor Picante Ácido";
 $trad['massa_chongqing'] = "Massa ChongQing";
 $trad['ravioli_frito'] = "Ravioli Frito";
+$trad['edicao_limitada'] = "Edição Limitada";
 
 //tabela reserva
 $trad['reservar1'] = "Reservar";
@@ -99,17 +100,17 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['c2']="Entradas  -Pratos Frios  -Massas";
     $trad['c3']="Pratos Tradicionais de Sichuan";
     $trad['c4']="Sopas";
-    $trad['c5']="Menus Tradicionais";
+    $trad['c5']="Menus";
     $trad['c6']="Sobremesas e Bebidas";
     $trad['c6_bebidas'] ="Bebidas";
     $trad['c6_sobremesas'] ="Sobremesas";
     
     //C1
-    $trad['c1_a'] = "Sopa típica de Chongqing Style";
+    $trad['c1_a'] = "Caldo típica de Chongqing Style";
     $trad['c1_b'] = "Sopa de vaca quente e picante suave";
-    $trad['c1_c'] = "Sopa de osso cabrito com Wolfberry";
-    $trad['c1_d'] = "Sopa de fungue";
-    $trad['c1_e'] = "Sopa de vegetais com tomate e milho";
+    $trad['c1_c'] = "Caldo de osso cabrito com GuoJi";
+    $trad['c1_d'] = "Caldo de fungue";
+    $trad['c1_e'] = "Caldo de vegetais com tomate e milho";
     // C1 ingredientes
 
     $trad['ingre'] = "Ingredientes";
@@ -138,15 +139,11 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['c1_z'] = "Cogumelo enokitake";
     $trad['c1_z_1'] = "Cogumelo de shiitake";
     $trad['c1_z_2'] = "Cogumelo";
-    $trad['c1_z_3'] = "Orelha de judas";
+    $trad['c1_z_3'] = "Algas";
     $trad['c1_z_4'] = "Brotos de bambu";
     $trad['c1_z_5'] = "Massa Chinesa";
 
-    // C1 Frutas Sazonais
-
-    $trad['c1_frutas_sazonais'] = "Frutas Sazonais";
-    $trad['c1_frutas_sazonais_1'] = "Dimsum";
-        // c2 --Entradas  -Pratos Frios  -Massas
+    // c2 --Entradas  -Pratos Frios  -Massas
 
     // Prato frio
     $trad['pf_0'] = "Pratos Frios";
@@ -166,7 +163,7 @@ $trad['limCrianca']="(Até 10 anos)";
     $trad['msa_4'] = "Massa Ensopada com Carne de Porco";
     $trad['msa_5'] = "Ravioli Frito de 12 Peças";
     $trad['msa_6'] = "Ravioli Cozido de 12 Peças";
-    $trad['msa_7'] = "Massa Fina com Molho Picante";
+    $trad['msa_7'] = "Massa Fria com Molho Picante";
     $trad['msa_8'] = "Gelatina Com Molho Picante";
     $trad['msa_9'] = "Pasteis de Arroz Salteados";
     $trad['msa_10'] = "Ravioli de Gambas(4 Unidades)";

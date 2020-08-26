@@ -115,7 +115,8 @@ include $_SESSION['idioma'];
               </div>
               <div class="form-group">
                 <div class="dbox">
-                  <p><span><span class="icon-phone2"></span> <a href="tel://1234567920">+ +351 968 485 955</a></p>
+                <p><span><span class="icon-phone2"></span> <a href="tel://969605698"> +351 969 605 698</a></p>
+                <p><span><span class="icon-phone2"></span> <a href="tel://968485955"> +351 968 485 955</a></p>
                 </div>
               </div>
               <div class="form-group">
@@ -141,6 +142,7 @@ include $_SESSION['idioma'];
               <p><?php echo $trad['atrai_cliente'];?></p>
               <strong style="color: white;"><?php echo $trad['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+              <li class="ftco-animate"><a href="https://www.facebook.com/weiwei.yao.923"><span class="icon-facebook"></span></a></li>
               <li class="ftco-animate"><a href="https://www.tripadvisor.pt/Restaurant_Review-g189158-d13976473-Reviews-Restaurant_China_Chongqing-Lisbon_Lisbon_District_Central_Portugal.html"><span class="icon-tripadvisor"></span></a></li>
                 
                 <li class="ftco-animate"><a href="https://www.instagram.com/yao.weiwei/"><span class="icon-instagram"></span></a></li>

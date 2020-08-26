@@ -176,10 +176,10 @@ include $_SESSION['idioma'];
     						</div>
     						<div class="col-md-3">
     							<div class="featured-menus ftco-animate">
-			              <div class="menu-img img" style="background-image: url(images/alternatives/raviolidecamaraogif.gif);"></div>
+			              <div class="menu-img img" style="background-image: url(images/alternatives/chongqingmassa.gif);"></div>
 			              <div class="text text-center">
-                    <h3><?php echo $trad['ravioli_de_camarao'][0];?></h3>
-				              <p><span><?php echo $trad['ravioli_de_camarao'][1][0]; ?></span>, <span><?php echo $trad['ravioli_de_camarao'][1][1]; ?></span>, <span><?php echo $trad['ravioli_de_camarao'][1][2]; ?></span></p>
+                    <h3><?php echo $trad['ravioli_frito1'][0];?></h3>
+				              <p><span><?php echo $trad['ravioli_frito1'][1][0]; ?></span>, <span><?php echo $trad['ravioli_frito1'][1][1]; ?></span>, <span><?php echo $trad['ravioli_frito1'][1][2]; ?></span></p>
 			              </div>
 			            </div>
     						</div>
@@ -226,7 +226,7 @@ include $_SESSION['idioma'];
 		          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="10">0</strong>
+		                <strong class="number" data-number="3">0</strong>
 		                <span><?php echo $trad['ano_expriencia']?></span>
 		              </div>
 		            </div>
@@ -292,12 +292,14 @@ include $_SESSION['idioma'];
 		                  <h3><?php echo $trad['lagostins']?></h3>
 		                </div>
 		                <div class="one-forth">
-		                  <span class="price">xxxxx€</span>
 		                </div>
 		              </div>
-		              <p> </p>
+					  <p style="font-size: small;"><span><?php echo $trad['edicao_limitada'];?></span></p>
+					  
+
 		              <p><a href="menu.php" class="btn btn-primary"><?php echo $trad['ver_menu']?></a></p>
-	              </div>
+
+		            </div>
               </div>
             </div>
         	</div>
@@ -362,7 +364,7 @@ include $_SESSION['idioma'];
         	</div>
         	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
         		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-              <div class="menu-img img" style="background-image: url(images/alternatives/raviolidecamarao.jpg);"></div>
+              <div class="menu-img img" style="background-image: url(images/alternatives/raciolafrito.jpg);"></div>
               <div class="text d-flex align-items-center">
 								<div>
 	              	<div class="d-flex">
@@ -552,8 +554,8 @@ include $_SESSION['idioma'];
               <p><?php echo $trad['atrai_cliente'];?></p>
               <strong style="color: white;"><?php echo $trad['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+			  <li class="ftco-animate"><a href="https://www.facebook.com/weiwei.yao.923"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.tripadvisor.pt/Restaurant_Review-g189158-d13976473-Reviews-Restaurant_China_Chongqing-Lisbon_Lisbon_District_Central_Portugal.html"><span class="icon-tripadvisor"></span></a></li>
-                
                 <li class="ftco-animate"><a href="https://www.instagram.com/yao.weiwei/"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>

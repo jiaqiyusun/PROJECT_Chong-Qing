@@ -142,21 +142,7 @@ include $_SESSION['idioma'];
 					              </div>
 					            </div>
 					        	</div>
-					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
-					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img" style="background-image: url(images/alternatives/sopadevaca.jpeg);"></div>
-					              <div class="text d-flex align-items-center">
-													<div>
-						              	<div class="d-flex">
-							                <div class="one-half">
-							                  <h3><?php echo $trad['c1_b'] ;?></h3>
-							                </div>
-							              <br>
-						              </div>
-					              </div>
-								</div>
-					        		</div>
-					        	</div>
+					        	
 
 					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
@@ -603,49 +589,6 @@ include $_SESSION['idioma'];
 					            </div>
 								</div>
 					</div>
-
-					<div class="row">
-						<div class="col-md-12 col-lg-12">
-							<hr>
-							<h2><?php echo $trad['c1_frutas_sazonais'].$trad['Ofertas'] ;?></h4>
-						</div>
-					</div>
-
-					<div class="row no-gutters d-flex align-items-stretch">
-						<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
-							<div class="menus d-sm-flex ftco-animate align-items-stretch">
-						  <div class="menu-img img " style="background-image: url(images/alternatives/frutassazonais.jpg);"></div>
-						  <div class="text d-flex align-items-center">
-											<div>
-								  <div class="d-flex">
-									<div class="one-half">
-									  <h3><?php echo $trad['c1_frutas_sazonais'] ;?></h3>
-									</div>
-								  </div>
-								  <br>
-							  </div>
-						  </div>
-						</div>
-						</div>
-
-						
-
-						<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
-							<div class="menus d-sm-flex ftco-animate align-items-stretch">
-						  <div class="menu-img img " style="background-image: url(images/alternatives/dimsum.jpg);"></div>
-						  <div class="text d-flex align-items-center">
-											<div>
-								  <div class="d-flex">
-									<div class="one-half">
-									  <h3><?php echo $trad['c1_g'] ;?></h3>
-									</div>
-								  </div>
-								  <br>
-							  </div>
-						  </div>
-						</div>
-						</div>
-					</div>
 	              </div>
 
 	              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
@@ -672,64 +615,6 @@ include $_SESSION['idioma'];
 							                </div>
 							              </div>
 							              
-							              <br>
-						              </div>
-					              </div>
-					            </div>
-					        	</div>
-					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
-					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img" style="background-image: url(images/alternatives/carnenovilhocommolhopicante.jpeg);"></div>
-					              <div class="text d-flex align-items-center">
-													<div>
-						              	<div class="d-flex">
-							                <div class="one-half">
-
-							                  <h3><?php echo $trad['pf_2'] ;?></h3>
-							                </div>
-							                <div class="one-forth">
-							                  <span class="price">4.95€</span>
-							                </div>
-							              </div>
-							              <br>
-						              </div>
-					              </div>
-					            </div>
-					        	</div>
-
-					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
-					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img " style="background-image: url(images/alternatives/doubradocommolhopicante.jpg);"></div>
-					              <div class="text d-flex align-items-center">
-													<div>
-						              	<div class="d-flex">
-							                <div class="one-half">
-
-							                  <h3><?php echo $trad['pf_3'] ;?></h3>
-							                </div>
-							                <div class="one-forth">
-							                  <span class="price">4.95€</span>
-							                </div>
-							              </div>
-							              <br>
-						              </div>
-					              </div>
-					            </div>
-					        	</div>
-					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
-					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img " style="background-image: url(images/alternatives/saladacomorelhadeporco.jpg);"></div>
-					              <div class="text d-flex align-items-center">
-													<div>
-						              	<div class="d-flex">
-							                <div class="one-half">
-
-							                  <h3><?php echo $trad['pf_4'] ;?></h3>
-							                </div>
-							                <div class="one-forth">
-							                  <span class="price">4.95</span>
-							                </div>
-							              </div>
 							              <br>
 						              </div>
 					              </div>
@@ -1158,13 +1043,16 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3><?php echo $trad['pts_5'] ;?></h3>
+												<h3><?php echo $trad['pts_5'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">5.95€</span>
 							                </div>
+											<br>
+					  
 							              </div>
-							              <br>
+										  <p style="font-size: small;"><span><?php echo $trad['edicao_limitada'];?></span></p>
+							         
 						              </div>
 					              </div>
 					            </div>
@@ -1380,7 +1268,7 @@ include $_SESSION['idioma'];
 													<div>
 						              	<div class="d-flex">
 							                <div class="one-half">
-							                  <h3><?php echo $trad['pts_14'] ;?></h3>
+							                  <h3><?php echo $trad['pts_17'] ;?></h3>
 							                </div>
 							                <div class="one-forth">
 							                  <span class="price">14.95€</span>
@@ -1465,28 +1353,11 @@ include $_SESSION['idioma'];
 					              </div>
 					            </div>
 					        	</div>
-					        	<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
-					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img" style="background-image: url(images/alternatives/camaraocommolhosichuanpicante.jpg);"></div>
-					              <div class="text d-flex align-items-center">
-													<div>
-						              	<div class="d-flex">
-							                <div class="one-half">
-							                  <h3><?php echo $trad['pts_22'] ;?></h3>
-							                </div>
-							                <div class="one-forth">
-							                  <span class="price">24.95€</span>
-							                </div>
-							              </div>
-							              <br>
-						              </div>
-					              </div>
-					            </div>
-								</div>
+					        	
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img" style="background-image: url(images/alternatives/camaraocommanteigaealho.jpg);"></div>
+					              <div class="menu-img img" style="background-image: url(images/alternatives/camaraocommanteigaealho1.jpg);"></div>
 					              <div class="text d-flex align-items-center">
 													<div>
 						              	<div class="d-flex">
@@ -1717,7 +1588,7 @@ include $_SESSION['idioma'];
 								
 								<div class="col-md-12 col-lg-6 d-flex align-self-stretch">
 					        		<div class="menus d-sm-flex ftco-animate align-items-stretch">
-					              <div class="menu-img img" style="background-image: url(images/alternatives/gambaclegumesealho.png);"></div>
+					              <div class="menu-img img" style="background-image: url(images/alternatives/gambaclegumesealho.jpeg);"></div>
 					              <div class="text d-flex align-items-center">
 													<div>
 						              	<div class="d-flex">
@@ -2420,7 +2291,9 @@ include $_SESSION['idioma'];
               <p><?php echo $trad['atrai_cliente'];?></p>
               <strong style="color: white;"><?php echo $trad['morada'];?></strong><p>Rua António Pereira Carrilho 18a 1000-035, 1000-047 Lisboa.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="https://www.tripadvisor.pt/Restaurant_Review-g189158-d13976473-Reviews-Restaurant_China_Chongqing-Lisbon_Lisbon_District_Central_Portugal.html"><span class="icon-tripadvisor"></span></a></li>
+			  <li class="ftco-animate"><a href="https://www.facebook.com/weiwei.yao.923"><span class="icon-facebook"></span></a></li>
+              
+				<li class="ftco-animate"><a href="https://www.tripadvisor.pt/Restaurant_Review-g189158-d13976473-Reviews-Restaurant_China_Chongqing-Lisbon_Lisbon_District_Central_Portugal.html"><span class="icon-tripadvisor"></span></a></li>
                 
                 <li class="ftco-animate"><a href="https://www.instagram.com/yao.weiwei/"><span class="icon-instagram"></span></a></li>
               </ul>
