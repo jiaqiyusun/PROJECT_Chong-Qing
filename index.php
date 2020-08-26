@@ -83,57 +83,57 @@ include $_SESSION['idioma'];
 	  </nav>
     <!-- END nav -->
     
-    <section class="home-slider owl-carousel js-fullheight">
+    <section class="home-slider owl-carousel js-fullheight" >
 
-      <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/restaurante.jpg);">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
+      <div class="slider-item js-fullheight move_scroll" style="background-image: url(images/alternatives/restaurante.jpg);">
+      	<div class="overlay move_scroll" ></div>
+        <div class="container move_scroll">
+          <div class="row slider-text js-fullheight justify-content-center align-items-center move_scroll" data-scrollax-parent="true" >
 
-            <div class="col-md-12 col-sm-12 text-center ftco-animate">
-            	<span class="subheading"><?php echo $trad['titulo'];?> </span>
-              <h1 class="mb-4"><?php echo $trad['img1'];?></h1>
+            <div class="col-md-12 col-sm-12 text-center ftco-animate ">
+            	<span class="subheading move_scroll" ><?php echo $trad['titulo'];?> </span>
+              <h1 class="mb-4 move_scroll"><?php echo $trad['img1'];?></h1>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/hotpotmenu.jpg);">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
+      <div class="slider-item js-fullheight move_scroll" style="background-image: url(images/alternatives/hotpotmenu.jpg);">
+      	<div class="overlay move_scroll"></div>
+        <div class="container move_scroll">
+          <div class="row slider-text js-fullheight justify-content-center align-items-center move_scroll" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
-            	<span class="subheading"><?php echo $trad['titulo'];?></span>
-              <h1 class="mb-4"><?php echo $trad['img2'];?></h1>
+            	<span class="subheading move_scroll"><?php echo $trad['titulo'];?></span>
+              <h1 class="mb-4 move_scroll"><?php echo $trad['img2'];?></h1>
             </div>
 
           </div>
         </div>
       </div>
 
-      <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/bears.jpg);">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+      <div class="slider-item js-fullheight move_scroll" style="background-image: url(images/alternatives/bears.jpg);">
+      	<div class="overlay move_scroll"></div> 
+        <div class="container move_scroll">
+          <div class="row slider-text justify-content-center align-items-center move_scroll" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate" style="margin-top: -150px;">
-            	<span class="subheading"><?php echo $trad['titulo'];?></span>
-              <h1 class="mb-4"><?php echo $trad['img3'];?></h1>
+            	<span class="subheading move_scroll"><?php echo $trad['titulo'];?></span>
+              <h1 class="mb-4 move_scroll"><?php echo $trad['img3'];?></h1>
             </div>
 
           </div>
         </div>
       </div>
 
-      <div class="slider-item js-fullheight" style="background-image: url(images/alternatives/frigorifico.jpg);">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
+      <div class="slider-item js-fullheight move_scroll" style="background-image: url(images/alternatives/frigorifico.jpg);">
+      	<div class="overlay move_scroll"></div>
+        <div class="container move_scroll">
+          <div class="row slider-text js-fullheight justify-content-center align-items-center move_scroll" data-scrollax-parent="true">
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
-            	<span class="subheading"><?php echo $trad['titulo'];?></span>
-              <h1 class="mb-4"><?php echo $trad['img4'];?></h1>
+            	<span class="subheading move_scroll"><?php echo $trad['titulo'];?></span>
+              <h1 class="mb-4 move_scroll"><?php echo $trad['img4'];?></h1>
             </div>
 
           </div>
@@ -462,11 +462,11 @@ include $_SESSION['idioma'];
             <h2 class="mb-4"><?php echo $trad['cliente_feliz'];?></h2>
           </div>
         </div>
-        <div class="row ftco-animate justify-content-center">
+        <div class="row ftco-animate justify-content-center move_scroll">
           <div class="col-md-12">
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item">
-                <div class="testimony-wrap text-center pb-5">
+                <div class="testimony-wrap text-center pb-5 move_scroll">
                   <div class="user-img mb-4" style="background-image: url(images/alternatives/consumer1.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
@@ -480,7 +480,7 @@ include $_SESSION['idioma'];
                 </div>
               </div>
               <div class="item">
-                <div class="testimony-wrap text-center pb-5">
+                <div class="testimony-wrap text-center pb-5 move_scroll">
                   <div class="user-img mb-4" style="background-image: url(images/alternatives/consumer2.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
@@ -494,7 +494,7 @@ include $_SESSION['idioma'];
                 </div>
               </div>
               <div class="item">
-                <div class="testimony-wrap text-center pb-5">
+                <div class="testimony-wrap text-center pb-5 move_scroll">
                   <div class="user-img mb-4" style="background-image: url(images/alternatives/consumer3.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
@@ -508,7 +508,7 @@ include $_SESSION['idioma'];
                 </div>
               </div>
               <div class="item">
-                <div class="testimony-wrap text-center pb-5">
+                <div class="testimony-wrap text-center pb-5 move_scroll">
                   <div class="user-img mb-4" style="background-image: url(images/alternatives/consumer4.png)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
@@ -522,7 +522,7 @@ include $_SESSION['idioma'];
                 </div>
               </div>
               <div class="item">
-                <div class="testimony-wrap text-center pb-5">
+                <div class="testimony-wrap text-center pb-5 move_scroll">
                   <div class="user-img mb-4" style="background-image: url(images/alternatives/consumer5.png)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
