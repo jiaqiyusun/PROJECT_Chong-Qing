@@ -25,7 +25,7 @@ try {
 		return 'erro';
 		exit;
 	}
-	$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+	//$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 	$mail->isSMTP(True);
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
